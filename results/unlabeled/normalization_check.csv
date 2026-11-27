@@ -1,0 +1,10 @@
+normalization,AUC_all,AUC_0p04uM,AUC_10uM,test,DEG_bin,n_labeled,n_unlabeled
+raw,0.787,0.64,0.791,all signatures / dose subsets,,,
+plate-centred,0.792,0.635,0.794,all signatures / dose subsets,,,
+gene-scaled,0.785,0.662,0.781,all signatures / dose subsets,,,
+plate-centred+gene-scaled,0.793,0.655,0.785,all signatures / dose subsets,,,
+raw,0.467,,,activity-matched bins,0-50,176.0,4076.0
+raw,0.655,,,activity-matched bins,50-80,159.0,2425.0
+raw,0.757,,,activity-matched bins,80-150,114.0,730.0
+raw,0.808,,,activity-matched bins,150-300,147.0,317.0
+raw,0.533,,,activity-matched bins,300-1000,393.0,445.0

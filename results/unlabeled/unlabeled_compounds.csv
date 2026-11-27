@@ -1,0 +1,1287 @@
+compound,status,max_DEGs_in_domain,far_signature_frac,cluster,representative,is_representative,cluster_size,cluster_nearest_train,cluster_nearest_train_class,cluster_r_train,cluster_top3_train_agree,cluster_nearest_test,cluster_r_test,cluster_matched
+BRD-A00147595,active,94,0.0,316.0,BRD-A00147595,True,1.0,BRD-K13662825,CDK inhibitor,0.395,2.0,BRD-K70401845,0.445,True
+BRD-A00218260,active,92,0.0,335.0,BRD-A00218260,True,1.0,BRD-K13662825,CDK inhibitor,0.347,2.0,BRD-K70401845,0.401,False
+BRD-A00376169,active,117,0.0,329.0,BRD-A00376169,True,1.0,BRD-K02113016,PARP inhibitor,0.339,1.0,BRD-K85606544,0.318,False
+BRD-A00546892,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-A00938334,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-A01636364,active,84,0.167,180.0,BRD-A01636364,True,1.0,BRD-K02113016,PARP inhibitor,0.267,1.0,BRD-K70914287,0.255,False
+BRD-A01787639,active,82,0.0,330.0,BRD-A01787639,True,1.0,BRD-K02113016,PARP inhibitor,0.324,1.0,BRD-K70401845,0.344,False
+BRD-A02006392,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-A02367930,active,83,0.0,169.0,BRD-A02367930,True,1.0,BRD-K71480163,AKT inhibitor,0.252,1.0,BRD-K70914287,0.271,False
+BRD-A02990301,active,126,0.0,338.0,BRD-A02990301,True,1.0,BRD-K80343549,EGFR inhibitor,0.269,1.0,BRD-K85606544,0.336,False
+BRD-A03061970,active,82,0.0,214.0,BRD-A03061970,True,1.0,BRD-K02113016,PARP inhibitor,0.323,1.0,BRD-K85606544,0.26,False
+BRD-A03216249,active,145,0.0,28.0,BRD-A03216249,True,1.0,BRD-K14704277,topoisomerase inhibitor,0.354,1.0,BRD-K11153516,0.405,False
+BRD-A03249105,active,186,0.0,331.0,BRD-A03249105,True,1.0,BRD-K13662825,CDK inhibitor,0.326,1.0,BRD-K85606544,0.487,True
+BRD-A03623303,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-A04352665,active,124,0.0,39.0,BRD-A04352665,True,1.0,BRD-K49215523,PI3K inhibitor,0.217,1.0,BRD-K50168500,0.171,False
+BRD-A04553218,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A05186015,active,104,0.0,40.0,BRD-A05186015,True,1.0,BRD-K49215523,PI3K inhibitor,0.184,2.0,BRD-K64785675,0.161,False
+BRD-A05334458,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-A05457250,active,83,0.333,246.0,BRD-A05457250,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.349,1.0,BRD-K78113049,0.265,False
+BRD-A05523972,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-A06916187,inactive (max DEGs<=80),62,0.167,,,False,,,,,,,,
+BRD-A06935312,inactive (max DEGs<=80),65,0.167,,,False,,,,,,,,
+BRD-A07395371,active,111,0.0,345.0,BRD-A07395371,True,1.0,BRD-K49215523,PI3K inhibitor,0.273,1.0,BRD-K05804044,0.252,False
+BRD-A07440155,active,93,0.0,234.0,BRD-A07440155,True,1.0,BRD-K07691486,CDK inhibitor,0.227,1.0,BRD-K66412701,0.193,False
+BRD-A07563059,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-A07704283,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A07815743,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-A07986123,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-A08187463,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-A08545410,inactive (max DEGs<=80),65,0.167,,,False,,,,,,,,
+BRD-A09349126,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-A09472452,active,84,0.0,398.0,BRD-A09472452,True,1.0,BRD-K26603252,EGFR inhibitor,0.325,2.0,BRD-K11153516,0.35,False
+BRD-A09533288,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-A10012892,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-A10039652,far (no in-domain high-dose signature),48,0.333,,,False,,,,,,,,
+BRD-A10070317,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A10903566,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-A10967948,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-A10977446,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-A11319535,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-A11990600,inactive (max DEGs<=80),28,0.0,,,False,,,,,,,,
+BRD-A12077521,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-A12230535,active,212,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-A12237696,active,96,0.0,4.0,BRD-A12237696,True,1.0,BRD-K12737986,PARP inhibitor,0.139,1.0,BRD-K70914287,0.099,False
+BRD-A12896037,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-A12994259,inactive (max DEGs<=80),21,0.0,,,False,,,,,,,,
+BRD-A13084692,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-A13133631,far (no in-domain high-dose signature),89,0.833,,,False,,,,,,,,
+BRD-A13188892,active,145,0.0,6.0,BRD-A13188892,True,1.0,BRD-K57169635,EGFR inhibitor,0.182,3.0,BRD-K70914287,0.175,False
+BRD-A14262390,inactive (max DEGs<=80),21,0.0,,,False,,,,,,,,
+BRD-A14798026,inactive (max DEGs<=80),19,0.0,,,False,,,,,,,,
+BRD-A14886633,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-A14941520,inactive (max DEGs<=80),36,0.0,,,False,,,,,,,,
+BRD-A14966924,inactive (max DEGs<=80),16,0.0,,,False,,,,,,,,
+BRD-A15202882,active,93,0.0,35.0,BRD-A15202882,True,1.0,BRD-K14704277,topoisomerase inhibitor,0.42,1.0,BRD-K36280065,0.406,True
+BRD-A15297126,far (no in-domain high-dose signature),84,0.833,,,False,,,,,,,,
+BRD-A15435692,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A15909516,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-A15931911,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-A16296925,active,127,0.0,399.0,BRD-A16296925,True,1.0,BRD-K08547377,topoisomerase inhibitor,0.267,1.0,BRD-K70401845,0.291,False
+BRD-A16347691,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-A16665823,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A16997652,inactive (max DEGs<=80),47,0.167,,,False,,,,,,,,
+BRD-A17411484,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-A17462676,active,100,0.0,149.0,BRD-A17462676,True,1.0,BRD-K16803204,JAK inhibitor,0.36,1.0,BRD-K23677682,0.273,False
+BRD-A17655518,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-A17883755,inactive (max DEGs<=80),62,0.333,,,False,,,,,,,,
+BRD-A18043272,active,84,0.0,137.0,BRD-A18043272,True,1.0,BRD-K46386702,EGFR inhibitor,0.254,2.0,BRD-K98493452,0.218,False
+BRD-A18611368,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-A18620900,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-A19195498,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-A19633847,active,190,0.0,61.0,BRD-A19633847,True,1.0,BRD-K08799216,EGFR inhibitor,0.374,3.0,BRD-K85606544,0.432,True
+BRD-A19661776,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-A19736161,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-A20119038,active,102,0.0,395.0,BRD-A20119038,True,1.0,BRD-K13662825,CDK inhibitor,0.263,2.0,BRD-K12423485,0.274,False
+BRD-A20126139,active,107,0.0,16.0,BRD-A20126139,True,2.0,BRD-K08799216,EGFR inhibitor,0.259,3.0,BRD-K85606544,0.212,False
+BRD-A20239487,active,88,0.0,240.0,BRD-A20239487,True,1.0,BRD-K98572433,EGFR inhibitor,0.262,1.0,BRD-K78113049,0.31,False
+BRD-A20348246,active,87,0.0,258.0,BRD-A20348246,True,1.0,BRD-K49215523,PI3K inhibitor,0.309,1.0,BRD-K64785675,0.29,False
+BRD-A22032524,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A22769835,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A24228527,active,284,0.0,25.0,BRD-A24228527,True,1.0,BRD-K14704277,topoisomerase inhibitor,0.313,1.0,BRD-K11153516,0.417,True
+BRD-A25234499,active,236,0.0,141.0,BRD-A25234499,True,1.0,BRD-K16803204,JAK inhibitor,0.312,1.0,BRD-K50168500,0.221,False
+BRD-A25619068,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-A26032986,active,120,0.0,21.0,BRD-A26032986,True,1.0,BRD-K26603252,EGFR inhibitor,0.249,2.0,BRD-K85751432,0.178,False
+BRD-A26095496,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-A26334849,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-A26384407,active,97,0.0,32.0,BRD-A26423207,False,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-A26423207,active,268,0.0,32.0,BRD-A26423207,True,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-A26503646,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-A26690767,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-A26711594,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-A27376179,far (no in-domain high-dose signature),97,0.5,,,False,,,,,,,,
+BRD-A27732521,active,160,0.0,407.0,BRD-A27732521,True,1.0,BRD-K26603252,EGFR inhibitor,0.411,1.0,BRD-K12423485,0.211,True
+BRD-A28467416,active,346,0.167,125.0,BRD-K12184916,False,4.0,BRD-K59317601,mTOR inhibitor,0.779,2.0,BRD-K13154216,0.595,True
+BRD-A28545468,active,92,0.0,159.0,BRD-A28545468,True,1.0,BRD-K26603252,EGFR inhibitor,0.277,1.0,BRD-K50168500,0.193,False
+BRD-A28787076,active,90,0.0,162.0,BRD-A28787076,True,1.0,BRD-K09951645,RAF inhibitor,0.276,1.0,BRD-K23677682,0.199,False
+BRD-A29260609,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-A29289453,active,90,0.0,145.0,BRD-A29289453,True,1.0,BRD-K16803204,JAK inhibitor,0.261,1.0,BRD-K23677682,0.33,False
+BRD-A29322418,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-A29485665,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-A29520968,inactive (max DEGs<=80),28,0.167,,,False,,,,,,,,
+BRD-A29623586,inactive (max DEGs<=80),78,0.167,,,False,,,,,,,,
+BRD-A29731977,active,145,0.0,79.0,BRD-A29731977,True,1.0,BRD-K26011976,topoisomerase inhibitor,0.39,1.0,BRD-K85606544,0.391,False
+BRD-A29734509,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-A29844814,inactive (max DEGs<=80),23,0.0,,,False,,,,,,,,
+BRD-A29854054,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-A30051119,active,133,0.167,26.0,BRD-A30051119,True,1.0,BRD-K26603252,EGFR inhibitor,0.304,1.0,BRD-K11153516,0.396,False
+BRD-A30815329,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-A30984645,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-A31095847,active,113,0.0,52.0,BRD-A31095847,True,1.0,BRD-A28746609,tubulin polymerization inhibitor,0.689,3.0,BRD-K70511574,0.623,True
+BRD-A31159102,inactive (max DEGs<=80),58,0.167,,,False,,,,,,,,
+BRD-A31521121,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A31811760,inactive (max DEGs<=80),52,0.167,,,False,,,,,,,,
+BRD-A32172948,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-A32269193,active,132,0.0,138.0,BRD-A32269193,True,1.0,BRD-K16803204,JAK inhibitor,0.28,1.0,BRD-K36280065,0.238,False
+BRD-A33084557,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-A33168282,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-A33447119,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A33692381,inactive (max DEGs<=80),36,0.0,,,False,,,,,,,,
+BRD-A33697453,inactive (max DEGs<=80),34,0.0,,,False,,,,,,,,
+BRD-A33711280,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-A34006693,active,147,0.0,150.0,BRD-A34006693,True,1.0,BRD-K49215523,PI3K inhibitor,0.39,1.0,BRD-K50168500,0.319,False
+BRD-A34255068,inactive (max DEGs<=80),33,0.0,,,False,,,,,,,,
+BRD-A34513497,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-A36057565,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-A37780065,active,94,0.167,15.0,BRD-A53176877,False,5.0,BRD-K26667523,MEK inhibitor,0.267,3.0,BRD-K85751432,0.215,False
+BRD-A37959677,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-A38218502,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-A38350138,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-A38592941,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-A39390670,inactive (max DEGs<=80),68,0.167,,,False,,,,,,,,
+BRD-A39415247,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A39935389,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-A40084411,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-A40639672,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-A40787240,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A41451487,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-A43082555,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A43331270,inactive (max DEGs<=80),25,0.0,,,False,,,,,,,,
+BRD-A43882281,active,203,0.333,33.0,BRD-K34185671,False,3.0,BRD-K79131256,tubulin polymerization inhibitor,0.463,1.0,BRD-K36280065,0.582,True
+BRD-A44090213,active,117,0.0,20.0,BRD-A44090213,True,1.0,BRD-K49215523,PI3K inhibitor,0.174,1.0,BRD-K85606544,0.164,False
+BRD-A44863528,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-A45153512,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-A45889380,active,93,0.167,410.0,BRD-A45889380,True,1.0,BRD-K71480163,AKT inhibitor,0.188,1.0,BRD-K85751432,0.148,False
+BRD-A46179541,active,81,0.167,375.0,BRD-A46179541,True,1.0,BRD-K60866521,PI3K inhibitor,0.309,2.0,BRD-K98493452,0.26,False
+BRD-A47364545,active,152,0.0,370.0,BRD-A47364545,True,1.0,BRD-K87909389,CDK inhibitor,0.424,2.0,BRD-K70401845,0.334,True
+BRD-A47598013,active,97,0.0,160.0,BRD-A47598013,True,1.0,BRD-K46386702,EGFR inhibitor,0.3,2.0,BRD-K50168500,0.269,False
+BRD-A48237631,active,280,0.167,105.0,BRD-A48237631,True,1.0,BRD-K99475619,topoisomerase inhibitor,0.717,3.0,BRD-A33280134,0.591,True
+BRD-A48430263,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-A48570745,active,191,0.0,100.0,BRD-A48570745,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.391,1.0,BRD-K85606544,0.297,False
+BRD-A49160188,inactive (max DEGs<=80),52,0.333,,,False,,,,,,,,
+BRD-A49399758,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-A49622760,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-A49765801,active,126,0.167,14.0,BRD-A88138582,False,4.0,BRD-A79768653,mTOR inhibitor,0.257,1.0,BRD-K85751432,0.26,False
+BRD-A50033377,active,209,0.0,318.0,BRD-A50033377,True,2.0,BRD-K13662825,CDK inhibitor,0.401,2.0,BRD-K70401845,0.39,False
+BRD-A50311610,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A50675702,active,102,0.0,349.0,BRD-A50675702,True,1.0,BRD-A56085258,RAF inhibitor,0.339,1.0,BRD-K98493452,0.192,False
+BRD-A50764878,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-A50998626,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-A51078674,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-A51714012,inactive (max DEGs<=80),23,0.0,,,False,,,,,,,,
+BRD-A51820102,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A52252998,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-A52660433,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-A53176877,active,87,0.0,15.0,BRD-A53176877,True,5.0,BRD-K26667523,MEK inhibitor,0.267,3.0,BRD-K85751432,0.215,False
+BRD-A53566267,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-A53576514,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-A54880345,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-A55393291,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-A55579717,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-A55913614,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A55962179,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-A56371469,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-A56592690,active,104,0.0,368.0,BRD-A56592690,True,1.0,BRD-A56085258,RAF inhibitor,0.355,1.0,BRD-K70401845,0.285,False
+BRD-A57382968,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-A58048407,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-A58280226,active,87,0.0,15.0,BRD-A53176877,False,5.0,BRD-K26667523,MEK inhibitor,0.267,3.0,BRD-K85751432,0.215,False
+BRD-A58564983,active,100,0.0,18.0,BRD-A58564983,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.246,2.0,BRD-K77987382,0.263,False
+BRD-A58955223,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-A59174698,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-A61154809,active,320,0.0,30.0,BRD-A61154809,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.483,1.0,BRD-K36280065,0.506,True
+BRD-A61221616,active,101,0.0,13.0,BRD-A61221616,True,2.0,BRD-K49215523,PI3K inhibitor,0.209,1.0,BRD-A33280134,0.228,False
+BRD-A61676498,active,153,0.0,361.0,BRD-A61676498,True,1.0,BRD-A56085258,RAF inhibitor,0.432,1.0,BRD-K12423485,0.279,True
+BRD-A61767428,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A61793559,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-A62025033,active,158,0.0,126.0,BRD-A62025033,True,1.0,BRD-K09078998,mTOR inhibitor,0.606,2.0,BRD-K13154216,0.665,True
+BRD-A62035778,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-A62071884,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-A62525898,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A62879835,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-A63236097,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-A63310107,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-A63675168,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-A63752151,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-A64406146,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A64485570,active,218,0.0,104.0,BRD-A64485570,True,1.0,BRD-K08547377,topoisomerase inhibitor,0.62,3.0,BRD-A33280134,0.474,True
+BRD-A64553394,active,133,0.0,157.0,BRD-A64553394,True,1.0,BRD-K26011976,topoisomerase inhibitor,0.301,1.0,BRD-K85606544,0.233,False
+BRD-A64977602,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-A65013509,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-A65051990,active,144,0.0,260.0,BRD-A65051990,True,1.0,BRD-K49215523,PI3K inhibitor,0.386,1.0,BRD-K98493452,0.31,False
+BRD-A65248799,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-A65280694,active,246,0.0,32.0,BRD-A26423207,False,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-A66155091,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-A67097164,active,207,0.0,245.0,BRD-A67097164,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.267,1.0,BRD-K98493452,0.271,False
+BRD-A67373739,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-A67479912,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A67516570,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-A67616246,active,100,0.0,57.0,BRD-A67616246,True,1.0,BRD-K68065987,AKT inhibitor,0.227,2.0,BRD-K50168500,0.225,False
+BRD-A67862938,active,170,0.0,301.0,BRD-A67862938,True,1.0,BRD-K87909389,CDK inhibitor,0.324,2.0,BRD-K12423485,0.336,False
+BRD-A68281735,far (no in-domain high-dose signature),35,0.0,,,False,,,,,,,,
+BRD-A68304895,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-A68464583,inactive (max DEGs<=80),19,0.0,,,False,,,,,,,,
+BRD-A68493689,active,115,0.0,47.0,BRD-A68493689,True,1.0,BRD-K69776681,PLK inhibitor,0.217,1.0,BRD-K70511574,0.216,False
+BRD-A68888262,inactive (max DEGs<=80),25,0.0,,,False,,,,,,,,
+BRD-A68942014,active,124,0.0,8.0,BRD-A68942014,True,1.0,BRD-K16803204,JAK inhibitor,0.223,1.0,BRD-K70914287,0.224,False
+BRD-A69275535,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-A69636825,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-A69815203,active,206,0.0,87.0,BRD-A69815203,True,1.0,BRD-K33610132,EGFR inhibitor,0.452,1.0,BRD-K85606544,0.483,True
+BRD-A69951442,active,97,0.167,15.0,BRD-A53176877,False,5.0,BRD-K26667523,MEK inhibitor,0.267,3.0,BRD-K85751432,0.215,False
+BRD-A70083328,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-A70858459,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-A70998768,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-A72066420,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-A72309220,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-A72390365,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-A72711497,active,295,0.167,33.0,BRD-K34185671,False,3.0,BRD-K79131256,tubulin polymerization inhibitor,0.463,1.0,BRD-K36280065,0.582,True
+BRD-A73368467,active,123,0.0,209.0,BRD-A73368467,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.373,1.0,BRD-K70914287,0.266,False
+BRD-A73556557,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-A73741725,active,95,0.0,227.0,BRD-A73741725,True,1.0,BRD-K98572433,EGFR inhibitor,0.268,1.0,BRD-K78113049,0.269,False
+BRD-A73908300,inactive (max DEGs<=80),57,0.333,,,False,,,,,,,,
+BRD-A74391928,active,87,0.0,270.0,BRD-A74391928,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.352,1.0,BRD-K98493452,0.286,False
+BRD-A74667430,active,101,0.0,250.0,BRD-A74667430,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.307,1.0,BRD-K98493452,0.329,False
+BRD-A74914197,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-A74980173,active,84,0.0,321.0,BRD-A74980173,True,1.0,BRD-K13662825,CDK inhibitor,0.32,2.0,BRD-K70401845,0.331,False
+BRD-A75172220,far (no in-domain high-dose signature),109,0.5,,,False,,,,,,,,
+BRD-A75305484,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-A75479906,active,95,0.167,243.0,BRD-A75479906,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.326,1.0,BRD-K98493452,0.351,False
+BRD-A75726477,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-A76747559,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-A77216878,inactive (max DEGs<=80),29,0.0,,,False,,,,,,,,
+BRD-A78195072,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A78341343,inactive (max DEGs<=80),74,0.333,,,False,,,,,,,,
+BRD-A78723049,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-A78877355,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-A79431551,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A79981887,active,102,0.0,281.0,BRD-A79981887,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.411,1.0,BRD-K36280065,0.419,True
+BRD-A80017228,active,152,0.0,282.0,BRD-A80017228,True,1.0,BRD-K49215523,PI3K inhibitor,0.42,2.0,BRD-K98493452,0.415,True
+BRD-A80151636,active,104,0.167,192.0,BRD-A80151636,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.364,1.0,BRD-K64785675,0.298,False
+BRD-A81233518,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-A82035391,inactive (max DEGs<=80),70,0.167,,,False,,,,,,,,
+BRD-A82156122,active,92,0.0,173.0,BRD-A82156122,True,1.0,BRD-K49215523,PI3K inhibitor,0.222,1.0,BRD-K49456274,0.225,False
+BRD-A82395837,active,93,0.0,201.0,BRD-A82395837,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.354,1.0,BRD-K70914287,0.296,False
+BRD-A82396632,active,93,0.0,328.0,BRD-A82396632,True,1.0,BRD-K80343549,EGFR inhibitor,0.343,1.0,BRD-K85606544,0.424,True
+BRD-A82522119,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-A82772293,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-A83081521,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-A84174393,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-A84481105,active,117,0.0,64.0,BRD-A84481105,True,1.0,BRD-K80343549,EGFR inhibitor,0.423,2.0,BRD-K85751432,0.33,True
+BRD-A84575140,inactive (max DEGs<=80),79,0.333,,,False,,,,,,,,
+BRD-A85439007,active,206,0.167,179.0,BRD-A85439007,True,1.0,BRD-K82244583,MEK inhibitor,0.329,2.0,BRD-K85751432,0.292,False
+BRD-A85548292,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-A86216746,active,108,0.0,187.0,BRD-A86216746,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.343,1.0,BRD-K85606544,0.243,False
+BRD-A86248581,inactive (max DEGs<=80),71,0.167,,,False,,,,,,,,
+BRD-A86871940,active,82,0.0,304.0,BRD-A86871940,True,1.0,BRD-K80343549,EGFR inhibitor,0.317,1.0,BRD-K85606544,0.301,False
+BRD-A87130939,active,88,0.0,168.0,BRD-A87130939,True,1.0,BRD-K02113016,PARP inhibitor,0.214,1.0,BRD-K70401845,0.217,False
+BRD-A87435144,active,91,0.0,93.0,BRD-K91825936,False,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.564,1.0,BRD-K85606544,0.375,True
+BRD-A87479750,inactive (max DEGs<=80),69,0.167,,,False,,,,,,,,
+BRD-A88138582,active,115,0.167,14.0,BRD-A88138582,True,4.0,BRD-A79768653,mTOR inhibitor,0.257,1.0,BRD-K85751432,0.26,False
+BRD-A89164055,active,99,0.333,284.0,BRD-A89164055,True,1.0,BRD-K49215523,PI3K inhibitor,0.384,1.0,BRD-K64785675,0.313,False
+BRD-A89175223,active,83,0.0,272.0,BRD-A89175223,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.375,1.0,BRD-K98493452,0.341,False
+BRD-A90547603,inactive (max DEGs<=80),79,0.167,,,False,,,,,,,,
+BRD-A90625545,active,81,0.0,276.0,BRD-A90625545,True,1.0,BRD-K49215523,PI3K inhibitor,0.354,1.0,BRD-K64785675,0.366,False
+BRD-A90799790,active,93,0.0,382.0,BRD-A90799790,True,1.0,BRD-K44844162,PI3K inhibitor,0.354,2.0,BRD-K70401845,0.322,False
+BRD-A91699651,active,173,0.167,296.0,BRD-A91699651,True,1.0,BRD-K65928735,JAK inhibitor,0.293,1.0,BRD-K98493452,0.34,False
+BRD-A91877226,active,122,0.167,289.0,BRD-A91877226,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.38,1.0,BRD-K64785675,0.262,False
+BRD-A92537424,active,87,0.0,228.0,BRD-A92537424,True,1.0,BRD-K98572433,EGFR inhibitor,0.365,1.0,BRD-K70401845,0.267,False
+BRD-A92630576,active,86,0.0,363.0,BRD-A92630576,True,1.0,BRD-K98572433,EGFR inhibitor,0.319,1.0,BRD-K64785675,0.242,False
+BRD-A92826379,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-A93000692,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-A93093700,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A93255169,inactive (max DEGs<=80),72,0.167,,,False,,,,,,,,
+BRD-A93353767,active,82,0.0,292.0,BRD-A93353767,True,1.0,BRD-K65928735,JAK inhibitor,0.275,1.0,BRD-K98493452,0.313,False
+BRD-A93424738,active,105,0.5,14.0,BRD-A88138582,False,4.0,BRD-A79768653,mTOR inhibitor,0.257,1.0,BRD-K85751432,0.26,False
+BRD-A93964801,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A94276798,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A94543220,active,97,0.0,91.0,BRD-A94543220,True,1.0,BRD-K98572433,EGFR inhibitor,0.444,1.0,BRD-K85606544,0.367,True
+BRD-A94756469,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-A95032015,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-A95696066,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A95869247,active,86,0.0,355.0,BRD-A95869247,True,1.0,BRD-K98572433,EGFR inhibitor,0.451,1.0,BRD-K70401845,0.287,True
+BRD-A95939040,inactive (max DEGs<=80),68,0.167,,,False,,,,,,,,
+BRD-A96060515,inactive (max DEGs<=80),45,0.167,,,False,,,,,,,,
+BRD-A96292436,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-A96456596,inactive (max DEGs<=80),71,0.167,,,False,,,,,,,,
+BRD-A96754982,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-A97104540,active,81,0.0,353.0,BRD-A97104540,True,1.0,BRD-K98572433,EGFR inhibitor,0.497,1.0,BRD-K98493452,0.297,True
+BRD-A97437073,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-A97479839,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-A97502381,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-A97674275,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-A97701745,active,89,0.167,378.0,BRD-A97701745,True,1.0,BRD-K98572433,EGFR inhibitor,0.364,1.0,BRD-K98493452,0.41,False
+BRD-A97739905,active,87,0.0,362.0,BRD-A97739905,True,1.0,BRD-K98572433,EGFR inhibitor,0.398,1.0,BRD-K98493452,0.272,False
+BRD-A97808748,active,87,0.0,262.0,BRD-A97808748,True,1.0,BRD-K98572433,EGFR inhibitor,0.373,1.0,BRD-K85751432,0.285,False
+BRD-A98702003,inactive (max DEGs<=80),64,0.167,,,False,,,,,,,,
+BRD-A98845662,active,95,0.167,294.0,BRD-A98845662,True,1.0,BRD-K98572433,EGFR inhibitor,0.253,1.0,BRD-K98493452,0.263,False
+BRD-A98990573,active,153,0.333,264.0,BRD-A98990573,True,1.0,BRD-K49215523,PI3K inhibitor,0.411,1.0,BRD-K98493452,0.31,True
+BRD-A99939097,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K00077635,active,90,0.0,322.0,BRD-K00077635,True,1.0,BRD-K87909389,CDK inhibitor,0.245,2.0,BRD-K70401845,0.278,False
+BRD-K00152668,active,262,0.167,106.0,BRD-K00152668,True,1.0,BRD-K09426783,topoisomerase inhibitor,0.579,3.0,BRD-K83837640,0.412,True
+BRD-K00259736,active,237,0.333,49.0,BRD-K29968218,False,5.0,BRD-A28746609,tubulin polymerization inhibitor,0.838,3.0,BRD-K70511574,0.754,True
+BRD-K00494077,active,116,0.0,307.0,BRD-K00494077,True,1.0,BRD-K83699324,PLK inhibitor,0.333,1.0,BRD-K12423485,0.342,False
+BRD-K00521308,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K00603606,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K00610438,inactive (max DEGs<=80),76,0.167,,,False,,,,,,,,
+BRD-K00662280,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K00673382,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K00674894,active,148,0.0,308.0,BRD-K00674894,True,1.0,BRD-K13662825,CDK inhibitor,0.328,2.0,BRD-K70401845,0.349,False
+BRD-K00911143,active,86,0.0,317.0,BRD-K00911143,True,1.0,BRD-K13662825,CDK inhibitor,0.348,1.0,BRD-K70401845,0.438,True
+BRD-K01029106,active,125,0.0,215.0,BRD-K01029106,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.387,1.0,BRD-K70914287,0.262,False
+BRD-K01039503,active,84,0.0,216.0,BRD-K01039503,True,1.0,BRD-K49215523,PI3K inhibitor,0.323,1.0,BRD-K70914287,0.229,False
+BRD-K01174345,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K01292756,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K01577834,active,123,0.0,309.0,BRD-K01577834,True,1.0,BRD-K80343549,EGFR inhibitor,0.287,1.0,BRD-K70401845,0.273,False
+BRD-K01621533,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K01638814,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K01663662,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K01674964,active,104,0.0,195.0,BRD-K01674964,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.29,1.0,BRD-K70914287,0.329,False
+BRD-K01815685,active,99,0.0,210.0,BRD-K01815685,True,1.0,BRD-K49215523,PI3K inhibitor,0.308,1.0,BRD-K85606544,0.307,False
+BRD-K01824921,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K02079473,active,123,0.0,170.0,BRD-K02079473,True,1.0,BRD-K49215523,PI3K inhibitor,0.227,1.0,BRD-K70914287,0.247,False
+BRD-K02123250,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K02265150,active,109,0.0,217.0,BRD-K02265150,True,1.0,BRD-K02113016,PARP inhibitor,0.365,1.0,BRD-K85606544,0.279,False
+BRD-K02292852,active,84,0.0,333.0,BRD-K02292852,True,1.0,BRD-K13662825,CDK inhibitor,0.398,2.0,BRD-K70401845,0.348,False
+BRD-K02314383,active,100,0.0,182.0,BRD-K02314383,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.287,1.0,BRD-K85606544,0.259,False
+BRD-K02404261,active,169,0.0,334.0,BRD-K02404261,True,1.0,BRD-K13662825,CDK inhibitor,0.451,2.0,BRD-K70401845,0.394,True
+BRD-K02501528,active,180,0.0,196.0,BRD-K02501528,True,1.0,BRD-K02113016,PARP inhibitor,0.355,1.0,BRD-K70914287,0.298,False
+BRD-K02637541,active,113,0.0,336.0,BRD-K02637541,True,1.0,BRD-K13662825,CDK inhibitor,0.333,2.0,BRD-K85606544,0.422,True
+BRD-K02867583,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K02900412,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K02943813,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K02950022,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K02992638,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K03095347,active,108,0.0,339.0,BRD-K03095347,True,1.0,BRD-K02113016,PARP inhibitor,0.252,1.0,BRD-K85606544,0.277,False
+BRD-K03194791,active,83,0.0,212.0,BRD-K03194791,True,1.0,BRD-K02113016,PARP inhibitor,0.327,1.0,BRD-K85606544,0.298,False
+BRD-K03289534,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K03384561,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K03449891,active,322,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K03601870,active,229,0.0,49.0,BRD-K29968218,False,5.0,BRD-A28746609,tubulin polymerization inhibitor,0.838,3.0,BRD-K70511574,0.754,True
+BRD-K03816923,active,114,0.0,332.0,BRD-K03816923,True,1.0,BRD-K07691486,CDK inhibitor,0.293,1.0,BRD-K85606544,0.354,False
+BRD-K03842655,far (no in-domain high-dose signature),75,0.0,,,False,,,,,,,,
+BRD-K04111260,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K04112579,active,130,0.0,34.0,BRD-K04112579,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.43,1.0,BRD-K36280065,0.519,True
+BRD-K04185004,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K04264130,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K04691817,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K04704168,inactive (max DEGs<=80),71,0.167,,,False,,,,,,,,
+BRD-K04804440,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K04887706,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K04956647,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K04993719,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K05236810,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K05395900,active,88,0.0,9.0,BRD-K05395900,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.284,1.0,BRD-K64785675,0.262,False
+BRD-K05446112,active,120,0.0,89.0,BRD-K05446112,True,1.0,BRD-A56085258,RAF inhibitor,0.388,1.0,BRD-K85606544,0.41,False
+BRD-K05524748,active,103,0.0,73.0,BRD-K05524748,True,1.0,BRD-K57169635,EGFR inhibitor,0.429,1.0,BRD-K85606544,0.305,True
+BRD-K05658747,active,84,0.0,213.0,BRD-K05658747,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.292,1.0,BRD-K85606544,0.255,False
+BRD-K05673000,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K05674516,active,350,0.0,230.0,BRD-K05674516,True,1.0,BRD-K60866521,PI3K inhibitor,0.216,1.0,BRD-K05804044,0.247,False
+BRD-K05977355,active,85,0.0,231.0,BRD-K05977355,True,1.0,BRD-K64052750,EGFR inhibitor,0.264,2.0,BRD-K64785675,0.265,False
+BRD-K06240250,inactive (max DEGs<=80),46,0.167,,,False,,,,,,,,
+BRD-K06294530,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K06335600,inactive (max DEGs<=80),76,0.167,,,False,,,,,,,,
+BRD-K06388322,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K06557128,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-K06674495,active,126,0.0,346.0,BRD-K06674495,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.314,1.0,BRD-K85606544,0.285,False
+BRD-K06762493,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K06858286,active,171,0.0,51.0,BRD-K06858286,True,2.0,BRD-A05821830,tubulin polymerization inhibitor,0.638,2.0,BRD-K77987382,0.538,True
+BRD-K06878038,far (no in-domain high-dose signature),52,0.333,,,False,,,,,,,,
+BRD-K06900071,active,84,0.167,341.0,BRD-K06900071,True,1.0,BRD-K87737963,JAK inhibitor,0.221,2.0,BRD-K78113049,0.228,False
+BRD-K06902185,active,86,0.0,17.0,BRD-K06902185,True,1.0,BRD-K98572433,EGFR inhibitor,0.231,2.0,BRD-K05804044,0.195,False
+BRD-K07106112,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K07160047,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K07208025,active,99,0.0,342.0,BRD-K07208025,True,1.0,BRD-K07691486,CDK inhibitor,0.288,1.0,BRD-K05804044,0.248,False
+BRD-K07220430,inactive (max DEGs<=80),74,0.167,,,False,,,,,,,,
+BRD-K07237224,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K07310275,active,448,0.167,125.0,BRD-K12184916,False,4.0,BRD-K59317601,mTOR inhibitor,0.779,2.0,BRD-K13154216,0.595,True
+BRD-K07572174,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K07609981,active,112,0.333,41.0,BRD-K07609981,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.248,2.0,BRD-K77987382,0.243,False
+BRD-K07753030,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K07798980,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K07857022,active,117,0.0,360.0,BRD-K07857022,True,1.0,BRD-K98572433,EGFR inhibitor,0.365,1.0,BRD-K64785675,0.297,False
+BRD-K07881437,active,231,0.0,123.0,BRD-K07881437,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.587,3.0,BRD-A33280134,0.488,True
+BRD-K07954936,inactive (max DEGs<=80),59,0.167,,,False,,,,,,,,
+BRD-K08037784,active,89,0.0,404.0,BRD-K08037784,True,1.0,BRD-K46386702,EGFR inhibitor,0.202,2.0,BRD-K49456274,0.212,False
+BRD-K08109215,active,215,0.0,11.0,BRD-K08109215,True,1.0,BRD-K69776681,PLK inhibitor,0.594,2.0,BRD-K83837640,0.269,True
+BRD-K08206212,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K08248804,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K08252256,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K08586861,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K08832567,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-K08859203,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K08924299,active,111,0.0,136.0,BRD-K08924299,True,1.0,BRD-K08703257,PARP inhibitor,0.299,1.0,BRD-K50168500,0.187,False
+BRD-K08976401,active,94,0.0,133.0,BRD-K08976401,True,1.0,BRD-K09951645,RAF inhibitor,0.328,1.0,BRD-K85606544,0.202,False
+BRD-K09090949,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K09132007,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K09255212,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K09372874,active,166,0.0,115.0,BRD-K09372874,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.359,2.0,BRD-K23677682,0.319,False
+BRD-K09397065,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K09471561,active,123,0.0,132.0,BRD-K09471561,True,1.0,BRD-K09078998,mTOR inhibitor,0.379,1.0,BRD-A33280134,0.246,False
+BRD-K09549677,active,137,0.0,74.0,BRD-K09549677,True,1.0,BRD-K57169635,EGFR inhibitor,0.395,3.0,BRD-K50168500,0.209,False
+BRD-K09602097,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K09711437,inactive (max DEGs<=80),63,0.167,,,False,,,,,,,,
+BRD-K10670311,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K10843433,active,92,0.0,147.0,BRD-K10843433,True,1.0,BRD-K16803204,JAK inhibitor,0.386,1.0,BRD-K23677682,0.29,False
+BRD-K10845183,active,122,0.0,134.0,BRD-K10845183,True,1.0,BRD-K09951645,RAF inhibitor,0.441,1.0,BRD-K70401845,0.14,True
+BRD-K10852020,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K10859802,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K10961822,inactive (max DEGs<=80),58,0.167,,,False,,,,,,,,
+BRD-K11071038,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K11073688,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K11129031,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K11196887,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K11267252,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K11399644,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K11433652,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K11717138,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K11973162,inactive (max DEGs<=80),18,0.0,,,False,,,,,,,,
+BRD-K12184916,active,357,0.0,125.0,BRD-K12184916,True,4.0,BRD-K59317601,mTOR inhibitor,0.779,2.0,BRD-K13154216,0.595,True
+BRD-K12219985,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K12539416,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K12609457,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K12735121,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K12787259,active,341,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K12885236,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K12932420,inactive (max DEGs<=80),36,0.0,,,False,,,,,,,,
+BRD-K12994359,inactive (max DEGs<=80),33,0.0,,,False,,,,,,,,
+BRD-K13050541,active,235,0.0,113.0,BRD-K13050541,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.529,2.0,BRD-K13154216,0.45,True
+BRD-K13183738,active,127,0.0,84.0,BRD-K13183738,True,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.374,1.0,BRD-K85606544,0.341,False
+BRD-K13296708,inactive (max DEGs<=80),30,0.0,,,False,,,,,,,,
+BRD-K13356952,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K13646352,active,257,0.0,120.0,BRD-K13646352,True,1.0,BRD-K33610132,EGFR inhibitor,0.605,1.0,BRD-K13154216,0.663,True
+BRD-K13756951,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K13819402,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K13926615,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K14175878,inactive (max DEGs<=80),16,0.0,,,False,,,,,,,,
+BRD-K14529030,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K14619660,inactive (max DEGs<=80),39,0.0,,,False,,,,,,,,
+BRD-K14653796,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-K14796088,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K14870255,active,99,0.0,71.0,BRD-K14870255,True,2.0,BRD-K57169635,EGFR inhibitor,0.47,1.0,BRD-K85606544,0.23,True
+BRD-K14993104,inactive (max DEGs<=80),13,0.0,,,False,,,,,,,,
+BRD-K15010214,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K15108141,active,213,0.0,103.0,BRD-K15108141,True,3.0,BRD-K08547377,topoisomerase inhibitor,0.549,3.0,BRD-A33280134,0.459,True
+BRD-K15170068,inactive (max DEGs<=80),23,0.0,,,False,,,,,,,,
+BRD-K15318383,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K15409150,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-K15426076,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K15502390,active,81,0.0,386.0,BRD-K15502390,True,1.0,BRD-K25630527,JAK inhibitor,0.204,1.0,BRD-K36280065,0.231,False
+BRD-K15507868,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K15567136,active,96,0.167,77.0,BRD-K15567136,True,1.0,BRD-K08547377,topoisomerase inhibitor,0.307,2.0,BRD-K85606544,0.35,False
+BRD-K15766189,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K15916496,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K15933101,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K15976406,inactive (max DEGs<=80),56,0.333,,,False,,,,,,,,
+BRD-K16037980,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K16077845,inactive (max DEGs<=80),58,0.167,,,False,,,,,,,,
+BRD-K16133773,active,83,0.0,158.0,BRD-K16133773,True,1.0,BRD-K46386702,EGFR inhibitor,0.26,1.0,BRD-K23677682,0.264,False
+BRD-K16195444,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K16295392,active,103,0.0,388.0,BRD-K16295392,True,1.0,BRD-K92093830,topoisomerase inhibitor,0.306,1.0,BRD-K70401845,0.234,False
+BRD-K16444452,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K16508793,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K16542329,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K16730910,active,161,0.0,78.0,BRD-K16730910,True,1.0,BRD-K08799216,EGFR inhibitor,0.348,1.0,BRD-K85606544,0.42,True
+BRD-K16732600,far (no in-domain high-dose signature),42,0.333,,,False,,,,,,,,
+BRD-K16757695,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K16761703,active,98,0.0,45.0,BRD-K16761703,True,1.0,BRD-K23363278,tubulin polymerization inhibitor,0.281,3.0,BRD-K70511574,0.241,False
+BRD-K16762525,active,193,0.0,151.0,BRD-K16762525,True,1.0,BRD-K46386702,EGFR inhibitor,0.314,1.0,BRD-K23677682,0.202,False
+BRD-K16898998,active,86,0.0,80.0,BRD-K16898998,True,2.0,BRD-K26011976,topoisomerase inhibitor,0.327,1.0,BRD-K85606544,0.351,False
+BRD-K17026858,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K17068645,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K17075857,active,109,0.0,81.0,BRD-K17075857,True,1.0,BRD-K26011976,topoisomerase inhibitor,0.338,1.0,BRD-K85606544,0.238,False
+BRD-K17203476,active,204,0.167,117.0,BRD-K17203476,True,1.0,BRD-K09078998,mTOR inhibitor,0.464,1.0,BRD-K13154216,0.405,True
+BRD-K17498618,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K17500877,far (no in-domain high-dose signature),49,0.2,,,False,,,,,,,,
+BRD-K17513304,active,106,0.0,387.0,BRD-K17513304,True,1.0,BRD-K26603252,EGFR inhibitor,0.197,1.0,BRD-K70401845,0.2,False
+BRD-K17555800,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K17561142,active,88,0.0,148.0,BRD-K17561142,True,1.0,BRD-K19687926,EGFR inhibitor,0.377,2.0,BRD-K98493452,0.25,False
+BRD-K17705806,inactive (max DEGs<=80),70,0.167,,,False,,,,,,,,
+BRD-K17849083,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K17894950,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K17930269,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K17944737,active,164,0.0,80.0,BRD-K16898998,False,2.0,BRD-K26011976,topoisomerase inhibitor,0.327,1.0,BRD-K85606544,0.351,False
+BRD-K17953908,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K18157228,far (no in-domain high-dose signature),179,0.5,,,False,,,,,,,,
+BRD-K18194590,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K18324993,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K18673820,inactive (max DEGs<=80),65,0.167,,,False,,,,,,,,
+BRD-K18678457,active,129,0.0,402.0,BRD-K18678457,True,1.0,BRD-K07691486,CDK inhibitor,0.181,2.0,BRD-K12423485,0.178,False
+BRD-K18779551,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K18850819,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K19111024,active,104,0.0,305.0,BRD-K19111024,True,1.0,BRD-K80343549,EGFR inhibitor,0.354,1.0,BRD-K70401845,0.278,False
+BRD-K19284129,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K19352500,active,110,0.0,393.0,BRD-K19352500,True,1.0,BRD-K08799216,EGFR inhibitor,0.317,1.0,BRD-K85606544,0.218,False
+BRD-K19388745,active,97,0.0,397.0,BRD-K19388745,True,1.0,BRD-K26603252,EGFR inhibitor,0.322,1.0,BRD-K49456274,0.24,False
+BRD-K19540840,active,134,0.0,70.0,BRD-K19540840,True,2.0,BRD-K19687926,EGFR inhibitor,0.481,2.0,BRD-K85751432,0.289,True
+BRD-K19939891,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K20141153,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K20285085,active,193,0.0,118.0,BRD-K20285085,True,1.0,BRD-K09078998,mTOR inhibitor,0.56,1.0,BRD-K13154216,0.423,True
+BRD-K20920669,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K21295289,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K21361524,far (no in-domain high-dose signature),210,0.5,,,False,,,,,,,,
+BRD-K21396683,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K21450440,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K21718444,active,273,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K21908111,active,107,0.0,396.0,BRD-K21908111,True,1.0,BRD-K26603252,EGFR inhibitor,0.306,1.0,BRD-K36280065,0.257,False
+BRD-K22024824,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K22031190,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K22134346,active,102,0.0,111.0,BRD-K22134346,True,1.0,BRD-K64538373,MEK inhibitor,0.305,2.0,BRD-K85751432,0.254,False
+BRD-K22749967,active,81,0.0,394.0,BRD-K22749967,True,1.0,BRD-K19687926,EGFR inhibitor,0.319,3.0,BRD-K85606544,0.229,False
+BRD-K22822991,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K22848513,far (no in-domain high-dose signature),97,0.5,,,False,,,,,,,,
+BRD-K23248433,active,87,0.0,153.0,BRD-K23248433,True,1.0,BRD-K19687926,EGFR inhibitor,0.377,2.0,BRD-K23677682,0.423,True
+BRD-K23672206,active,95,0.0,154.0,BRD-K23672206,True,1.0,BRD-K16803204,JAK inhibitor,0.348,1.0,BRD-K23677682,0.336,False
+BRD-K23728141,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K23875128,active,127,0.0,15.0,BRD-A53176877,False,5.0,BRD-K26667523,MEK inhibitor,0.267,3.0,BRD-K85751432,0.215,False
+BRD-K23976833,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K24616672,far (no in-domain high-dose signature),57,0.333,,,False,,,,,,,,
+BRD-K24723746,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K24771047,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K24844714,active,152,0.0,116.0,BRD-K24844714,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.507,3.0,BRD-A33280134,0.473,True
+BRD-K24943235,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K24968862,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K25114078,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K25140590,active,90,0.0,140.0,BRD-K25140590,True,1.0,BRD-K49215523,PI3K inhibitor,0.244,1.0,BRD-K50168500,0.269,False
+BRD-K25204779,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K25361343,inactive (max DEGs<=80),77,0.167,,,False,,,,,,,,
+BRD-K25394294,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K25433859,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K25650355,active,98,0.0,405.0,BRD-K25650355,True,1.0,BRD-K26603252,EGFR inhibitor,0.36,2.0,BRD-K12423485,0.217,False
+BRD-K25837718,active,111,0.0,406.0,BRD-K25837718,True,1.0,BRD-K26603252,EGFR inhibitor,0.306,2.0,BRD-K23677682,0.228,False
+BRD-K25943794,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K26325692,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K26341917,active,291,0.167,32.0,BRD-A26423207,False,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-K26619122,inactive (max DEGs<=80),75,0.167,,,False,,,,,,,,
+BRD-K26657438,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K26701552,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K26712974,active,131,0.0,143.0,BRD-K26712974,True,1.0,BRD-K46386702,EGFR inhibitor,0.315,1.0,BRD-K23677682,0.202,False
+BRD-K26823213,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K27182532,active,91,0.0,401.0,BRD-K27182532,True,1.0,BRD-K26011976,topoisomerase inhibitor,0.297,1.0,BRD-K77987382,0.262,False
+BRD-K27184429,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K27204852,active,84,0.0,400.0,BRD-K27204852,True,1.0,BRD-K87909389,CDK inhibitor,0.267,2.0,BRD-K49456274,0.255,False
+BRD-K27938825,active,139,0.0,142.0,BRD-K27938825,True,1.0,BRD-K46386702,EGFR inhibitor,0.38,1.0,BRD-K50168500,0.25,False
+BRD-K27955832,active,95,0.0,161.0,BRD-K27955832,True,1.0,BRD-K16803204,JAK inhibitor,0.275,1.0,BRD-K23677682,0.235,False
+BRD-K28115081,inactive (max DEGs<=80),35,0.0,,,False,,,,,,,,
+BRD-K28143534,inactive (max DEGs<=80),60,0.167,,,False,,,,,,,,
+BRD-K28183345,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K28217197,active,83,0.0,144.0,BRD-K28217197,True,1.0,BRD-K46386702,EGFR inhibitor,0.29,2.0,BRD-K23677682,0.252,False
+BRD-K28307902,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K28392481,active,247,0.0,119.0,BRD-K28392481,True,2.0,BRD-K25412176,AKT inhibitor,0.657,2.0,BRD-K13154216,0.449,True
+BRD-K28428262,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-K28456624,inactive (max DEGs<=80),42,0.0,,,False,,,,,,,,
+BRD-K28470988,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K28542495,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K28667793,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K28731095,active,144,0.0,146.0,BRD-K28731095,True,1.0,BRD-K46386702,EGFR inhibitor,0.324,2.0,BRD-K50168500,0.289,False
+BRD-K28761891,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-K28912512,inactive (max DEGs<=80),33,0.0,,,False,,,,,,,,
+BRD-K28936863,inactive (max DEGs<=80),30,0.0,,,False,,,,,,,,
+BRD-K28965160,active,308,0.0,130.0,BRD-K28965160,True,1.0,BRD-K26667523,MEK inhibitor,0.793,3.0,BRD-K85751432,0.64,True
+BRD-K28971625,inactive (max DEGs<=80),66,0.167,,,False,,,,,,,,
+BRD-K28984613,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K29133151,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K29322660,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K29359156,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K29458283,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K29530284,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K29582115,active,106,0.167,403.0,BRD-K29582115,True,1.0,BRD-K13662825,CDK inhibitor,0.266,1.0,BRD-K70401845,0.233,False
+BRD-K29653726,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K29656036,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K29673530,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K29735307,active,84,0.0,390.0,BRD-K29735307,True,1.0,BRD-K08547377,topoisomerase inhibitor,0.249,1.0,BRD-K70401845,0.191,False
+BRD-K29950728,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K29968218,active,235,0.0,49.0,BRD-K29968218,True,5.0,BRD-A28746609,tubulin polymerization inhibitor,0.838,3.0,BRD-K70511574,0.754,True
+BRD-K30020243,inactive (max DEGs<=80),25,0.0,,,False,,,,,,,,
+BRD-K30331124,active,127,0.0,389.0,BRD-K30331124,True,1.0,BRD-K08799216,EGFR inhibitor,0.305,1.0,BRD-K85606544,0.281,False
+BRD-K30421593,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K30466858,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K30480208,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K30550578,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K30563334,inactive (max DEGs<=80),35,0.0,,,False,,,,,,,,
+BRD-K30685142,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K31092604,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-K31111078,active,93,0.0,391.0,BRD-K31111078,True,1.0,BRD-K30126819,tubulin polymerization inhibitor,0.232,2.0,BRD-K36280065,0.227,False
+BRD-K31135544,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K31309378,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K31342827,active,126,0.167,46.0,BRD-K31342827,True,1.0,BRD-K99475619,topoisomerase inhibitor,0.298,1.0,BRD-K85606544,0.225,False
+BRD-K31385749,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K31447894,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K31476763,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K31495718,inactive (max DEGs<=80),19,0.0,,,False,,,,,,,,
+BRD-K31519811,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K31627533,far (no in-domain high-dose signature),116,0.667,,,False,,,,,,,,
+BRD-K31731454,active,122,0.0,392.0,BRD-K31731454,True,1.0,BRD-K87909389,CDK inhibitor,0.191,1.0,BRD-K12423485,0.158,False
+BRD-K31812033,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K31841515,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K32101625,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K32107296,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K32164935,inactive (max DEGs<=80),20,0.0,,,False,,,,,,,,
+BRD-K32218650,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K32247306,inactive (max DEGs<=80),46,0.167,,,False,,,,,,,,
+BRD-K32285926,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-K32405725,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K32501161,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K32744045,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K32821942,active,293,0.0,156.0,BRD-K32821942,True,1.0,BRD-K16803204,JAK inhibitor,0.271,1.0,BRD-K50168500,0.25,False
+BRD-K32977963,inactive (max DEGs<=80),25,0.0,,,False,,,,,,,,
+BRD-K33106058,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K33127281,inactive (max DEGs<=80),43,0.167,,,False,,,,,,,,
+BRD-K33141550,active,94,0.167,139.0,BRD-K33141550,True,1.0,BRD-K26603252,EGFR inhibitor,0.226,1.0,BRD-K50168500,0.257,False
+BRD-K33211335,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K33226500,active,91,0.0,152.0,BRD-K33226500,True,1.0,BRD-K16803204,JAK inhibitor,0.25,1.0,BRD-K23677682,0.296,False
+BRD-K33379087,active,228,0.0,49.0,BRD-K29968218,False,5.0,BRD-A28746609,tubulin polymerization inhibitor,0.838,3.0,BRD-K70511574,0.754,True
+BRD-K33453211,active,122,0.0,155.0,BRD-K33453211,True,1.0,BRD-K16803204,JAK inhibitor,0.288,1.0,BRD-K50168500,0.198,False
+BRD-K33483813,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K33732501,active,173,0.0,408.0,BRD-K33732501,True,1.0,BRD-K26603252,EGFR inhibitor,0.276,1.0,BRD-K23677682,0.205,False
+BRD-K33852358,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K33882852,active,153,0.0,85.0,BRD-K33882852,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.45,1.0,BRD-K85606544,0.41,True
+BRD-K34022604,far (no in-domain high-dose signature),129,0.333,,,False,,,,,,,,
+BRD-K34154330,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K34157611,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K34185671,active,348,0.0,33.0,BRD-K34185671,True,3.0,BRD-K79131256,tubulin polymerization inhibitor,0.463,1.0,BRD-K36280065,0.582,True
+BRD-K34313798,inactive (max DEGs<=80),30,0.0,,,False,,,,,,,,
+BRD-K34328244,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K34341643,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K34469523,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K34713073,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K34776109,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K34870043,active,96,0.0,135.0,BRD-K34870043,True,1.0,BRD-K09951645,RAF inhibitor,0.348,1.0,BRD-K50168500,0.191,False
+BRD-K34888156,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K35169477,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K35189033,inactive (max DEGs<=80),39,0.0,,,False,,,,,,,,
+BRD-K35245662,active,110,0.167,16.0,BRD-A20126139,False,2.0,BRD-K08799216,EGFR inhibitor,0.259,3.0,BRD-K85606544,0.212,False
+BRD-K35520305,inactive (max DEGs<=80),77,0.167,,,False,,,,,,,,
+BRD-K35586044,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K35589454,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K35629949,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K35687421,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K35719256,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K35775715,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K36324071,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K36386086,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K36467523,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K36627727,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K36680103,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K36732695,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K37289225,active,133,0.0,36.0,BRD-K37289225,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.399,1.0,BRD-K36280065,0.511,True
+BRD-K37355418,inactive (max DEGs<=80),42,0.0,,,False,,,,,,,,
+BRD-K37385792,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K37561857,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K37590257,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K37694030,inactive (max DEGs<=80),52,0.167,,,False,,,,,,,,
+BRD-K37714784,active,104,0.167,252.0,BRD-K37714784,True,1.0,BRD-K49215523,PI3K inhibitor,0.353,1.0,BRD-K78113049,0.277,False
+BRD-K37764012,active,124,0.167,55.0,BRD-K37764012,True,1.0,BRD-K64800655,CDK inhibitor,0.626,1.0,BRD-K72414522,0.301,True
+BRD-K37846922,far (no in-domain high-dose signature),45,0.0,,,False,,,,,,,,
+BRD-K37872686,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-K37991163,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K38183498,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K38197229,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K38287497,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K38436528,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K38473998,inactive (max DEGs<=80),32,0.167,,,False,,,,,,,,
+BRD-K38744518,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K38868394,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K39252998,inactive (max DEGs<=80),35,0.0,,,False,,,,,,,,
+BRD-K39339537,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K39503511,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K39974922,active,85,0.167,44.0,BRD-K39974922,True,1.0,BRD-K43410529,RAF inhibitor,0.189,1.0,BRD-K12423485,0.225,False
+BRD-K40227168,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K40738845,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K40758068,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-K40797222,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K40870905,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K41160163,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K41170226,active,237,0.0,23.0,BRD-K41170226,True,1.0,BRD-K49215523,PI3K inhibitor,0.279,2.0,BRD-K11153516,0.299,False
+BRD-K41185545,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K41260949,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K41410256,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K41434598,active,89,0.0,7.0,BRD-K41434598,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.236,1.0,BRD-K64785675,0.235,False
+BRD-K41524689,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K41599323,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K41708980,active,106,0.0,14.0,BRD-A88138582,False,4.0,BRD-A79768653,mTOR inhibitor,0.257,1.0,BRD-K85751432,0.26,False
+BRD-K41731458,inactive (max DEGs<=80),55,0.167,,,False,,,,,,,,
+BRD-K41783120,active,112,0.0,71.0,BRD-K14870255,False,2.0,BRD-K57169635,EGFR inhibitor,0.47,1.0,BRD-K85606544,0.23,True
+BRD-K41895714,active,104,0.0,303.0,BRD-K41895714,True,1.0,BRD-K13662825,CDK inhibitor,0.435,2.0,BRD-K70401845,0.35,True
+BRD-K41996876,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K42098891,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-K42348709,active,90,0.0,75.0,BRD-K42348709,True,1.0,BRD-K57169635,EGFR inhibitor,0.363,2.0,BRD-K64785675,0.288,False
+BRD-K42352790,inactive (max DEGs<=80),46,0.167,,,False,,,,,,,,
+BRD-K42417338,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K42495768,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K42679050,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-K42948882,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K42981054,active,195,0.0,86.0,BRD-K42981054,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.359,1.0,BRD-K85606544,0.296,False
+BRD-K43002771,active,85,0.0,72.0,BRD-K43002771,True,1.0,BRD-K57169635,EGFR inhibitor,0.464,1.0,BRD-K85606544,0.216,True
+BRD-K43164539,inactive (max DEGs<=80),35,0.0,,,False,,,,,,,,
+BRD-K43457670,inactive (max DEGs<=80),42,0.0,,,False,,,,,,,,
+BRD-K43578482,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K43887077,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K43966364,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K44273375,active,84,0.0,13.0,BRD-A61221616,False,2.0,BRD-K49215523,PI3K inhibitor,0.209,1.0,BRD-A33280134,0.228,False
+BRD-K44309363,active,102,0.0,63.0,BRD-K44309363,True,1.0,BRD-K57169635,EGFR inhibitor,0.397,1.0,BRD-K85606544,0.252,False
+BRD-K44353683,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K44771174,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K44827188,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K44876623,active,158,0.0,263.0,BRD-K44876623,True,1.0,BRD-K49215523,PI3K inhibitor,0.402,1.0,BRD-K98493452,0.321,False
+BRD-K44942188,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K44974079,active,99,0.167,253.0,BRD-K44974079,True,1.0,BRD-K65928735,JAK inhibitor,0.295,1.0,BRD-K98493452,0.292,False
+BRD-K45033733,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K45071273,active,116,0.0,189.0,BRD-K45071273,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.383,1.0,BRD-K85606544,0.295,False
+BRD-K45117373,active,101,0.0,204.0,BRD-K45117373,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.439,1.0,BRD-K98493452,0.273,True
+BRD-K45158365,active,91,0.0,248.0,BRD-K45158365,True,1.0,BRD-K49215523,PI3K inhibitor,0.325,1.0,BRD-K64785675,0.289,False
+BRD-K45168550,active,221,0.0,383.0,BRD-K45168550,True,1.0,BRD-K49215523,PI3K inhibitor,0.303,2.0,BRD-K98493452,0.299,False
+BRD-K45245728,active,103,0.0,350.0,BRD-K45245728,True,1.0,BRD-K98572433,EGFR inhibitor,0.298,1.0,BRD-K98493452,0.197,False
+BRD-K45252063,inactive (max DEGs<=80),62,0.333,,,False,,,,,,,,
+BRD-K45275534,inactive (max DEGs<=80),75,0.167,,,False,,,,,,,,
+BRD-K45330754,inactive (max DEGs<=80),74,0.167,,,False,,,,,,,,
+BRD-K45503887,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K45542189,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K45746021,inactive (max DEGs<=80),60,0.167,,,False,,,,,,,,
+BRD-K45875383,active,85,0.0,166.0,BRD-K45875383,True,1.0,BRD-K49215523,PI3K inhibitor,0.329,1.0,BRD-K85751432,0.26,False
+BRD-K45924332,active,91,0.0,188.0,BRD-K45924332,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.381,1.0,BRD-K72414522,0.253,False
+BRD-K46018455,active,82,0.0,185.0,BRD-K46018455,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.346,1.0,BRD-K98493452,0.232,False
+BRD-K46133855,active,93,0.0,377.0,BRD-K46133855,True,1.0,BRD-K44844162,PI3K inhibitor,0.275,1.0,BRD-K12423485,0.246,False
+BRD-K46290096,active,127,0.333,256.0,BRD-K46290096,True,1.0,BRD-K49215523,PI3K inhibitor,0.311,1.0,BRD-K64785675,0.318,False
+BRD-K46424862,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K46604138,active,92,0.0,257.0,BRD-K46604138,True,1.0,BRD-K49215523,PI3K inhibitor,0.319,1.0,BRD-K64785675,0.342,False
+BRD-K46654563,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K46692793,active,89,0.0,254.0,BRD-K46692793,True,1.0,BRD-K65928735,JAK inhibitor,0.283,1.0,BRD-K98493452,0.252,False
+BRD-K46839850,active,94,0.0,218.0,BRD-K46839850,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.342,1.0,BRD-K85606544,0.207,False
+BRD-K46937689,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K46970505,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K47000838,active,99,0.0,101.0,BRD-K47000838,True,1.0,BRD-K56844688,topoisomerase inhibitor,0.362,1.0,BRD-K85606544,0.357,False
+BRD-K47095176,inactive (max DEGs<=80),72,0.167,,,False,,,,,,,,
+BRD-K47554101,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K47639036,inactive (max DEGs<=80),79,0.167,,,False,,,,,,,,
+BRD-K47642186,active,89,0.0,255.0,BRD-K47642186,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.334,1.0,BRD-K98493452,0.29,False
+BRD-K47780086,inactive (max DEGs<=80),70,0.167,,,False,,,,,,,,
+BRD-K47869605,active,239,0.0,49.0,BRD-K29968218,False,5.0,BRD-A28746609,tubulin polymerization inhibitor,0.838,3.0,BRD-K70511574,0.754,True
+BRD-K47936004,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K47976015,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K48068743,active,85,0.0,247.0,BRD-K48068743,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.369,1.0,BRD-K49456274,0.313,False
+BRD-K48195801,active,124,0.0,376.0,BRD-K48195801,True,1.0,BRD-A56085258,RAF inhibitor,0.353,1.0,BRD-K70401845,0.269,False
+BRD-K48213016,active,98,0.333,374.0,BRD-K48213016,True,1.0,BRD-K87909389,CDK inhibitor,0.371,1.0,BRD-K70401845,0.277,False
+BRD-K48300629,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K48367671,active,89,0.167,238.0,BRD-K48367671,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.287,1.0,BRD-K64785675,0.328,False
+BRD-K48461310,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K48578705,active,94,0.0,340.0,BRD-K48578705,True,1.0,BRD-K87909389,CDK inhibitor,0.276,2.0,BRD-K85606544,0.275,False
+BRD-K48722258,active,109,0.167,323.0,BRD-K48722258,True,1.0,BRD-K92093830,topoisomerase inhibitor,0.305,1.0,BRD-K70401845,0.36,False
+BRD-K48812570,active,288,0.0,29.0,BRD-K48812570,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.373,1.0,BRD-K36280065,0.383,False
+BRD-K48892307,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K48894757,far (no in-domain high-dose signature),67,0.333,,,False,,,,,,,,
+BRD-K49075727,active,162,0.167,372.0,BRD-K49075727,True,1.0,BRD-K44844162,PI3K inhibitor,0.458,1.0,BRD-K70401845,0.316,True
+BRD-K49111258,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K49328571,active,116,0.167,235.0,BRD-K49328571,True,1.0,BRD-K44844162,PI3K inhibitor,0.47,1.0,BRD-K37687095,0.335,True
+BRD-K49350383,active,171,0.0,108.0,BRD-K49350383,True,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.41,1.0,BRD-K85606544,0.289,True
+BRD-K49404994,active,103,0.333,310.0,BRD-K49404994,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.318,1.0,BRD-K70401845,0.379,False
+BRD-K49504902,active,101,0.167,311.0,BRD-K49504902,True,1.0,BRD-K13662825,CDK inhibitor,0.265,1.0,BRD-K70401845,0.3,False
+BRD-K49555808,active,197,0.0,318.0,BRD-A50033377,False,2.0,BRD-K13662825,CDK inhibitor,0.401,2.0,BRD-K70401845,0.39,False
+BRD-K49671696,active,99,0.167,379.0,BRD-K49671696,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.322,1.0,BRD-K98493452,0.273,False
+BRD-K49685476,active,121,0.0,373.0,BRD-K49685476,True,1.0,BRD-K44844162,PI3K inhibitor,0.41,1.0,BRD-K70401845,0.32,True
+BRD-K49807096,inactive (max DEGs<=80),61,0.167,,,False,,,,,,,,
+BRD-K49840922,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K50031829,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K50133271,active,91,0.0,190.0,BRD-K50133271,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.371,1.0,BRD-K49456274,0.244,False
+BRD-K50163129,active,102,0.0,27.0,BRD-K50163129,True,1.0,BRD-K14704277,topoisomerase inhibitor,0.233,1.0,BRD-K11153516,0.367,False
+BRD-K50398167,inactive (max DEGs<=80),55,0.167,,,False,,,,,,,,
+BRD-K50422030,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K50498985,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K50564936,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K50590187,active,178,0.0,251.0,BRD-K50590187,True,1.0,BRD-K49215523,PI3K inhibitor,0.314,1.0,BRD-K98493452,0.291,False
+BRD-K50691590,active,557,0.672,48.0,BRD-K50691590,True,2.0,BRD-K60230970,proteasome inhibitor,0.882,3.0,BRD-A36331462,0.841,True
+BRD-K50859149,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K50938287,active,85,0.0,3.0,BRD-K50938287,True,1.0,BRD-K46386702,EGFR inhibitor,0.284,2.0,BRD-K23677682,0.247,False
+BRD-K51087630,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K51143828,active,152,0.0,5.0,BRD-K51143828,True,1.0,BRD-K51313569,CDK inhibitor,0.128,1.0,BRD-K49456274,0.099,False
+BRD-K51263939,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K51324732,active,152,0.0,1.0,BRD-K51324732,True,1.0,BRD-K14704277,topoisomerase inhibitor,0.137,1.0,BRD-K70914287,0.15,False
+BRD-K51544265,active,108,0.0,299.0,BRD-K51544265,True,1.0,BRD-K13662825,CDK inhibitor,0.373,1.0,BRD-K70401845,0.383,False
+BRD-K51662849,inactive (max DEGs<=80),25,0.0,,,False,,,,,,,,
+BRD-K51677086,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K51747290,inactive (max DEGs<=80),18,0.0,,,False,,,,,,,,
+BRD-K52618540,active,119,0.0,2.0,BRD-K52618540,True,1.0,BRD-K16803204,JAK inhibitor,0.198,1.0,BRD-K70914287,0.178,False
+BRD-K52662033,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K52751261,inactive (max DEGs<=80),27,0.0,,,False,,,,,,,,
+BRD-K52818472,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-K53061490,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K53097745,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K53318339,inactive (max DEGs<=80),21,0.0,,,False,,,,,,,,
+BRD-K53414658,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-K53417444,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K53508936,active,94,0.0,371.0,BRD-K53508936,True,1.0,BRD-K92093830,topoisomerase inhibitor,0.373,1.0,BRD-K70401845,0.292,False
+BRD-K53517854,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K53814070,inactive (max DEGs<=80),31,0.0,,,False,,,,,,,,
+BRD-K53857191,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K53963539,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K53979406,inactive (max DEGs<=80),17,0.0,,,False,,,,,,,,
+BRD-K54006094,inactive (max DEGs<=80),26,0.0,,,False,,,,,,,,
+BRD-K54028654,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K54256913,active,180,0.0,51.0,BRD-K06858286,False,2.0,BRD-A05821830,tubulin polymerization inhibitor,0.638,2.0,BRD-K77987382,0.538,True
+BRD-K54416256,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K54770957,inactive (max DEGs<=80),15,0.0,,,False,,,,,,,,
+BRD-K54847683,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K54936858,inactive (max DEGs<=80),28,0.0,,,False,,,,,,,,
+BRD-K55013654,inactive (max DEGs<=80),21,0.0,,,False,,,,,,,,
+BRD-K55026842,far (no in-domain high-dose signature),91,0.333,,,False,,,,,,,,
+BRD-K55127134,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K55191674,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K55512740,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K55748775,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K55781385,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K55847762,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K55930204,active,81,0.0,384.0,BRD-K55930204,True,1.0,BRD-A56085258,RAF inhibitor,0.32,1.0,BRD-K70401845,0.235,False
+BRD-K55966568,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K56032964,active,184,0.167,127.0,BRD-K56032964,True,1.0,BRD-K44844162,PI3K inhibitor,0.634,1.0,BRD-K37687095,0.527,True
+BRD-K56104152,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K56195681,inactive (max DEGs<=80),59,0.167,,,False,,,,,,,,
+BRD-K56291712,active,230,0.0,125.0,BRD-K12184916,False,4.0,BRD-K59317601,mTOR inhibitor,0.779,2.0,BRD-K13154216,0.595,True
+BRD-K56301217,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K56405753,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K56558538,inactive (max DEGs<=80),53,0.167,,,False,,,,,,,,
+BRD-K56614220,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K56751279,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K56800335,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K56810756,active,90,0.0,42.0,BRD-K56810756,True,1.0,BRD-K98572433,EGFR inhibitor,0.257,1.0,BRD-K77987382,0.351,False
+BRD-K56851771,inactive (max DEGs<=80),73,0.167,,,False,,,,,,,,
+BRD-K57041787,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K57222227,inactive (max DEGs<=80),69,0.2,,,False,,,,,,,,
+BRD-K57252450,active,127,0.0,236.0,BRD-K57252450,True,1.0,BRD-A56085258,RAF inhibitor,0.369,1.0,BRD-K37687095,0.267,False
+BRD-K57371763,inactive (max DEGs<=80),70,0.167,,,False,,,,,,,,
+BRD-K57432881,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K57545991,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K57569181,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K57631554,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K57764956,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K58010567,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K58114536,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K58211978,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K58486055,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K58501140,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-K58626373,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K58736316,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K58951486,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K59013864,inactive (max DEGs<=80),73,0.167,,,False,,,,,,,,
+BRD-K59037100,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K59058766,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K59197931,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K59227464,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K59273480,active,81,0.0,43.0,BRD-K59273480,True,1.0,BRD-K49215523,PI3K inhibitor,0.275,1.0,BRD-K77987382,0.359,False
+BRD-K59331299,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K59332007,inactive (max DEGs<=80),51,0.167,,,False,,,,,,,,
+BRD-K59369769,active,156,0.0,124.0,BRD-K59369769,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.637,2.0,BRD-A33280134,0.462,True
+BRD-K59433843,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-K59436580,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K59506194,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K59524082,active,98,0.0,274.0,BRD-K59524082,True,1.0,BRD-K49215523,PI3K inhibitor,0.357,1.0,BRD-K64785675,0.319,False
+BRD-K59573506,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K59574735,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K59632282,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K59715032,inactive (max DEGs<=80),72,0.167,,,False,,,,,,,,
+BRD-K59875992,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K59929863,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K60160658,inactive (max DEGs<=80),52,0.0,,,False,,,,,,,,
+BRD-K60237333,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K60240222,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-K60341624,inactive (max DEGs<=80),65,0.167,,,False,,,,,,,,
+BRD-K60585088,inactive (max DEGs<=80),68,0.2,,,False,,,,,,,,
+BRD-K60997853,far (no in-domain high-dose signature),150,0.333,,,False,,,,,,,,
+BRD-K61036791,active,114,0.167,226.0,BRD-K61036791,True,1.0,BRD-K57169635,EGFR inhibitor,0.236,1.0,BRD-K98493452,0.221,False
+BRD-K61250553,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K61443650,active,113,0.167,54.0,BRD-K61443650,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.35,3.0,BRD-K77987382,0.36,False
+BRD-K61452026,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K61567297,inactive (max DEGs<=80),42,0.0,,,False,,,,,,,,
+BRD-K61691541,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K61693562,inactive (max DEGs<=80),45,0.0,,,False,,,,,,,,
+BRD-K61988078,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K62196610,far (no in-domain high-dose signature),64,0.333,,,False,,,,,,,,
+BRD-K62200014,inactive (max DEGs<=80),45,0.167,,,False,,,,,,,,
+BRD-K62277907,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K62310379,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K62363391,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K62387885,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K62391742,active,118,0.0,82.0,BRD-K62391742,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.311,1.0,BRD-K85606544,0.309,False
+BRD-K62398570,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K62562723,active,115,0.0,347.0,BRD-K62562723,True,1.0,BRD-A56085258,RAF inhibitor,0.279,1.0,BRD-K98493452,0.234,False
+BRD-K62627508,active,303,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K62676709,active,83,0.167,224.0,BRD-K62676709,True,1.0,BRD-K65928735,JAK inhibitor,0.266,1.0,BRD-K66412701,0.285,False
+BRD-K62685538,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K62734952,inactive (max DEGs<=80),47,0.0,,,False,,,,,,,,
+BRD-K62737565,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K62762455,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-K62858456,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K62965247,active,83,0.0,131.0,BRD-K62965247,True,1.0,BRD-K09078998,mTOR inhibitor,0.34,2.0,BRD-K13154216,0.27,False
+BRD-K62996583,active,86,0.0,58.0,BRD-K62996583,True,1.0,BRD-K19687926,EGFR inhibitor,0.327,3.0,BRD-K85606544,0.223,False
+BRD-K63126190,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K63150726,active,100,0.167,237.0,BRD-K63150726,True,1.0,BRD-K64052750,EGFR inhibitor,0.309,1.0,BRD-K85751432,0.211,False
+BRD-K63178091,active,116,0.0,225.0,BRD-K63178091,True,1.0,BRD-K60866521,PI3K inhibitor,0.22,2.0,BRD-K64785675,0.221,False
+BRD-K63343048,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K63430059,active,83,0.0,275.0,BRD-K63430059,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.312,1.0,BRD-K64785675,0.357,False
+BRD-K63504947,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K63550407,inactive (max DEGs<=80),44,0.0,,,False,,,,,,,,
+BRD-K63630713,inactive (max DEGs<=80),49,0.0,,,False,,,,,,,,
+BRD-K63675182,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K63736853,active,108,0.0,343.0,BRD-K63736853,True,1.0,BRD-K64052750,EGFR inhibitor,0.267,1.0,BRD-K64785675,0.32,False
+BRD-K63750851,far (no in-domain high-dose signature),190,0.333,,,False,,,,,,,,
+BRD-K63828191,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K63861289,active,336,0.667,32.0,BRD-A26423207,False,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-K64338723,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K64504314,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K64622987,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K64755930,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K64838454,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K64874225,active,224,0.0,32.0,BRD-A26423207,False,6.0,BRD-K79131256,tubulin polymerization inhibitor,0.52,1.0,BRD-K36280065,0.726,True
+BRD-K64925568,far (no in-domain high-dose signature),122,0.333,,,False,,,,,,,,
+BRD-K64931368,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K64990520,active,104,0.0,300.0,BRD-K64990520,True,1.0,BRD-K13662825,CDK inhibitor,0.296,2.0,BRD-K70401845,0.255,False
+BRD-K65170927,active,138,0.0,344.0,BRD-K65170927,True,1.0,BRD-A56085258,RAF inhibitor,0.318,1.0,BRD-K70401845,0.316,False
+BRD-K65428967,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K65678996,inactive (max DEGs<=80),51,0.167,,,False,,,,,,,,
+BRD-K65781196,inactive (max DEGs<=80),42,0.167,,,False,,,,,,,,
+BRD-K65820248,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K65991129,inactive (max DEGs<=80),58,0.167,,,False,,,,,,,,
+BRD-K65992024,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K66035042,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K66404838,inactive (max DEGs<=80),66,0.167,,,False,,,,,,,,
+BRD-K66538826,active,161,0.0,97.0,BRD-K66538826,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.439,1.0,BRD-K85606544,0.359,True
+BRD-K66615216,inactive (max DEGs<=80),50,0.0,,,False,,,,,,,,
+BRD-K66876909,active,81,0.0,239.0,BRD-K66876909,True,1.0,BRD-K65928735,JAK inhibitor,0.248,1.0,BRD-K64785675,0.336,False
+BRD-K66911501,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K66937583,inactive (max DEGs<=80),56,0.0,,,False,,,,,,,,
+BRD-K67017579,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K67043667,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K67068943,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K67080878,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K67121414,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K67174965,active,89,0.0,385.0,BRD-K67174965,True,1.0,BRD-K49215523,PI3K inhibitor,0.243,1.0,BRD-K66412701,0.266,False
+BRD-K67277431,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K67525671,active,135,0.0,409.0,BRD-K67525671,True,1.0,BRD-K46386702,EGFR inhibitor,0.259,2.0,BRD-K50168500,0.284,False
+BRD-K67680372,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K67783091,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K67789209,active,82,0.0,197.0,BRD-K67789209,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.35,1.0,BRD-K70914287,0.351,False
+BRD-K67844266,active,187,0.167,107.0,BRD-K67844266,True,1.0,BRD-K60230970,proteasome inhibitor,0.362,3.0,BRD-K78659596,0.315,False
+BRD-K67901620,active,218,0.0,84.0,BRD-K13183738,False,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.374,1.0,BRD-K85606544,0.341,False
+BRD-K67966701,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-K68095457,active,115,0.0,302.0,BRD-K68095457,True,1.0,BRD-K13662825,CDK inhibitor,0.457,2.0,BRD-K70401845,0.287,True
+BRD-K68103045,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K68132782,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K68164687,active,215,0.0,50.0,BRD-K68164687,True,2.0,BRD-A05821830,tubulin polymerization inhibitor,0.586,2.0,BRD-K77987382,0.535,True
+BRD-K68232413,active,92,0.0,337.0,BRD-K68232413,True,1.0,BRD-K02113016,PARP inhibitor,0.331,1.0,BRD-K85606544,0.385,False
+BRD-K68232650,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K68392338,active,100,0.167,19.0,BRD-K68392338,True,1.0,BRD-K49215523,PI3K inhibitor,0.189,1.0,BRD-K85606544,0.172,False
+BRD-K68488863,active,242,0.0,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K68532323,active,173,0.0,50.0,BRD-K68164687,False,2.0,BRD-A05821830,tubulin polymerization inhibitor,0.586,2.0,BRD-K77987382,0.535,True
+BRD-K68552125,active,129,0.667,56.0,BRD-K68552125,True,1.0,BRD-K59317601,mTOR inhibitor,0.313,2.0,BRD-K02389548,0.223,False
+BRD-K68693535,active,97,0.0,219.0,BRD-K68693535,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.253,1.0,BRD-K70914287,0.258,False
+BRD-K68747584,active,196,0.167,121.0,BRD-K68747584,True,1.0,BRD-K33610132,EGFR inhibitor,0.514,1.0,BRD-K70401845,0.516,True
+BRD-K68867920,inactive (max DEGs<=80),48,0.0,,,False,,,,,,,,
+BRD-K68870568,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K68938568,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K69001009,active,100,0.0,59.0,BRD-K69001009,True,1.0,BRD-K57169635,EGFR inhibitor,0.413,1.0,BRD-K85606544,0.215,True
+BRD-K69116396,active,119,0.0,60.0,BRD-K69116396,True,1.0,BRD-K08799216,EGFR inhibitor,0.38,2.0,BRD-K85606544,0.418,True
+BRD-K69122748,inactive (max DEGs<=80),35,0.0,,,False,,,,,,,,
+BRD-K69236721,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K69247067,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K69726342,inactive (max DEGs<=80),43,0.0,,,False,,,,,,,,
+BRD-K69726595,active,135,0.0,53.0,BRD-K69726595,True,1.0,BRD-A28746609,tubulin polymerization inhibitor,0.595,3.0,BRD-K70511574,0.656,True
+BRD-K70301465,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K70301876,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K70330367,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K70358946,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K70463136,active,198,0.0,83.0,BRD-K70463136,True,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.437,2.0,BRD-K85606544,0.454,True
+BRD-K70464547,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K70490179,inactive (max DEGs<=80),55,0.0,,,False,,,,,,,,
+BRD-K70505054,inactive (max DEGs<=80),28,0.0,,,False,,,,,,,,
+BRD-K70507123,inactive (max DEGs<=80),28,0.167,,,False,,,,,,,,
+BRD-K70557564,active,95,0.0,206.0,BRD-K70557564,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.362,1.0,BRD-K70914287,0.356,False
+BRD-K70592483,active,85,0.0,10.0,BRD-K70592483,True,1.0,BRD-K16803204,JAK inhibitor,0.126,1.0,BRD-K70914287,0.199,False
+BRD-K70610771,inactive (max DEGs<=80),34,0.0,,,False,,,,,,,,
+BRD-K70778732,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K70912147,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K70924353,inactive (max DEGs<=80),31,0.0,,,False,,,,,,,,
+BRD-K71035033,active,81,0.0,76.0,BRD-K71035033,True,1.0,BRD-K71480163,AKT inhibitor,0.262,1.0,BRD-K85606544,0.342,False
+BRD-K71058253,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K71075609,inactive (max DEGs<=80),32,0.0,,,False,,,,,,,,
+BRD-K71103788,inactive (max DEGs<=80),33,0.0,,,False,,,,,,,,
+BRD-K71106091,inactive (max DEGs<=80),30,0.0,,,False,,,,,,,,
+BRD-K71164191,inactive (max DEGs<=80),46,0.0,,,False,,,,,,,,
+BRD-K71221037,active,98,0.0,222.0,BRD-K71221037,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.212,1.0,BRD-K70914287,0.242,False
+BRD-K71289571,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K71603915,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K71799949,inactive (max DEGs<=80),54,0.0,,,False,,,,,,,,
+BRD-K71822263,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-K72005722,inactive (max DEGs<=80),34,0.0,,,False,,,,,,,,
+BRD-K72029282,inactive (max DEGs<=80),22,0.0,,,False,,,,,,,,
+BRD-K72093121,inactive (max DEGs<=80),40,0.0,,,False,,,,,,,,
+BRD-K72166146,inactive (max DEGs<=80),38,0.0,,,False,,,,,,,,
+BRD-K72215350,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K72222507,active,81,0.0,198.0,BRD-K72222507,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.401,1.0,BRD-K70914287,0.36,False
+BRD-K72827473,active,298,0.0,119.0,BRD-K28392481,False,2.0,BRD-K25412176,AKT inhibitor,0.657,2.0,BRD-K13154216,0.449,True
+BRD-K72922393,active,122,0.0,38.0,BRD-K72922393,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.298,1.0,BRD-K36280065,0.383,False
+BRD-K72951360,active,344,0.0,122.0,BRD-K72951360,True,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K73088654,active,183,0.167,103.0,BRD-K15108141,False,3.0,BRD-K08547377,topoisomerase inhibitor,0.549,3.0,BRD-A33280134,0.459,True
+BRD-K73107279,inactive (max DEGs<=80),33,0.0,,,False,,,,,,,,
+BRD-K73109821,active,167,0.0,22.0,BRD-K73109821,True,1.0,BRD-A79768653,mTOR inhibitor,0.168,1.0,BRD-K49456274,0.199,False
+BRD-K73196317,active,88,0.0,306.0,BRD-K73196317,True,1.0,BRD-K83699324,PLK inhibitor,0.236,1.0,BRD-K70401845,0.36,False
+BRD-K73237276,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K73319509,active,81,0.0,200.0,BRD-K73319509,True,1.0,BRD-K02113016,PARP inhibitor,0.306,1.0,BRD-K70914287,0.326,False
+BRD-K73381542,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K73440166,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K73524797,inactive (max DEGs<=80),63,0.333,,,False,,,,,,,,
+BRD-K73541271,inactive (max DEGs<=80),71,0.167,,,False,,,,,,,,
+BRD-K73794685,inactive (max DEGs<=80),69,0.333,,,False,,,,,,,,
+BRD-K73815512,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K73999723,inactive (max DEGs<=80),59,0.167,,,False,,,,,,,,
+BRD-K74065929,active,88,0.167,366.0,BRD-K74065929,True,1.0,BRD-K07691486,CDK inhibitor,0.273,1.0,BRD-K77987382,0.295,False
+BRD-K74141488,inactive (max DEGs<=80),68,0.167,,,False,,,,,,,,
+BRD-K74190368,active,81,0.167,242.0,BRD-K74190368,True,1.0,BRD-K95142244,PARP inhibitor,0.251,1.0,BRD-K78113049,0.212,False
+BRD-K74195153,inactive (max DEGs<=80),80,0.2,,,False,,,,,,,,
+BRD-K74305673,far (no in-domain high-dose signature),83,0.667,,,False,,,,,,,,
+BRD-K74339692,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K74363950,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K74371986,active,85,0.0,298.0,BRD-K74371986,True,1.0,BRD-K65928735,JAK inhibitor,0.277,1.0,BRD-K78113049,0.302,False
+BRD-K74514084,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K74717603,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K74763371,active,88,0.0,367.0,BRD-K74763371,True,1.0,BRD-K98572433,EGFR inhibitor,0.271,1.0,BRD-K70401845,0.262,False
+BRD-K74765201,far (no in-domain high-dose signature),78,0.167,,,False,,,,,,,,
+BRD-K75037734,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K75089421,inactive (max DEGs<=80),72,0.167,,,False,,,,,,,,
+BRD-K75295174,active,136,0.0,128.0,BRD-K75295174,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.511,2.0,BRD-A33280134,0.465,True
+BRD-K75641298,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K75649340,active,195,0.0,108.0,BRD-K49350383,False,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.41,1.0,BRD-K85606544,0.289,True
+BRD-K75699339,far (no in-domain high-dose signature),74,0.333,,,False,,,,,,,,
+BRD-K75844781,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K75911534,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K75958547,active,176,0.0,112.0,BRD-K75958547,True,1.0,BRD-K03390685,MEK inhibitor,0.539,3.0,BRD-K85751432,0.441,True
+BRD-K76022557,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K76197012,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K76205745,active,86,0.167,269.0,BRD-K76205745,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.35,1.0,BRD-K64785675,0.334,False
+BRD-K76210423,active,137,0.333,285.0,BRD-K76210423,True,1.0,BRD-K49215523,PI3K inhibitor,0.372,1.0,BRD-K98493452,0.335,False
+BRD-K76617868,inactive (max DEGs<=80),71,0.333,,,False,,,,,,,,
+BRD-K76674262,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K76775527,inactive (max DEGs<=80),71,0.333,,,False,,,,,,,,
+BRD-K76810206,active,87,0.0,232.0,BRD-K76810206,True,1.0,BRD-K44844162,PI3K inhibitor,0.317,1.0,BRD-K98493452,0.274,False
+BRD-K76812510,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K76841105,active,124,0.333,233.0,BRD-K76841105,True,1.0,BRD-K49215523,PI3K inhibitor,0.263,1.0,BRD-K98493452,0.243,False
+BRD-K76908866,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K76953762,inactive (max DEGs<=80),65,0.167,,,False,,,,,,,,
+BRD-K77396579,active,93,0.0,288.0,BRD-K77396579,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.371,1.0,BRD-K64785675,0.34,False
+BRD-K77561571,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K77625799,active,86,0.0,68.0,BRD-K77625799,True,1.0,BRD-K57169635,EGFR inhibitor,0.513,3.0,BRD-K98493452,0.301,True
+BRD-K77641333,active,83,0.0,267.0,BRD-K77641333,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.36,1.0,BRD-K98493452,0.346,False
+BRD-K77685957,active,100,0.0,94.0,BRD-K77685957,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.567,1.0,BRD-K85606544,0.359,True
+BRD-K77695569,far (no in-domain high-dose signature),65,0.333,,,False,,,,,,,,
+BRD-K77947974,inactive (max DEGs<=80),66,0.333,,,False,,,,,,,,
+BRD-K78010432,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K78055238,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K78096648,active,144,0.0,99.0,BRD-K78096648,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.465,1.0,BRD-K98493452,0.314,True
+BRD-K78118466,inactive (max DEGs<=80),58,0.2,,,False,,,,,,,,
+BRD-K78126613,inactive (max DEGs<=80),73,0.167,,,False,,,,,,,,
+BRD-K78303961,inactive (max DEGs<=80),75,0.167,,,False,,,,,,,,
+BRD-K78431006,active,142,0.2,129.0,BRD-K78431006,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.492,1.0,BRD-A33280134,0.395,True
+BRD-K78485176,inactive (max DEGs<=80),63,0.0,,,False,,,,,,,,
+BRD-K78513633,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K78692225,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K79095980,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K79102359,active,91,0.0,277.0,BRD-K79102359,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.326,1.0,BRD-K98493452,0.35,False
+BRD-K79254416,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K79404599,active,141,0.333,24.0,BRD-K79404599,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.353,2.0,BRD-K11153516,0.27,False
+BRD-K79501723,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K79595931,inactive (max DEGs<=80),47,0.167,,,False,,,,,,,,
+BRD-K79602928,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K79759585,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K79989959,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K80043866,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K80082640,active,82,0.0,186.0,BRD-K80082640,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.248,1.0,BRD-K98493452,0.231,False
+BRD-K80267133,active,95,0.167,319.0,BRD-K80267133,True,1.0,BRD-K13662825,CDK inhibitor,0.444,2.0,BRD-K70401845,0.419,True
+BRD-K80396088,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K80608265,active,115,0.0,176.0,BRD-K80608265,True,1.0,BRD-A05821830,tubulin polymerization inhibitor,0.354,3.0,BRD-K70511574,0.32,False
+BRD-K80700417,active,142,0.167,70.0,BRD-K19540840,False,2.0,BRD-K19687926,EGFR inhibitor,0.481,2.0,BRD-K85751432,0.289,True
+BRD-K80738081,inactive (max DEGs<=80),42,0.0,,,False,,,,,,,,
+BRD-K81144366,active,92,0.0,199.0,BRD-K81144366,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.269,1.0,BRD-K70914287,0.337,False
+BRD-K81258678,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K81272440,active,81,0.167,312.0,BRD-K81272440,True,1.0,BRD-K80343549,EGFR inhibitor,0.345,1.0,BRD-K70401845,0.39,False
+BRD-K81332461,inactive (max DEGs<=80),77,0.167,,,False,,,,,,,,
+BRD-K81458380,active,90,0.167,221.0,BRD-K81458380,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.241,1.0,BRD-K70914287,0.22,False
+BRD-K81473089,active,177,0.0,208.0,BRD-K81473089,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.349,1.0,BRD-K85606544,0.296,False
+BRD-K81528515,active,111,0.0,326.0,BRD-K81528515,True,1.0,BRD-K80343549,EGFR inhibitor,0.362,1.0,BRD-K85606544,0.465,True
+BRD-K81672972,inactive (max DEGs<=80),24,0.0,,,False,,,,,,,,
+BRD-K81694556,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K81795818,active,104,0.0,177.0,BRD-K81795818,True,1.0,BRD-K49215523,PI3K inhibitor,0.331,1.0,BRD-K98493452,0.231,False
+BRD-K81916719,active,109,0.167,181.0,BRD-K81916719,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.246,1.0,BRD-K85606544,0.285,False
+BRD-K81957469,active,102,0.0,207.0,BRD-K81957469,True,1.0,BRD-K02113016,PARP inhibitor,0.317,1.0,BRD-K85606544,0.327,False
+BRD-K82135108,active,122,0.0,174.0,BRD-K82135108,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.3,1.0,BRD-K85606544,0.311,False
+BRD-K82225283,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K82234479,inactive (max DEGs<=80),79,0.167,,,False,,,,,,,,
+BRD-K82236179,active,83,0.0,220.0,BRD-K82236179,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.29,1.0,BRD-K49456274,0.226,False
+BRD-K82467063,inactive (max DEGs<=80),69,0.167,,,False,,,,,,,,
+BRD-K82522873,active,189,0.0,313.0,BRD-K82522873,True,1.0,BRD-K98572433,EGFR inhibitor,0.291,2.0,BRD-K70401845,0.335,False
+BRD-K82603084,active,94,0.0,314.0,BRD-K82603084,True,1.0,BRD-K87909389,CDK inhibitor,0.395,2.0,BRD-K70401845,0.41,False
+BRD-K82677201,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K82746043,active,174,0.167,83.0,BRD-K70463136,False,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.437,2.0,BRD-K85606544,0.454,True
+BRD-K82767007,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K82795137,active,90,0.0,211.0,BRD-K82795137,True,1.0,BRD-K71480163,AKT inhibitor,0.27,1.0,BRD-K70914287,0.259,False
+BRD-K82846253,active,93,0.0,205.0,BRD-K82846253,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.334,1.0,BRD-K70914287,0.309,False
+BRD-K82941592,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K82967685,active,81,0.0,324.0,BRD-K82967685,True,1.0,BRD-K80343549,EGFR inhibitor,0.366,1.0,BRD-K85606544,0.411,True
+BRD-K83057217,inactive (max DEGs<=80),60,0.0,,,False,,,,,,,,
+BRD-K83186168,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K83405785,active,129,0.0,315.0,BRD-K83405785,True,1.0,BRD-K87909389,CDK inhibitor,0.425,2.0,BRD-K70401845,0.427,True
+BRD-K83508485,inactive (max DEGs<=80),73,0.0,,,False,,,,,,,,
+BRD-K83720053,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K83794243,active,141,0.0,183.0,BRD-K83794243,True,1.0,BRD-K80343549,EGFR inhibitor,0.328,1.0,BRD-K85606544,0.351,False
+BRD-K83963101,active,114,0.0,175.0,BRD-K83963101,True,1.0,BRD-K02113016,PARP inhibitor,0.447,1.0,BRD-A33280134,0.416,True
+BRD-K84011460,active,151,0.0,163.0,BRD-K84011460,True,1.0,BRD-K49215523,PI3K inhibitor,0.404,2.0,BRD-K85751432,0.366,False
+BRD-K84091759,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K84163249,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K84466663,active,108,0.0,167.0,BRD-K84466663,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.335,1.0,BRD-K85751432,0.284,False
+BRD-K84564571,inactive (max DEGs<=80),78,0.0,,,False,,,,,,,,
+BRD-K84683831,active,94,0.0,88.0,BRD-K84683831,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.315,1.0,BRD-K85606544,0.401,False
+BRD-K84698278,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K84748119,active,83,0.0,165.0,BRD-K84748119,True,1.0,BRD-K02113016,PARP inhibitor,0.301,1.0,BRD-K49456274,0.308,False
+BRD-K84783599,active,142,0.0,203.0,BRD-K84783599,True,1.0,BRD-K49215523,PI3K inhibitor,0.307,1.0,BRD-K70914287,0.345,False
+BRD-K84794093,active,102,0.0,202.0,BRD-K84794093,True,1.0,BRD-K49215523,PI3K inhibitor,0.36,1.0,BRD-K70914287,0.337,False
+BRD-K84798689,inactive (max DEGs<=80),58,0.0,,,False,,,,,,,,
+BRD-K84810405,active,85,0.0,193.0,BRD-K84810405,True,1.0,BRD-K49215523,PI3K inhibitor,0.274,1.0,BRD-K70914287,0.298,False
+BRD-K84892605,active,85,0.0,194.0,BRD-K84892605,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.333,1.0,BRD-K85606544,0.327,False
+BRD-K84925803,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K84986517,active,82,0.167,191.0,BRD-K84986517,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.378,1.0,BRD-K85606544,0.277,False
+BRD-K84996356,active,126,0.167,12.0,BRD-K84996356,True,1.0,BRD-K64890080,PLK inhibitor,0.42,2.0,BRD-K85606544,0.313,True
+BRD-K85090592,active,83,0.0,164.0,BRD-K85090592,True,1.0,BRD-K49215523,PI3K inhibitor,0.282,1.0,BRD-K70401845,0.375,False
+BRD-K85119730,active,100,0.0,171.0,BRD-K85119730,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.248,1.0,BRD-K78113049,0.152,False
+BRD-K85140930,active,150,0.0,103.0,BRD-K15108141,False,3.0,BRD-K08547377,topoisomerase inhibitor,0.549,3.0,BRD-A33280134,0.459,True
+BRD-K85307935,active,123,0.0,172.0,BRD-K85307935,True,1.0,BRD-K80343549,EGFR inhibitor,0.305,1.0,BRD-K70914287,0.175,False
+BRD-K85337334,inactive (max DEGs<=80),72,0.167,,,False,,,,,,,,
+BRD-K85406984,active,98,0.167,223.0,BRD-K85406984,True,1.0,BRD-K02113016,PARP inhibitor,0.259,1.0,BRD-K85606544,0.235,False
+BRD-K85679373,active,87,0.0,327.0,BRD-K85679373,True,1.0,BRD-K80343549,EGFR inhibitor,0.363,1.0,BRD-K85606544,0.392,False
+BRD-K85833139,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K85925969,active,106,0.0,184.0,BRD-K85925969,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.338,1.0,BRD-K36280065,0.289,False
+BRD-K86118762,active,136,0.0,178.0,BRD-K86118762,True,1.0,BRD-K44844162,PI3K inhibitor,0.568,1.0,BRD-K70401845,0.44,True
+BRD-K86301799,inactive (max DEGs<=80),41,0.0,,,False,,,,,,,,
+BRD-K86307448,active,83,0.0,325.0,BRD-K86307448,True,1.0,BRD-K80343549,EGFR inhibitor,0.377,1.0,BRD-K85606544,0.331,False
+BRD-K86525559,active,245,0.167,122.0,BRD-K72951360,False,8.0,BRD-K68346641,topoisomerase inhibitor,0.832,3.0,BRD-A33280134,0.688,True
+BRD-K86816506,active,87,0.0,102.0,BRD-K86816506,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.305,1.0,BRD-K85606544,0.316,False
+BRD-K86882815,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K86892782,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K86930074,active,133,0.0,65.0,BRD-K86930074,True,1.0,BRD-K57169635,EGFR inhibitor,0.393,2.0,BRD-K85751432,0.354,False
+BRD-K87156652,inactive (max DEGs<=80),51,0.0,,,False,,,,,,,,
+BRD-K87300616,active,131,0.167,348.0,BRD-K87300616,True,1.0,BRD-K44844162,PI3K inhibitor,0.255,2.0,BRD-K98493452,0.343,False
+BRD-K87782578,active,198,0.0,90.0,BRD-K87782578,True,1.0,BRD-K44844162,PI3K inhibitor,0.513,1.0,BRD-K37687095,0.47,True
+BRD-K88358234,active,93,0.167,297.0,BRD-K88358234,True,1.0,BRD-K65928735,JAK inhibitor,0.251,1.0,BRD-K98493452,0.28,False
+BRD-K88366685,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K88429204,active,130,0.333,109.0,BRD-K88429204,True,1.0,BRD-K44844162,PI3K inhibitor,0.526,1.0,BRD-K13154216,0.367,True
+BRD-K88506063,active,92,0.167,98.0,BRD-K88506063,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.442,1.0,BRD-K85606544,0.329,True
+BRD-K88510285,active,411,0.167,48.0,BRD-K50691590,False,2.0,BRD-K60230970,proteasome inhibitor,0.882,3.0,BRD-A36331462,0.841,True
+BRD-K88544581,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K88611939,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K89162000,active,127,0.0,351.0,BRD-K89162000,True,1.0,BRD-K98572433,EGFR inhibitor,0.33,1.0,BRD-K98493452,0.21,False
+BRD-K89208535,active,85,0.0,278.0,BRD-K89208535,True,1.0,BRD-K57169635,EGFR inhibitor,0.334,2.0,BRD-K64785675,0.259,False
+BRD-K89274813,inactive (max DEGs<=80),79,0.0,,,False,,,,,,,,
+BRD-K89348303,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K89375097,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K89917372,active,89,0.0,295.0,BRD-K89917372,True,1.0,BRD-K49215523,PI3K inhibitor,0.3,1.0,BRD-K98493452,0.317,False
+BRD-K89997465,active,116,0.0,352.0,BRD-K89997465,True,1.0,BRD-A05821830,tubulin polymerization inhibitor,0.417,1.0,BRD-K77987382,0.33,True
+BRD-K90195324,inactive (max DEGs<=80),54,0.333,,,False,,,,,,,,
+BRD-K90333595,active,109,0.167,268.0,BRD-K90333595,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.337,1.0,BRD-K78113049,0.314,False
+BRD-K90777969,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K90825648,active,86,0.167,359.0,BRD-K90825648,True,1.0,BRD-K98572433,EGFR inhibitor,0.464,1.0,BRD-K98493452,0.327,True
+BRD-K90868879,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K90948141,inactive (max DEGs<=80),70,0.0,,,False,,,,,,,,
+BRD-K91111634,inactive (max DEGs<=80),73,0.333,,,False,,,,,,,,
+BRD-K91159026,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K91263825,active,136,0.0,66.0,BRD-K97309399,False,3.0,BRD-K57169635,EGFR inhibitor,0.495,1.0,BRD-K37687095,0.261,True
+BRD-K91301684,active,90,0.0,271.0,BRD-K91301684,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.376,1.0,BRD-K78113049,0.33,False
+BRD-K91308639,inactive (max DEGs<=80),66,0.167,,,False,,,,,,,,
+BRD-K91315211,inactive (max DEGs<=80),56,0.167,,,False,,,,,,,,
+BRD-K91336023,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K91456750,inactive (max DEGs<=80),48,0.2,,,False,,,,,,,,
+BRD-K91495480,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K91544578,inactive (max DEGs<=80),80,0.167,,,False,,,,,,,,
+BRD-K91601245,far (no in-domain high-dose signature),65,0.333,,,False,,,,,,,,
+BRD-K91740057,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K91822704,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K91825936,active,173,0.167,93.0,BRD-K91825936,True,2.0,BRD-K74057757,tubulin polymerization inhibitor,0.564,1.0,BRD-K85606544,0.375,True
+BRD-K92041145,inactive (max DEGs<=80),63,0.167,,,False,,,,,,,,
+BRD-K92049597,active,167,0.0,110.0,BRD-K92049597,True,1.0,BRD-K44844162,PI3K inhibitor,0.469,1.0,BRD-K64785675,0.323,True
+BRD-K92213669,active,169,0.0,273.0,BRD-K92213669,True,1.0,BRD-K57169635,EGFR inhibitor,0.393,2.0,BRD-K64785675,0.341,False
+BRD-K92241597,active,100,0.0,249.0,BRD-K92241597,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.424,1.0,BRD-K85606544,0.304,True
+BRD-K92301463,far (no in-domain high-dose signature),118,0.0,,,False,,,,,,,,
+BRD-K92303087,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K92428153,active,196,0.167,114.0,BRD-K92428153,True,1.0,BRD-K56334280,topoisomerase inhibitor,0.526,3.0,BRD-A33280134,0.422,True
+BRD-K92441787,active,138,0.0,229.0,BRD-K92441787,True,1.0,BRD-K87737963,JAK inhibitor,0.251,1.0,BRD-K98493452,0.273,False
+BRD-K92467929,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K92613113,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K92657060,active,92,0.0,365.0,BRD-K92657060,True,1.0,BRD-A56085258,RAF inhibitor,0.286,1.0,BRD-K66412701,0.211,False
+BRD-K92723993,active,113,0.0,364.0,BRD-K92723993,True,1.0,BRD-K98572433,EGFR inhibitor,0.367,1.0,BRD-K85606544,0.255,False
+BRD-K92758126,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K92848252,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K92968657,active,84,0.167,290.0,BRD-K92968657,True,1.0,BRD-K95142244,PARP inhibitor,0.332,1.0,BRD-K64785675,0.276,False
+BRD-K92984783,active,95,0.0,291.0,BRD-K92984783,True,1.0,BRD-K65928735,JAK inhibitor,0.273,1.0,BRD-K98493452,0.297,False
+BRD-K93034159,far (no in-domain high-dose signature),91,0.333,,,False,,,,,,,,
+BRD-K93123848,active,131,0.0,92.0,BRD-K93123848,True,1.0,BRD-A56085258,RAF inhibitor,0.433,1.0,BRD-K85606544,0.38,True
+BRD-K93208532,active,98,0.0,357.0,BRD-K93208532,True,1.0,BRD-K98572433,EGFR inhibitor,0.476,1.0,BRD-K64785675,0.264,True
+BRD-K93255255,inactive (max DEGs<=80),75,0.333,,,False,,,,,,,,
+BRD-K93460210,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K93461745,active,95,0.0,356.0,BRD-K93461745,True,1.0,BRD-K98572433,EGFR inhibitor,0.476,1.0,BRD-K64785675,0.229,True
+BRD-K93618743,inactive (max DEGs<=80),72,0.0,,,False,,,,,,,,
+BRD-K93633846,active,112,0.0,241.0,BRD-K93633846,True,1.0,BRD-K98572433,EGFR inhibitor,0.329,1.0,BRD-K98493452,0.283,False
+BRD-K93645900,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K93754473,inactive (max DEGs<=80),61,0.0,,,False,,,,,,,,
+BRD-K93767137,active,82,0.0,358.0,BRD-K93767137,True,1.0,BRD-K98572433,EGFR inhibitor,0.406,1.0,BRD-K98493452,0.282,False
+BRD-K93779381,far (no in-domain high-dose signature),-1,1.0,,,False,,,,,,,,
+BRD-K93869735,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K93880783,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K93918653,inactive (max DEGs<=80),74,0.0,,,False,,,,,,,,
+BRD-K93944989,far (no in-domain high-dose signature),170,0.0,,,False,,,,,,,,
+BRD-K94288301,active,89,0.167,95.0,BRD-K94288301,True,1.0,BRD-A56085258,RAF inhibitor,0.448,1.0,BRD-K85606544,0.374,True
+BRD-K94293891,active,83,0.167,266.0,BRD-K94293891,True,1.0,BRD-K49215523,PI3K inhibitor,0.373,1.0,BRD-K98493452,0.354,False
+BRD-K94397152,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K94420399,active,92,0.0,279.0,BRD-K94420399,True,1.0,BRD-K64052750,EGFR inhibitor,0.336,1.0,BRD-K98493452,0.336,False
+BRD-K94436377,inactive (max DEGs<=80),65,0.0,,,False,,,,,,,,
+BRD-K94534639,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K94830329,inactive (max DEGs<=80),67,0.0,,,False,,,,,,,,
+BRD-K95237249,inactive (max DEGs<=80),80,0.0,,,False,,,,,,,,
+BRD-K95260951,inactive (max DEGs<=80),60,0.167,,,False,,,,,,,,
+BRD-K95412502,far (no in-domain high-dose signature),73,0.333,,,False,,,,,,,,
+BRD-K95739795,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K95763993,inactive (max DEGs<=80),61,0.167,,,False,,,,,,,,
+BRD-K95773607,active,96,0.0,69.0,BRD-K95773607,True,1.0,BRD-K92428232,PLK inhibitor,0.419,1.0,BRD-K37687095,0.275,True
+BRD-K95880107,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K95921201,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K96042922,inactive (max DEGs<=80),57,0.167,,,False,,,,,,,,
+BRD-K96123349,far (no in-domain high-dose signature),130,0.5,,,False,,,,,,,,
+BRD-K96194081,active,95,0.0,66.0,BRD-K97309399,False,3.0,BRD-K57169635,EGFR inhibitor,0.495,1.0,BRD-K37687095,0.261,True
+BRD-K96319534,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K96342952,inactive (max DEGs<=80),70,0.167,,,False,,,,,,,,
+BRD-K96550715,far (no in-domain high-dose signature),50,0.333,,,False,,,,,,,,
+BRD-K96615647,inactive (max DEGs<=80),77,0.0,,,False,,,,,,,,
+BRD-K96671969,active,128,0.0,293.0,BRD-K96671969,True,1.0,BRD-K98572433,EGFR inhibitor,0.313,1.0,BRD-K78113049,0.283,False
+BRD-K96720755,active,142,0.167,283.0,BRD-K96720755,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.329,1.0,BRD-K98493452,0.391,False
+BRD-K96740444,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K96862998,inactive (max DEGs<=80),71,0.0,,,False,,,,,,,,
+BRD-K96936751,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K97010173,inactive (max DEGs<=80),68,0.0,,,False,,,,,,,,
+BRD-K97045029,inactive (max DEGs<=80),53,0.0,,,False,,,,,,,,
+BRD-K97101532,inactive (max DEGs<=80),79,0.167,,,False,,,,,,,,
+BRD-K97158071,active,99,0.167,354.0,BRD-K97158071,True,1.0,BRD-K98572433,EGFR inhibitor,0.487,1.0,BRD-K98493452,0.271,True
+BRD-K97181089,active,124,0.0,280.0,BRD-K97181089,True,1.0,BRD-K49215523,PI3K inhibitor,0.353,1.0,BRD-K64785675,0.346,False
+BRD-K97309399,active,133,0.0,66.0,BRD-K97309399,True,3.0,BRD-K57169635,EGFR inhibitor,0.495,1.0,BRD-K37687095,0.261,True
+BRD-K97399794,active,205,0.0,31.0,BRD-K97399794,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.456,2.0,BRD-K36280065,0.39,True
+BRD-K97428065,inactive (max DEGs<=80),59,0.0,,,False,,,,,,,,
+BRD-K97440753,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K97472745,active,85,0.0,261.0,BRD-K97472745,True,1.0,BRD-K49215523,PI3K inhibitor,0.292,1.0,BRD-K66412701,0.261,False
+BRD-K97530723,inactive (max DEGs<=80),75,0.0,,,False,,,,,,,,
+BRD-K97564742,active,151,0.167,244.0,BRD-K97564742,True,1.0,BRD-K45152786,topoisomerase inhibitor,0.256,1.0,BRD-K64785675,0.341,False
+BRD-K97643133,active,130,0.0,286.0,BRD-K97643133,True,1.0,BRD-K49215523,PI3K inhibitor,0.438,1.0,BRD-K64785675,0.406,True
+BRD-K97729603,active,119,0.0,380.0,BRD-K97729603,True,1.0,BRD-K87909389,CDK inhibitor,0.389,2.0,BRD-K98493452,0.28,False
+BRD-K97746869,inactive (max DEGs<=80),64,0.0,,,False,,,,,,,,
+BRD-K97799481,inactive (max DEGs<=80),76,0.0,,,False,,,,,,,,
+BRD-K97884852,inactive (max DEGs<=80),66,0.0,,,False,,,,,,,,
+BRD-K97963946,active,113,0.167,67.0,BRD-K97963946,True,1.0,BRD-K92428232,PLK inhibitor,0.432,1.0,BRD-K37687095,0.267,True
+BRD-K98004573,active,173,0.333,37.0,BRD-K98004573,True,1.0,BRD-K79131256,tubulin polymerization inhibitor,0.442,1.0,BRD-K36280065,0.482,True
+BRD-K98530306,active,116,0.0,381.0,BRD-K98530306,True,1.0,BRD-K98572433,EGFR inhibitor,0.414,1.0,BRD-K98493452,0.323,True
+BRD-K98624455,inactive (max DEGs<=80),69,0.0,,,False,,,,,,,,
+BRD-K98733875,active,93,0.167,369.0,BRD-K98733875,True,1.0,BRD-K92093830,topoisomerase inhibitor,0.358,1.0,BRD-K70401845,0.248,False
+BRD-K98769987,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K99092662,active,98,0.0,265.0,BRD-K99092662,True,1.0,BRD-K98572433,EGFR inhibitor,0.294,1.0,BRD-K85751432,0.287,False
+BRD-K99257182,inactive (max DEGs<=80),68,0.167,,,False,,,,,,,,
+BRD-K99383816,active,151,0.0,259.0,BRD-K99383816,True,1.0,BRD-K49215523,PI3K inhibitor,0.341,1.0,BRD-K78113049,0.283,False
+BRD-K99451608,inactive (max DEGs<=80),57,0.0,,,False,,,,,,,,
+BRD-K99504665,active,120,0.0,287.0,BRD-K99504665,True,1.0,BRD-K49215523,PI3K inhibitor,0.37,1.0,BRD-K64785675,0.419,True
+BRD-K99545815,far (no in-domain high-dose signature),72,0.333,,,False,,,,,,,,
+BRD-K99604664,active,88,0.0,96.0,BRD-K99604664,True,1.0,BRD-K74057757,tubulin polymerization inhibitor,0.461,1.0,BRD-K85606544,0.363,True
+BRD-K99749624,inactive (max DEGs<=80),62,0.0,,,False,,,,,,,,
+BRD-K99792991,far (no in-domain high-dose signature),135,0.333,,,False,,,,,,,,
+BRD-K99964838,active,181,0.0,62.0,BRD-K99964838,True,1.0,BRD-K03390685,MEK inhibitor,0.483,2.0,BRD-K85606544,0.476,True
+BRD-M39350793,inactive (max DEGs<=80),37,0.0,,,False,,,,,,,,
+BRD-M80207679,active,120,0.167,320.0,BRD-M80207679,True,1.0,BRD-K80343549,EGFR inhibitor,0.376,1.0,BRD-K70401845,0.405,False
+BRD-M89827113,inactive (max DEGs<=80),59,0.167,,,False,,,,,,,,

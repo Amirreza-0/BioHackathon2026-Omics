@@ -1,0 +1,16 @@
+,centroid|per_class,centroid|multiclass,knn|per_class,knn|multiclass,logreg|per_class,logreg|multiclass,rf|per_class,rf|multiclass,mlp|per_class,mlp|multiclass,ens_mean|per_class,ens_stack|per_class
+JAK inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RAF inhibitor,0.0,0.25,0.25,0.25,0.0,0.0,0.0,0.5,0.0,0.25,0.0,0.25
+PARP inhibitor,0.25,0.25,0.0,0.0,0.25,0.25,0.0,0.0,0.25,0.25,0.25,0.25
+PI3K inhibitor,0.5,0.75,0.5,0.5,0.25,0.25,0.0,0.0,0.25,0.25,0.25,0.5
+AKT inhibitor,0.25,0.25,0.75,0.75,0.5,0.5,0.5,1.0,0.5,0.5,0.5,0.5
+CDK inhibitor,0.5,0.5,0.833,0.833,0.5,0.5,0.667,0.667,0.833,0.833,0.833,0.833
+EGFR inhibitor,0.8,0.8,0.3,0.3,0.7,0.7,0.9,0.9,0.7,0.7,0.8,0.8
+topoisomerase inhibitor,0.727,0.727,0.727,0.727,0.818,0.727,0.727,0.727,0.727,0.818,0.727,0.727
+tubulin polymerization inhibitor,0.75,0.75,0.875,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.75,0.75
+PLK inhibitor,0.5,0.75,1.0,1.0,1.0,0.75,0.5,0.75,0.75,1.0,1.0,1.0
+HDAC inhibitor,0.889,0.889,0.889,0.889,0.889,0.889,0.889,0.889,0.889,0.889,0.889,0.889
+mTOR inhibitor,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.75,1.0,1.0
+MEK inhibitor,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+HSP inhibitor,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+proteasome inhibitor,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,13 @@
+,frac_supported,n_no_readout,agree_with_consensus
+centroid|per_class,0.52,3,0.93
+centroid|multiclass,0.52,3,1.0
+knn|per_class,0.45,3,0.79
+knn|multiclass,0.45,3,0.79
+logreg|per_class,0.48,3,0.9
+logreg|multiclass,0.52,3,0.93
+rf|per_class,0.48,3,0.76
+rf|multiclass,0.48,3,0.76
+mlp|per_class,0.45,6,0.76
+mlp|multiclass,0.52,4,0.86
+ens_mean|per_class,0.48,3,0.97
+ens_stack|per_class,0.48,3,0.97

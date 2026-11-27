@@ -1,0 +1,4 @@
+version,silhouette_class,silhouette_plate,nn_other_compound_same_class
+raw z,0.152,-0.252,0.621
+gene-normalized,-0.721,-0.694,0.542
+plate-centred + gene-normalized,-0.681,-0.727,0.531

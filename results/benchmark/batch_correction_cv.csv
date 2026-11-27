@@ -1,0 +1,6 @@
+model,raw z,gene-normalized,plate-centred + gene-normalized
+centroid,0.6563,0.4546,0.3436
+knn,0.6382,0.6382,0.5224
+logreg,0.6137,0.6321,0.5805
+mlp,0.6663,0.5964,0.5631
+rf,0.6649,0.6883,0.5659

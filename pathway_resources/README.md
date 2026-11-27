@@ -35,3 +35,19 @@ Signature score = z · w, standardized against 500 gene-label permutations; comp
 doses ≥ 3.33 µM, robust-z over training compounds. A call is *pathway-supported* when the expected
 readout(s) of the called class (the `PRIORS` dict in the notebook — the author's mapping from target
 biology, not from these databases) reach robust z ≥ 1. HDAC has no readout.
+
+## STRING associations among the landmark genes
+
+`l1000_string_edges.csv` — 12,939 undirected STRING associations among the 978 landmark genes (934 genes have at least one), used by
+`src/pathway_graph_models.ipynb` for the gene-graph and gene-pair experiments. Columns: `probe_a`, `probe_b`, `symbol_a`, `symbol_b`,
+`score` (STRING combined score, 0.4 to 1; 0.4 is STRING's "medium confidence"). Median degree 14 at score ≥ 0.4, 5 at ≥ 0.7, 3 at ≥ 0.9.
+
+Source: STRING v12.0, human (taxon 9606), Szklarczyk et al. 2023, *Nucleic Acids Res* 51:D638, doi:10.1093/nar/gkac1000, through the
+version-pinned REST API `https://version-12-0.string-db.org/api` (`get_string_ids`, then `network`). Only gene symbols are sent; 973 of
+978 symbols map to a STRING protein. Like the pathway weights, this is gene-level prior knowledge: it contains nothing about the compounds.
+
+```bash
+python pathway_resources/build_l1000_string_edges.py                 # from the project root; standard library only, needs internet
+shasum -a 256 pathway_resources/l1000_string_edges.csv
+# built on 2026-11-27: 10b1f7838bcf7c2da572ea65bcb2da95d82411e525bcde8422c38705450ad497
+```
