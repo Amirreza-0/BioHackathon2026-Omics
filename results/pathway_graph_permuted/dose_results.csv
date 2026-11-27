@@ -1,0 +1,52 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+dose,dose: all-dose mean | centroid,0.076,0.052,0.016,0.057,0.225,raw | centroid,-0.003,-0.021,0.015,4/10,no evidence
+dose,dose: all-dose mean | LR,0.103,0.088,0.016,0.082,0.274,raw | LR,0.019,-0.014,0.053,10/10,no evidence
+dose,dose: all-dose mean | ensemble,0.081,0.066,0.024,0.063,0.231,raw | ensemble,0.004,-0.016,0.024,5/10,no evidence
+dose,dose: top-1 | centroid,0.064,0.057,0.009,0.057,0.241,raw | centroid,0.002,-0.023,0.028,5/10,no evidence
+dose,dose: top-1 | LR,0.052,0.055,0.012,0.055,0.234,raw | LR,-0.014,-0.039,0.009,1/10,no evidence
+dose,dose: top-1 | ensemble,0.061,0.065,0.007,0.058,0.236,raw | ensemble,0.003,-0.023,0.033,5/10,no evidence
+dose,dose: top-2 | centroid,0.089,0.055,0.018,0.054,0.236,raw | centroid,0.0,0.0,0.0,0/10,no evidence
+dose,dose: top-2 | LR,0.099,0.065,0.012,0.076,0.256,raw | LR,-0.004,-0.026,0.019,4/10,no evidence
+dose,dose: top-2 | ensemble,0.081,0.058,0.023,0.064,0.239,raw | ensemble,-0.005,-0.02,0.009,4/10,no evidence
+dose,dose: top-3 | centroid,0.085,0.056,0.021,0.063,0.225,raw | centroid,0.001,-0.01,0.014,8/10,no evidence
+dose,dose: top-3 | LR,0.068,0.069,0.018,0.066,0.266,raw | LR,-0.0,-0.031,0.035,5/10,no evidence
+dose,dose: top-3 | ensemble,0.079,0.059,0.019,0.067,0.217,raw | ensemble,-0.004,-0.027,0.02,4/10,no evidence
+dose,dose: activity-weighted mean | centroid,0.08,0.078,0.014,0.07,0.24,raw | centroid,0.022,-0.001,0.043,9/10,no evidence
+dose,dose: activity-weighted mean | LR,0.082,0.079,0.018,0.083,0.246,raw | LR,0.01,-0.022,0.043,8/10,no evidence
+dose,dose: activity-weighted mean | ensemble,0.084,0.075,0.019,0.08,0.224,raw | ensemble,0.012,-0.006,0.03,9/10,no evidence
+dose,dose: MODZ (dose-correlation weights) | centroid,0.091,0.052,0.016,0.061,0.213,raw | centroid,-0.003,-0.021,0.016,4/10,no evidence
+dose,dose: MODZ (dose-correlation weights) | LR,0.092,0.089,0.015,0.079,0.262,raw | LR,0.02,-0.016,0.059,10/10,no evidence
+dose,dose: MODZ (dose-correlation weights) | ensemble,0.078,0.072,0.016,0.077,0.237,raw | ensemble,0.01,-0.015,0.034,7/10,no evidence
+dose,dose: most active dose | centroid,0.068,0.04,0.016,0.042,0.251,raw | centroid,-0.015,-0.039,0.01,0/10,no evidence
+dose,dose: most active dose | LR,0.033,0.039,0.014,0.052,0.223,raw | LR,-0.03,-0.056,0.009,1/10,no evidence
+dose,dose: most active dose | ensemble,0.075,0.046,0.017,0.053,0.243,raw | ensemble,-0.017,-0.039,0.009,2/10,no evidence
+dose,dose: signed max |z| | centroid,0.053,0.054,0.015,0.05,0.211,raw | centroid,-0.001,-0.021,0.019,5/10,no evidence
+dose,dose: signed max |z| | LR,0.061,0.045,0.02,0.053,0.211,raw | LR,-0.024,-0.047,0.011,0/10,no evidence
+dose,dose: signed max |z| | ensemble,0.058,0.053,0.018,0.064,0.22,raw | ensemble,-0.01,-0.03,0.011,3/10,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | centroid,0.076,0.052,0.016,0.057,0.225,raw | centroid,-0.003,-0.021,0.015,4/10,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | LR,0.103,0.088,0.016,0.082,0.274,raw | LR,0.019,-0.014,0.053,10/10,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | ensemble,0.081,0.066,0.024,0.063,0.23,raw | ensemble,0.004,-0.016,0.024,5/10,no evidence
+dose,dose: single dose 0.04 uM | centroid,0.058,0.063,0.014,0.075,0.207,raw | centroid,0.008,-0.031,0.049,6/10,no evidence
+dose,dose: single dose 0.12 uM | centroid,0.045,0.059,0.012,0.056,0.248,raw | centroid,0.004,-0.041,0.052,5/10,no evidence
+dose,dose: single dose 0.37 uM | centroid,0.03,0.045,0.012,0.042,0.161,raw | centroid,-0.01,-0.042,0.026,4/10,no evidence
+dose,dose: single dose 1.11 uM | centroid,0.071,0.063,0.02,0.063,0.216,raw | centroid,0.007,-0.026,0.042,8/10,no evidence
+dose,dose: single dose 3.33 uM | centroid,0.034,0.033,0.008,0.042,0.198,raw | centroid,-0.022,-0.041,-0.004,0/10,worse
+dose,dose: single dose 10.0 uM | centroid,0.064,0.057,0.009,0.057,0.241,raw | centroid,0.002,-0.023,0.028,5/10,no evidence
+dose,"dose: dose-as-instance, mean pooling | LR",0.076,0.056,0.02,0.063,0.238,raw | LR,-0.013,-0.044,0.026,1/10,no evidence
+dose,"dose: dose-as-instance, activity-weighted pooling | LR",0.066,0.048,0.016,0.061,0.22,raw | LR,-0.021,-0.052,0.019,0/10,no evidence
+dose,"dose: dose-as-instance, max pooling | LR",0.031,0.059,0.02,0.06,0.225,raw | LR,-0.01,-0.037,0.022,2/10,no evidence
+dose,"dose: dose-as-instance, active doses only, activity-weighted | LR",0.071,0.067,0.019,0.076,0.233,raw | LR,-0.002,-0.035,0.036,5/10,no evidence
+dose,"dose: dose-as-instance, mean pooling | centroid",0.045,0.047,0.014,0.057,0.214,raw | centroid,-0.008,-0.024,0.011,2/10,no evidence
+dose,"dose: dose-as-instance, activity-weighted pooling | centroid",0.053,0.039,0.015,0.055,0.22,raw | centroid,-0.016,-0.036,0.003,1/10,no evidence
+dose,"dose: dose-as-instance, max pooling | centroid",0.045,0.039,0.018,0.043,0.192,raw | centroid,-0.016,-0.036,0.006,2/10,no evidence
+dose,"dose: dose-as-instance, active doses only, activity-weighted | centroid",0.048,0.044,0.014,0.054,0.214,raw | centroid,-0.011,-0.031,0.008,4/10,no evidence
+dose,"dose: dose-response features (slope, mean, contrast) | LR",0.093,0.079,0.021,0.086,0.299,raw | LR,0.01,-0.012,0.03,7/10,no evidence
+dose,dose: slope only | centroid,0.104,0.1,0.019,0.093,0.334,raw | centroid,0.045,0.007,0.085,10/10,better
+dose,dose: potency-aligned tensor | centroid,0.104,0.058,0.035,0.065,0.246,raw | centroid,0.003,-0.017,0.021,5/10,no evidence
+dose,dose: potency-aligned tensor | LR,0.071,0.078,0.019,0.08,0.322,raw | LR,0.009,-0.016,0.032,8/10,no evidence
+dose,dose: potency-aligned tensor | reverse,0.078,0.083,0.019,0.094,0.216,raw | reverse,0.02,-0.009,0.048,9/10,no evidence
+dose,dose: potency-aligned tensor | ensemble,0.089,0.061,0.023,0.076,0.266,raw | ensemble,-0.001,-0.026,0.025,4/10,no evidence
+dose,"dose: reverse, fixed template (no amplitude, no shift) | reverse",0.063,0.06,0.015,0.079,0.233,raw | reverse,-0.003,-0.036,0.028,4/10,no evidence
+dose,"dose: reverse, amplitude only | reverse",0.054,0.053,0.017,0.075,0.233,raw | reverse,-0.01,-0.033,0.012,4/10,no evidence
+dose,"dose: reverse, amplitude + shift ±1 | reverse",0.073,0.061,0.02,0.071,0.223,raw | reverse,-0.001,-0.011,0.007,5/10,no evidence
+dose,"dose: reverse, amplitude + shift ±3 | reverse",0.063,0.05,0.018,0.064,0.221,raw | reverse,-0.012,-0.029,0.0,1/10,no evidence

@@ -1,0 +1,18 @@
+,precision,precision,precision,precision,recall,recall,recall,recall,,,
+model,raw | LR,raw | centroid,raw | ensemble,raw | reverse,raw | LR,raw | centroid,raw | ensemble,raw | reverse,n_compounds,share_silent,a_priori_hard
+moa,,,,,,,,,,,
+AKT inhibitor,0.0,0.0,0.0,0.02,0.0,0.0,0.0,0.02,4,0.5,False
+CDK inhibitor,0.14,0.1,0.16,0.16,0.13,0.12,0.18,0.12,6,0.5,False
+EGFR inhibitor,0.18,0.25,0.15,0.33,0.21,0.14,0.12,0.18,10,0.1,True
+HDAC inhibitor,0.0,0.0,0.01,0.0,0.0,0.0,0.01,0.0,9,0.11,False
+HSP inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4,0.5,False
+JAK inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4,0.25,True
+MEK inhibitor,0.02,0.08,0.06,0.0,0.01,0.13,0.09,0.0,7,0.43,False
+PARP inhibitor,0.04,0.06,0.04,0.12,0.02,0.1,0.05,0.2,4,0.75,True
+PI3K inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4,0.75,True
+PLK inhibitor,0.54,0.11,0.24,0.15,0.48,0.18,0.32,0.22,4,0.5,False
+RAF inhibitor,0.0,0.06,0.06,0.03,0.0,0.1,0.12,0.12,4,0.75,True
+mTOR inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4,0.0,False
+proteasome inhibitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4,0.25,False
+topoisomerase inhibitor,0.11,0.23,0.19,0.22,0.14,0.15,0.16,0.15,11,0.27,False
+tubulin polymerization inhibitor,0.03,0.0,0.0,0.02,0.05,0.0,0.0,0.01,8,0.5,False

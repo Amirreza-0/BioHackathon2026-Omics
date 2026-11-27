@@ -1,0 +1,9 @@
+measure,value
+AUC of correctness from top probability,0.936
+AUC of correctness from margin,0.944
+"accuracy, confidence tercile 1 (low to high)",0.207
+"accuracy, confidence tercile 2 (low to high)",0.866
+"accuracy, confidence tercile 3 (low to high)",1.0
+"accuracy, active compounds",0.867
+"accuracy, silent compounds",0.388
+"AUC of correctness from top probability, active compounds only",0.943

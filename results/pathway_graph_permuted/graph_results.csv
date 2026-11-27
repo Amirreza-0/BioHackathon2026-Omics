@@ -1,0 +1,47 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | centroid",0.056,0.056,0.019,0.057,0.233,raw | centroid,0.001,-0.009,0.011,5/10,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | LR",0.074,0.073,0.014,0.083,0.263,raw | LR,0.004,-0.002,0.01,7/10,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | reverse",0.082,0.065,0.015,0.091,0.223,raw | reverse,0.003,-0.01,0.017,6/10,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | ensemble",0.074,0.06,0.018,0.071,0.23,raw | ensemble,-0.003,-0.009,0.004,4/10,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | centroid",0.064,0.044,0.014,0.047,0.222,raw | centroid,-0.011,-0.024,0.002,2/10,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | LR",0.059,0.071,0.019,0.08,0.254,raw | LR,0.001,-0.01,0.012,7/10,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | reverse",0.061,0.073,0.014,0.089,0.217,raw | reverse,0.011,-0.011,0.034,7/10,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | ensemble",0.058,0.057,0.012,0.069,0.224,raw | ensemble,-0.006,-0.024,0.012,3/10,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | centroid",0.062,0.047,0.008,0.052,0.233,raw | centroid,-0.008,-0.024,0.006,3/10,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | LR",0.091,0.068,0.009,0.09,0.256,raw | LR,-0.001,-0.016,0.015,4/10,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | reverse",0.06,0.071,0.01,0.087,0.215,raw | reverse,0.009,-0.019,0.037,8/10,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | ensemble",0.086,0.063,0.006,0.076,0.229,raw | ensemble,0.001,-0.018,0.019,5/10,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | centroid",0.074,0.054,0.013,0.047,0.22,raw | centroid,-0.002,-0.016,0.013,6/10,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | LR",0.051,0.066,0.017,0.078,0.268,raw | LR,-0.003,-0.012,0.004,3/10,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | reverse",0.059,0.055,0.016,0.057,0.217,raw | reverse,-0.008,-0.016,0.002,2/10,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | ensemble",0.063,0.069,0.014,0.064,0.221,raw | ensemble,0.007,-0.011,0.025,10/10,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | centroid",0.079,0.055,0.02,0.055,0.233,raw | centroid,-0.0,-0.005,0.004,5/10,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | LR",0.091,0.066,0.011,0.091,0.249,raw | LR,-0.004,-0.02,0.014,4/10,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | ensemble",0.083,0.067,0.013,0.079,0.22,raw | ensemble,0.005,-0.015,0.022,7/10,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | centroid",0.08,0.053,0.018,0.053,0.234,raw | centroid,-0.002,-0.012,0.007,4/10,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | LR",0.071,0.077,0.014,0.084,0.269,raw | LR,0.008,0.003,0.013,7/10,better
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | reverse",0.071,0.067,0.014,0.09,0.22,raw | reverse,0.005,-0.007,0.017,5/10,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | ensemble",0.075,0.06,0.018,0.061,0.237,raw | ensemble,-0.002,-0.01,0.006,4/10,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | centroid",0.088,0.047,0.016,0.05,0.22,raw | centroid,-0.008,-0.022,0.005,3/10,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | LR",0.082,0.069,0.015,0.086,0.275,raw | LR,-0.0,-0.009,0.008,5/10,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | reverse",0.08,0.072,0.01,0.093,0.218,raw | reverse,0.01,-0.01,0.032,7/10,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | ensemble",0.075,0.051,0.019,0.066,0.226,raw | ensemble,-0.011,-0.025,0.002,3/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | centroid",0.091,0.057,0.014,0.06,0.229,raw | centroid,0.002,-0.014,0.018,7/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | LR",0.09,0.066,0.014,0.072,0.268,raw | LR,-0.003,-0.014,0.007,4/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | reverse",0.078,0.088,0.018,0.1,0.228,raw | reverse,0.025,0.002,0.046,9/10,better
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | ensemble",0.076,0.076,0.017,0.083,0.231,raw | ensemble,0.014,-0.001,0.03,9/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | centroid",0.068,0.061,0.015,0.075,0.245,raw | centroid,0.006,-0.014,0.025,7/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | LR",0.083,0.063,0.019,0.07,0.254,raw | LR,-0.006,-0.027,0.017,3/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | reverse",0.12,0.083,0.009,0.112,0.236,raw | reverse,0.02,-0.009,0.045,9/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | ensemble",0.071,0.086,0.013,0.09,0.221,raw | ensemble,0.024,-0.004,0.051,9/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | centroid",0.055,0.061,0.01,0.074,0.245,raw | centroid,0.006,-0.016,0.026,8/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | LR",0.066,0.063,0.02,0.07,0.249,raw | LR,-0.006,-0.028,0.016,4/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | reverse",0.108,0.091,0.014,0.117,0.233,raw | reverse,0.029,-0.001,0.054,9/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | ensemble",0.066,0.09,0.016,0.096,0.221,raw | ensemble,0.027,-0.001,0.054,9/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | centroid",0.06,0.054,0.016,0.052,0.233,raw | centroid,-0.001,-0.018,0.016,5/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | LR",0.039,0.053,0.016,0.062,0.244,raw | LR,-0.016,-0.038,0.008,1/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | reverse",0.063,0.046,0.016,0.055,0.172,raw | reverse,-0.017,-0.028,-0.005,2/10,worse
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | ensemble",0.075,0.045,0.02,0.05,0.237,raw | ensemble,-0.017,-0.035,0.002,0/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | centroid",0.101,0.056,0.017,0.056,0.238,raw | centroid,0.001,-0.013,0.013,7/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | LR",0.072,0.066,0.02,0.07,0.256,raw | LR,-0.003,-0.024,0.017,4/10,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | ensemble",0.063,0.071,0.015,0.079,0.218,raw | ensemble,0.008,-0.017,0.029,7/10,no evidence

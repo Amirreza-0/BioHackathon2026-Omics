@@ -1,0 +1,27 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+pairs,pairs: rank-normal scores per profile | centroid,0.063,0.054,0.013,0.067,0.252,raw | centroid,-0.001,-0.026,0.026,5/10,no evidence
+pairs,pairs: rank-normal scores per profile | LR,0.057,0.072,0.022,0.068,0.264,raw | LR,0.003,-0.023,0.029,5/10,no evidence
+pairs,pairs: rank-normal scores per profile | reverse,0.039,0.052,0.011,0.058,0.211,raw | reverse,-0.01,-0.038,0.016,4/10,no evidence
+pairs,pairs: rank-normal scores per profile | ensemble,0.046,0.052,0.016,0.071,0.245,raw | ensemble,-0.011,-0.035,0.011,3/10,no evidence
+pairs,"pairs: top-50 signed genes per profile, rest zero | centroid",0.066,0.043,0.021,0.048,0.22,raw | centroid,-0.012,-0.029,0.006,1/10,no evidence
+pairs,"pairs: top-50 signed genes per profile, rest zero | LR",0.022,0.028,0.009,0.048,0.244,raw | LR,-0.041,-0.067,-0.002,0/10,worse
+pairs,"pairs: top-50 signed genes per profile, rest zero | ensemble",0.047,0.04,0.014,0.043,0.223,raw | ensemble,-0.023,-0.044,0.0,0/10,no evidence
+pairs,"pairs: top-100 signed genes per profile, rest zero | centroid",0.074,0.055,0.025,0.05,0.228,raw | centroid,-0.0,-0.018,0.018,5/10,no evidence
+pairs,"pairs: top-100 signed genes per profile, rest zero | LR",0.039,0.036,0.017,0.061,0.24,raw | LR,-0.033,-0.056,-0.006,1/10,worse
+pairs,"pairs: top-100 signed genes per profile, rest zero | ensemble",0.06,0.043,0.018,0.051,0.214,raw | ensemble,-0.02,-0.039,0.001,0/10,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | centroid",0.071,0.053,0.028,0.056,0.23,raw | centroid,-0.002,-0.013,0.007,3/10,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | LR",0.045,0.067,0.012,0.071,0.262,raw | LR,-0.002,-0.02,0.014,6/10,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | ensemble",0.076,0.047,0.016,0.06,0.225,raw | ensemble,-0.016,-0.03,-0.0,1/10,worse
+pairs,"pairs: signed-rank similarity, top-100 genes (ZhangScore-like) | centroid",0.065,0.054,0.018,0.057,0.233,raw | centroid,-0.001,-0.013,0.013,5/10,no evidence
+pairs,"pairs: KS connectivity, top-50 up / down genes (CMap 2006 style) | centroid",0.034,0.043,0.018,0.041,0.221,raw | centroid,-0.012,-0.026,0.002,3/10,no evidence
+pairs,"pairs: top-scoring pairs, k=5 per class | LR",0.062,0.073,0.015,0.075,0.217,pairs ref: top-2-dose profile | LR,0.008,-0.018,0.033,7/10,no evidence
+pairs,"pairs: top-scoring pairs, k=5 per class | k-TSP vote",0.025,0.054,0.017,0.059,0.218,pairs ref: top-2-dose profile | LR,-0.011,-0.034,0.012,3/10,no evidence
+pairs,"pairs: single genes, k=5 per class (same criterion) | LR",0.081,0.072,0.02,0.072,0.217,pairs ref: top-2-dose profile | LR,0.007,-0.015,0.026,4/10,no evidence
+pairs,"pairs: top-scoring pairs, k=20 per class | LR",0.069,0.081,0.022,0.075,0.228,pairs ref: top-2-dose profile | LR,0.016,-0.012,0.042,9/10,no evidence
+pairs,"pairs: top-scoring pairs, k=20 per class | k-TSP vote",0.064,0.056,0.01,0.057,0.223,pairs ref: top-2-dose profile | LR,-0.01,-0.032,0.013,2/10,no evidence
+pairs,"pairs: single genes, k=20 per class (same criterion) | LR",0.066,0.082,0.019,0.088,0.239,pairs ref: top-2-dose profile | LR,0.017,0.0,0.034,8/10,better
+pairs,"pairs: STRING >= 0.9 edges (1769), differences | LR",0.055,0.048,0.023,0.069,0.266,pairs ref: top-2-dose profile | LR,-0.017,-0.039,0.005,1/10,no evidence
+pairs,"pairs: same-pathway pairs (1769), differences | LR",0.033,0.043,0.014,0.055,0.249,pairs ref: top-2-dose profile | LR,-0.022,-0.038,-0.004,1/10,worse
+pairs,"pairs: SVM, linear kernel | SVM",0.07,0.07,0.008,0.063,0.262,raw | LR,0.001,-0.017,0.02,4/10,no evidence
+pairs,"pairs: SVM, degree-2 polynomial kernel (pairwise interactions) | SVM",0.063,0.07,0.013,0.059,0.279,"pairs: SVM, linear kernel | SVM",-0.001,-0.011,0.012,6/10,no evidence
+pairs,"pairs: SVM, RBF kernel (pairwise interactions) | SVM",0.043,0.05,0.012,0.077,0.238,"pairs: SVM, linear kernel | SVM",-0.02,-0.052,0.011,1/10,no evidence

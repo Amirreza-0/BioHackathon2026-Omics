@@ -1,0 +1,9 @@
+section,comparisons,better,worse,better_familywise,worse_familywise,median_diff,largest_gain,its_diff,its_interval
+dose,51,1,1,0,0,-0.001,dose: slope only | centroid,0.045,"[+0.007, +0.085]"
+batch,40,0,3,0,0,0.0,"batch: whitening, shrunk full (spherize on 0.04 uM) | centroid",0.03,"[-0.000, +0.058]"
+gsets,23,0,0,0,0,0.003,gsets: footprint scores (52 x 6) | LR,0.039,"[-0.000, +0.071]"
+graph,46,2,1,0,0,0.0005,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | reverse",0.029,"[-0.001, +0.054]"
+pairs,26,1,4,0,0,-0.01,"pairs: single genes, k=20 per class (same criterion) | LR",0.017,"[+0.000, +0.034]"
+hard,19,0,2,0,0,0.002,"hard: two-stage, a-priori hard set, hard routing | centroid",0.012,"[-0.013, +0.035]"
+unl,30,0,0,0,0,0.0,"unl: PCA on all compounds, 10 components | centroid",0.019,"[-0.008, +0.043]"
+zoo,30,1,2,0,0,-0.0015,"zoo: kNN, correlation, k=5 | kNN",0.022,"[-0.005, +0.050]"

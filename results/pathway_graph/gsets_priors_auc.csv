@@ -1,0 +1,27 @@
+moa,pathway,n_genes,auc,random_median,random_95pct,p_empirical
+EGFR inhibitor,PROGENy:EGFR,36,0.968,0.873,0.959,0.02
+EGFR inhibitor,PROGENy:MAPK,60,0.949,0.891,0.951,0.069
+MEK inhibitor,PROGENy:MAPK,60,1.0,1.0,1.0,0.861
+MEK inhibitor,PROGENy:EGFR,36,1.0,1.0,1.0,0.663
+RAF inhibitor,PROGENy:MAPK,60,0.979,0.852,0.949,0.02
+PI3K inhibitor,PROGENy:PI3K,23,0.735,0.819,0.952,0.762
+PI3K inhibitor,H:MTORC1_SIGNALING,49,0.666,0.84,0.949,0.98
+AKT inhibitor,PROGENy:PI3K,23,0.958,0.889,0.976,0.188
+AKT inhibitor,H:MTORC1_SIGNALING,49,0.991,0.944,0.988,0.059
+mTOR inhibitor,H:MTORC1_SIGNALING,49,1.0,1.0,1.0,0.564
+mTOR inhibitor,PROGENy:PI3K,23,0.901,0.991,1.0,0.911
+JAK inhibitor,PROGENy:JAK-STAT,30,0.729,0.791,0.916,0.743
+JAK inhibitor,H:IL6_JAK_STAT3_SIGNALING,12,0.807,0.777,0.889,0.366
+CDK inhibitor,H:E2F_TARGETS,53,0.883,0.874,0.947,0.426
+CDK inhibitor,H:G2M_CHECKPOINT,48,0.802,0.859,0.943,0.901
+PLK inhibitor,H:G2M_CHECKPOINT,48,0.997,0.988,0.997,0.178
+PLK inhibitor,H:MITOTIC_SPINDLE,30,1.0,0.985,1.0,0.079
+tubulin polymerization inhibitor,H:G2M_CHECKPOINT,48,0.932,0.949,0.973,0.772
+tubulin polymerization inhibitor,H:MITOTIC_SPINDLE,30,0.94,0.945,0.975,0.584
+topoisomerase inhibitor,PROGENy:p53,38,0.812,0.848,0.883,0.901
+topoisomerase inhibitor,H:E2F_TARGETS,53,0.84,0.846,0.886,0.614
+PARP inhibitor,PROGENy:p53,38,0.756,0.75,0.868,0.465
+PARP inhibitor,H:DNA_REPAIR,23,0.801,0.756,0.862,0.307
+HSP inhibitor,custom:HSF1_heat_shock,7,1.0,0.958,1.0,0.089
+proteasome inhibitor,H:UNFOLDED_PROTEIN_RESPONSE,24,1.0,1.0,1.0,0.97
+proteasome inhibitor,custom:HSF1_heat_shock,7,1.0,0.989,1.0,0.317

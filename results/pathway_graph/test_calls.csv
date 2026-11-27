@@ -1,0 +1,30 @@
+compound,call,call_with_coverage,top_prob,members_agreeing,n_DEG_top_doses,silent,cv_recall_of_called_class
+BRD-K12423485,CDK inhibitor,PLK inhibitor,0.124,1,37,True,0.58
+BRD-K66412701,RAF inhibitor,RAF inhibitor,0.155,1,42,True,0.02
+BRD-K70914287,EGFR inhibitor,PARP inhibitor,0.213,2,48,True,0.83
+BRD-K49456274,PARP inhibitor,AKT inhibitor,0.116,1,49,True,0.15
+BRD-K23677682,JAK inhibitor,JAK inhibitor,0.243,3,50,True,0.0
+BRD-K64785675,JAK inhibitor,JAK inhibitor,0.169,1,53,True,0.0
+BRD-K78113049,PI3K inhibitor,PI3K inhibitor,0.176,1,54,True,0.18
+BRD-K50168500,EGFR inhibitor,EGFR inhibitor,0.321,3,62,True,0.83
+BRD-K98493452,PI3K inhibitor,PI3K inhibitor,0.169,1,63,True,0.18
+BRD-K05804044,MEK inhibitor,MEK inhibitor,0.177,1,102,True,1.0
+BRD-K77987382,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.368,2,107,True,0.86
+BRD-K11153516,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.219,3,108,True,0.86
+BRD-K70401845,EGFR inhibitor,EGFR inhibitor,0.236,3,110,True,0.83
+BRD-K85606544,EGFR inhibitor,EGFR inhibitor,0.356,3,112,True,0.83
+BRD-K70511574,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.529,3,154,False,0.86
+BRD-A33280134,topoisomerase inhibitor,topoisomerase inhibitor,0.395,2,160,False,0.72
+BRD-K13154216,mTOR inhibitor,mTOR inhibitor,0.599,3,163,False,1.0
+BRD-K36280065,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.274,3,172,False,0.86
+BRD-K02389548,HDAC inhibitor,HDAC inhibitor,0.337,2,180,False,0.89
+BRD-K37687095,MEK inhibitor,MEK inhibitor,0.939,3,220,False,1.0
+BRD-K85751432,MEK inhibitor,MEK inhibitor,0.659,3,286,False,1.0
+BRD-A03506276,HSP inhibitor,HSP inhibitor,0.986,3,334,False,1.0
+BRD-K71281111,HSP inhibitor,HSP inhibitor,0.926,3,337,False,1.0
+BRD-K78659596,proteasome inhibitor,proteasome inhibitor,0.855,3,340,False,1.0
+BRD-A36331462,proteasome inhibitor,proteasome inhibitor,0.977,3,402,False,1.0
+BRD-K28822270,HDAC inhibitor,HDAC inhibitor,0.94,3,402,False,0.89
+BRD-K72414522,CDK inhibitor,CDK inhibitor,0.787,3,452,False,0.58
+BRD-K83837640,HDAC inhibitor,HDAC inhibitor,0.99,3,520,False,0.89
+BRD-K13390322,CDK inhibitor,CDK inhibitor,0.949,3,603,False,0.58

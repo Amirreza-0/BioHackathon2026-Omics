@@ -1,0 +1,270 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict,z,familywise
+baseline,raw | centroid,0.648,0.652,0.02,0.683,0.806,,,,,,,,
+baseline,raw | LR,0.562,0.564,0.027,0.626,0.784,,,,,,,,
+baseline,raw | reverse,0.64,0.642,0.01,0.662,0.8,,,,,,,,
+baseline,raw | ensemble,0.631,0.626,0.014,0.7,0.824,,,,,,,,
+dose,dose: all-dose mean | centroid,0.622,0.62,0.02,0.688,0.823,raw | centroid,-0.031,-0.092,0.026,2/10,no evidence,-1.02,no evidence
+dose,dose: all-dose mean | LR,0.557,0.593,0.011,0.651,0.763,raw | LR,0.029,-0.008,0.068,9/10,no evidence,1.48,no evidence
+dose,dose: all-dose mean | ensemble,0.595,0.617,0.019,0.678,0.81,raw | ensemble,-0.009,-0.055,0.03,3/10,no evidence,-0.42,no evidence
+dose,dose: top-1 | centroid,0.627,0.624,0.013,0.636,0.786,raw | centroid,-0.028,-0.058,0.004,1/10,no evidence,-1.74,no evidence
+dose,dose: top-1 | LR,0.614,0.614,0.021,0.629,0.763,raw | LR,0.05,-0.013,0.121,9/10,no evidence,1.49,no evidence
+dose,dose: top-1 | ensemble,0.611,0.619,0.011,0.655,0.799,raw | ensemble,-0.008,-0.041,0.024,3/10,no evidence,-0.47,no evidence
+dose,dose: top-2 | centroid,0.648,0.652,0.02,0.683,0.806,raw | centroid,0.0,0.0,0.0,0/10,no evidence,0.0,no evidence
+dose,dose: top-2 | LR,0.625,0.619,0.032,0.679,0.803,raw | LR,0.056,-0.005,0.124,10/10,no evidence,1.69,no evidence
+dose,dose: top-2 | ensemble,0.645,0.637,0.024,0.691,0.806,raw | ensemble,0.01,-0.025,0.047,6/10,no evidence,0.55,no evidence
+dose,dose: top-3 | centroid,0.679,0.658,0.018,0.698,0.833,raw | centroid,0.006,-0.014,0.03,8/10,no evidence,0.52,no evidence
+dose,dose: top-3 | LR,0.593,0.612,0.026,0.673,0.82,raw | LR,0.049,-0.006,0.112,9/10,no evidence,1.59,no evidence
+dose,dose: top-3 | ensemble,0.607,0.627,0.023,0.679,0.849,raw | ensemble,0.001,-0.037,0.037,5/10,no evidence,0.05,no evidence
+dose,dose: activity-weighted mean | centroid,0.622,0.616,0.012,0.651,0.795,raw | centroid,-0.036,-0.09,0.011,1/10,no evidence,-1.38,no evidence
+dose,dose: activity-weighted mean | LR,0.625,0.637,0.011,0.657,0.816,raw | LR,0.074,0.026,0.135,10/10,better,2.67,no evidence
+dose,dose: activity-weighted mean | ensemble,0.613,0.628,0.02,0.664,0.826,raw | ensemble,0.002,-0.054,0.043,5/10,no evidence,0.08,no evidence
+dose,dose: MODZ (dose-correlation weights) | centroid,0.663,0.654,0.014,0.714,0.829,raw | centroid,0.002,-0.071,0.061,5/10,no evidence,0.06,no evidence
+dose,dose: MODZ (dose-correlation weights) | LR,0.577,0.609,0.022,0.673,0.787,raw | LR,0.045,-0.003,0.087,9/10,no evidence,1.95,no evidence
+dose,dose: MODZ (dose-correlation weights) | ensemble,0.636,0.654,0.019,0.707,0.811,raw | ensemble,0.027,-0.031,0.071,8/10,no evidence,1.01,no evidence
+dose,dose: most active dose | centroid,0.618,0.587,0.009,0.595,0.751,raw | centroid,-0.064,-0.124,-0.017,0/10,worse,-2.45,no evidence
+dose,dose: most active dose | LR,0.616,0.596,0.019,0.621,0.753,raw | LR,0.033,-0.026,0.101,9/10,no evidence,1.01,no evidence
+dose,dose: most active dose | ensemble,0.605,0.602,0.011,0.626,0.775,raw | ensemble,-0.025,-0.082,0.017,1/10,no evidence,-1.02,no evidence
+dose,dose: signed max |z| | centroid,0.618,0.594,0.013,0.644,0.767,raw | centroid,-0.057,-0.113,0.001,0/10,no evidence,-1.99,no evidence
+dose,dose: signed max |z| | LR,0.569,0.61,0.016,0.636,0.762,raw | LR,0.047,-0.01,0.109,9/10,no evidence,1.59,no evidence
+dose,dose: signed max |z| | ensemble,0.599,0.621,0.018,0.646,0.78,raw | ensemble,-0.006,-0.063,0.042,6/10,no evidence,-0.22,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | centroid,0.622,0.62,0.02,0.688,0.823,raw | centroid,-0.031,-0.092,0.026,2/10,no evidence,-1.02,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | LR,0.557,0.593,0.011,0.651,0.763,raw | LR,0.029,-0.008,0.068,9/10,no evidence,1.48,no evidence
+dose,dose: Stouffer (sum / sqrt 6) | ensemble,0.595,0.617,0.018,0.678,0.81,raw | ensemble,-0.009,-0.055,0.029,2/10,no evidence,-0.42,no evidence
+dose,dose: single dose 0.04 uM | centroid,0.363,0.347,0.014,0.341,0.523,raw | centroid,-0.305,-0.413,-0.206,0/10,worse,-5.53,worse
+dose,dose: single dose 0.12 uM | centroid,0.384,0.391,0.015,0.422,0.63,raw | centroid,-0.261,-0.359,-0.165,0/10,worse,-5.15,worse
+dose,dose: single dose 0.37 uM | centroid,0.531,0.533,0.014,0.565,0.733,raw | centroid,-0.118,-0.214,-0.016,0/10,worse,-2.29,no evidence
+dose,dose: single dose 1.11 uM | centroid,0.554,0.578,0.021,0.613,0.777,raw | centroid,-0.073,-0.161,0.014,0/10,no evidence,-1.68,no evidence
+dose,dose: single dose 3.33 uM | centroid,0.625,0.64,0.028,0.654,0.829,raw | centroid,-0.012,-0.081,0.044,3/10,no evidence,-0.37,no evidence
+dose,dose: single dose 10.0 uM | centroid,0.627,0.624,0.013,0.636,0.786,raw | centroid,-0.028,-0.058,0.004,1/10,no evidence,-1.74,no evidence
+dose,"dose: dose-as-instance, mean pooling | LR",0.618,0.612,0.027,0.683,0.811,raw | LR,0.049,-0.012,0.119,9/10,no evidence,1.47,no evidence
+dose,"dose: dose-as-instance, activity-weighted pooling | LR",0.619,0.614,0.021,0.654,0.824,raw | LR,0.051,-0.017,0.128,9/10,no evidence,1.37,no evidence
+dose,"dose: dose-as-instance, max pooling | LR",0.597,0.627,0.027,0.685,0.817,raw | LR,0.064,-0.003,0.137,10/10,no evidence,1.76,no evidence
+dose,"dose: dose-as-instance, active doses only, activity-weighted | LR",0.605,0.626,0.025,0.66,0.83,raw | LR,0.063,-0.004,0.138,9/10,no evidence,1.73,no evidence
+dose,"dose: dose-as-instance, mean pooling | centroid",0.649,0.644,0.019,0.704,0.837,raw | centroid,-0.007,-0.076,0.055,3/10,no evidence,-0.21,no evidence
+dose,"dose: dose-as-instance, activity-weighted pooling | centroid",0.638,0.635,0.017,0.686,0.802,raw | centroid,-0.016,-0.09,0.048,2/10,no evidence,-0.44,no evidence
+dose,"dose: dose-as-instance, max pooling | centroid",0.589,0.634,0.032,0.689,0.846,raw | centroid,-0.017,-0.07,0.035,2/10,no evidence,-0.61,no evidence
+dose,"dose: dose-as-instance, active doses only, activity-weighted | centroid",0.641,0.626,0.018,0.681,0.833,raw | centroid,-0.026,-0.075,0.017,2/10,no evidence,-1.09,no evidence
+dose,"dose: dose-response features (slope, mean, contrast) | LR",0.609,0.601,0.019,0.667,0.793,raw | LR,0.038,-0.02,0.107,9/10,no evidence,1.16,no evidence
+dose,dose: slope only | centroid,0.476,0.49,0.017,0.531,0.722,raw | centroid,-0.162,-0.255,-0.07,0/10,worse,-3.49,no evidence
+dose,dose: potency-aligned tensor | centroid,0.637,0.619,0.014,0.654,0.805,raw | centroid,-0.033,-0.087,0.029,1/10,no evidence,-1.13,no evidence
+dose,dose: potency-aligned tensor | LR,0.637,0.601,0.021,0.661,0.786,raw | LR,0.038,-0.026,0.108,8/10,no evidence,1.09,no evidence
+dose,dose: potency-aligned tensor | reverse,0.68,0.677,0.023,0.66,0.847,raw | reverse,0.036,-0.038,0.106,9/10,no evidence,0.97,no evidence
+dose,dose: potency-aligned tensor | ensemble,0.632,0.641,0.026,0.685,0.817,raw | ensemble,0.014,-0.031,0.073,7/10,no evidence,0.52,no evidence
+dose,"dose: reverse, fixed template (no amplitude, no shift) | reverse",0.492,0.532,0.02,0.629,0.722,raw | reverse,-0.11,-0.187,-0.049,0/10,worse,-3.31,no evidence
+dose,"dose: reverse, amplitude only | reverse",0.584,0.63,0.022,0.635,0.776,raw | reverse,-0.011,-0.057,0.032,3/10,no evidence,-0.47,no evidence
+dose,"dose: reverse, amplitude + shift ±1 | reverse",0.647,0.647,0.011,0.657,0.792,raw | reverse,0.005,-0.021,0.03,7/10,no evidence,0.38,no evidence
+dose,"dose: reverse, amplitude + shift ±3 | reverse",0.628,0.632,0.015,0.653,0.811,raw | reverse,-0.01,-0.021,0.001,0/10,no evidence,-1.85,no evidence
+batch,batch: plate centring (all wells) | centroid,0.647,0.644,0.01,0.712,0.795,raw | centroid,-0.008,-0.043,0.024,4/10,no evidence,-0.46,no evidence
+batch,batch: plate centring (all wells) | LR,0.54,0.571,0.029,0.633,0.805,raw | LR,0.008,-0.016,0.027,8/10,no evidence,0.73,no evidence
+batch,batch: plate centring (all wells) | reverse,0.648,0.664,0.015,0.671,0.801,raw | reverse,0.022,0.001,0.046,10/10,better,1.83,no evidence
+batch,batch: plate centring (all wells) | ensemble,0.66,0.661,0.03,0.728,0.824,raw | ensemble,0.034,0.009,0.06,9/10,better,2.5,no evidence
+batch,batch: plate centring (0.04 uM wells) | centroid,0.63,0.621,0.023,0.687,0.782,raw | centroid,-0.031,-0.062,-0.005,0/10,worse,-2.12,no evidence
+batch,batch: plate centring (0.04 uM wells) | LR,0.552,0.58,0.029,0.637,0.797,raw | LR,0.016,-0.013,0.041,8/10,no evidence,1.18,no evidence
+batch,batch: plate centring (0.04 uM wells) | reverse,0.64,0.652,0.02,0.667,0.798,raw | reverse,0.011,-0.008,0.028,7/10,no evidence,1.16,no evidence
+batch,batch: plate centring (0.04 uM wells) | ensemble,0.638,0.635,0.015,0.713,0.81,raw | ensemble,0.008,-0.017,0.034,7/10,no evidence,0.62,no evidence
+batch,batch: plate centring + plate robust scaling | centroid,0.348,0.347,0.019,0.379,0.586,raw | centroid,-0.305,-0.408,-0.21,0/10,worse,-6.07,worse
+batch,batch: plate centring + plate robust scaling | LR,0.549,0.557,0.033,0.644,0.807,raw | LR,-0.007,-0.032,0.016,5/10,no evidence,-0.56,no evidence
+batch,batch: plate centring + plate robust scaling | reverse,0.619,0.659,0.013,0.682,0.798,raw | reverse,0.018,-0.007,0.044,10/10,no evidence,1.29,no evidence
+batch,batch: plate centring + plate robust scaling | ensemble,0.612,0.636,0.014,0.643,0.79,raw | ensemble,0.01,-0.055,0.064,7/10,no evidence,0.32,no evidence
+batch,batch: remove 1 PC of 0.04 uM wells | centroid,0.634,0.629,0.011,0.675,0.829,raw | centroid,-0.023,-0.065,0.015,1/10,no evidence,-1.14,no evidence
+batch,batch: remove 1 PC of 0.04 uM wells | LR,0.614,0.618,0.018,0.681,0.825,raw | LR,0.054,0.019,0.094,10/10,better,2.82,no evidence
+batch,batch: remove 1 PC of 0.04 uM wells | reverse,0.667,0.688,0.014,0.719,0.84,raw | reverse,0.047,-0.003,0.1,10/10,no evidence,1.79,no evidence
+batch,batch: remove 1 PC of 0.04 uM wells | ensemble,0.66,0.639,0.012,0.725,0.814,raw | ensemble,0.013,-0.006,0.029,8/10,no evidence,1.47,no evidence
+batch,batch: remove 2 PCs | centroid,0.604,0.611,0.013,0.669,0.818,raw | centroid,-0.041,-0.092,0.012,0/10,no evidence,-1.56,no evidence
+batch,batch: remove 2 PCs | LR,0.613,0.614,0.019,0.683,0.823,raw | LR,0.05,0.002,0.102,10/10,better,2.04,no evidence
+batch,batch: remove 2 PCs | reverse,0.67,0.686,0.011,0.693,0.809,raw | reverse,0.044,-0.006,0.104,10/10,no evidence,1.59,no evidence
+batch,batch: remove 2 PCs | ensemble,0.631,0.642,0.021,0.712,0.808,raw | ensemble,0.016,-0.017,0.049,9/10,no evidence,0.96,no evidence
+batch,batch: remove 5 PCs | centroid,0.612,0.653,0.017,0.693,0.836,raw | centroid,0.002,-0.054,0.053,6/10,no evidence,0.07,no evidence
+batch,batch: remove 5 PCs | LR,0.64,0.634,0.017,0.695,0.83,raw | LR,0.07,0.017,0.127,10/10,better,2.44,no evidence
+batch,batch: remove 5 PCs | reverse,0.715,0.698,0.008,0.696,0.818,raw | reverse,0.057,0.015,0.106,10/10,better,2.38,no evidence
+batch,batch: remove 5 PCs | ensemble,0.648,0.671,0.013,0.72,0.821,raw | ensemble,0.045,-0.006,0.093,10/10,no evidence,1.76,no evidence
+batch,"batch: whitening, diagonal (0.04 uM SD) | centroid",0.63,0.631,0.014,0.691,0.81,raw | centroid,-0.021,-0.055,0.012,1/10,no evidence,-1.24,no evidence
+batch,"batch: whitening, diagonal (0.04 uM SD) | LR",0.562,0.564,0.027,0.626,0.784,raw | LR,0.0,0.0,0.001,1/10,no evidence,0.0,no evidence
+batch,"batch: whitening, diagonal (0.04 uM SD) | reverse",0.64,0.642,0.01,0.662,0.8,raw | reverse,0.0,0.0,0.0,0/10,no evidence,0.0,no evidence
+batch,"batch: whitening, diagonal (0.04 uM SD) | ensemble",0.641,0.648,0.02,0.7,0.82,raw | ensemble,0.022,0.005,0.041,10/10,better,2.3,no evidence
+batch,"batch: whitening, shrunk full (spherize on 0.04 uM) | centroid",0.647,0.634,0.021,0.707,0.805,raw | centroid,-0.017,-0.1,0.061,3/10,no evidence,-0.41,no evidence
+batch,"batch: whitening, shrunk full (spherize on 0.04 uM) | LR",0.581,0.559,0.017,0.73,0.791,raw | LR,-0.004,-0.063,0.062,5/10,no evidence,-0.12,no evidence
+batch,"batch: whitening, shrunk full (spherize on 0.04 uM) | reverse",0.67,0.702,0.023,0.723,0.829,raw | reverse,0.061,0.004,0.125,10/10,better,2.01,no evidence
+batch,"batch: whitening, shrunk full (spherize on 0.04 uM) | ensemble",0.615,0.66,0.015,0.77,0.849,raw | ensemble,0.034,-0.035,0.103,9/10,no evidence,0.95,no evidence
+batch,batch: global per-gene robust scaling | centroid,0.342,0.363,0.022,0.39,0.562,raw | centroid,-0.289,-0.392,-0.191,0/10,worse,-5.72,worse
+batch,batch: global per-gene robust scaling | LR,0.562,0.564,0.027,0.628,0.784,raw | LR,0.0,0.0,0.001,1/10,no evidence,0.0,no evidence
+batch,batch: global per-gene robust scaling | reverse,0.64,0.642,0.01,0.662,0.8,raw | reverse,0.0,0.0,0.0,0/10,no evidence,0.0,no evidence
+batch,batch: global per-gene robust scaling | ensemble,0.62,0.637,0.03,0.63,0.792,raw | ensemble,0.01,-0.04,0.049,7/10,no evidence,0.43,no evidence
+batch,batch: subtract the compound's own 0.04 uM profile | centroid,0.502,0.519,0.014,0.548,0.726,raw | centroid,-0.133,-0.215,-0.042,0/10,worse,-3.1,no evidence
+batch,batch: subtract the compound's own 0.04 uM profile | LR,0.328,0.32,0.017,0.414,0.622,raw | LR,-0.244,-0.292,-0.185,0/10,worse,-8.96,worse
+batch,batch: subtract the compound's own 0.04 uM profile | reverse,0.491,0.497,0.023,0.474,0.708,raw | reverse,-0.144,-0.227,-0.078,0/10,worse,-3.72,no evidence
+batch,batch: subtract the compound's own 0.04 uM profile | ensemble,0.435,0.453,0.02,0.521,0.687,raw | ensemble,-0.173,-0.235,-0.112,0/10,worse,-5.58,worse
+gsets,gsets: 669 genes in any pathway | centroid,0.65,0.66,0.018,0.69,0.831,raw | centroid,0.009,-0.016,0.029,8/10,no evidence,0.74,no evidence
+gsets,gsets: 669 genes in any pathway | reverse,0.642,0.665,0.02,0.677,0.809,raw | reverse,0.023,0.004,0.047,10/10,better,2.05,no evidence
+gsets,gsets: 669 genes in any pathway | ensemble,0.647,0.659,0.014,0.716,0.848,raw | ensemble,0.033,0.002,0.064,10/10,better,2.01,no evidence
+gsets,gsets: 309 genes in no pathway | centroid,0.618,0.605,0.018,0.64,0.779,raw | centroid,-0.046,-0.087,-0.005,0/10,worse,-2.12,no evidence
+gsets,gsets: 309 genes in no pathway | reverse,0.527,0.575,0.021,0.582,0.747,raw | reverse,-0.067,-0.104,-0.033,0/10,worse,-3.6,no evidence
+gsets,gsets: 309 genes in no pathway | ensemble,0.617,0.609,0.016,0.648,0.782,raw | ensemble,-0.018,-0.062,0.022,2/10,no evidence,-0.82,no evidence
+gsets,gsets: footprint scores (52 x 6) | centroid,0.57,0.555,0.022,0.578,0.722,raw | centroid,-0.097,-0.168,-0.029,0/10,worse,-2.67,no evidence
+gsets,gsets: footprint scores (52 x 6) | LR,0.626,0.633,0.022,0.641,0.78,raw | LR,0.069,0.016,0.118,10/10,better,2.7,no evidence
+gsets,gsets: footprint scores (52 x 6) | reverse,0.696,0.672,0.011,0.673,0.808,raw | reverse,0.03,-0.022,0.081,9/10,no evidence,1.15,no evidence
+gsets,gsets: footprint scores (52 x 6) | ensemble,0.655,0.665,0.024,0.677,0.818,raw | ensemble,0.039,-0.029,0.098,9/10,no evidence,1.21,no evidence
+gsets,"gsets: raw + footprint scores, late fusion | centroid",0.643,0.589,0.013,0.625,0.769,raw | centroid,-0.062,-0.124,0.001,0/10,no evidence,-1.91,no evidence
+gsets,"gsets: raw + footprint scores, late fusion | LR",0.627,0.628,0.015,0.654,0.791,raw | LR,0.065,0.023,0.096,10/10,better,3.33,no evidence
+gsets,"gsets: raw + footprint scores, late fusion | reverse",0.665,0.68,0.01,0.679,0.809,raw | reverse,0.039,-0.007,0.087,10/10,no evidence,1.58,no evidence
+gsets,"gsets: raw + footprint scores, concatenated | LR",0.595,0.577,0.017,0.638,0.782,raw | LR,0.014,0.001,0.023,9/10,better,2.46,no evidence
+gsets,gsets: footprint dose-slopes (52) | centroid,0.465,0.479,0.012,0.512,0.679,gsets: footprint scores (52 x 6) | centroid,-0.076,-0.154,0.005,0/10,no evidence,-1.88,no evidence
+gsets,gsets: footprint dose-slopes (52) | LR,0.491,0.471,0.013,0.476,0.645,gsets: footprint scores (52 x 6) | LR,-0.162,-0.25,-0.058,0/10,worse,-3.33,no evidence
+gsets,gsets: footprint dose-slopes (52) | ensemble,0.48,0.475,0.019,0.51,0.672,gsets: footprint scores (52 x 6) | ensemble,-0.19,-0.283,-0.089,0/10,worse,-3.82,no evidence
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | centroid",0.631,0.613,0.019,0.623,0.756,gsets: footprint scores (52 x 6) | centroid,0.058,0.0,0.124,10/10,better,1.79,no evidence
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | LR",0.515,0.547,0.037,0.565,0.729,gsets: footprint scores (52 x 6) | LR,-0.085,-0.134,-0.035,0/10,worse,-3.35,no evidence
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | reverse",0.595,0.611,0.025,0.617,0.754,gsets: footprint scores (52 x 6) | reverse,-0.061,-0.116,-0.003,1/10,worse,-2.11,no evidence
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | ensemble",0.615,0.649,0.023,0.662,0.774,gsets: footprint scores (52 x 6) | ensemble,-0.016,-0.072,0.051,3/10,no evidence,-0.51,no evidence
+gsets,"gsets: one reverse expert per pathway, mean | reverse",0.642,0.674,0.022,0.705,0.821,raw | reverse,0.033,-0.007,0.071,10/10,no evidence,1.68,no evidence
+gsets,"gsets: one reverse expert per pathway, top-10 by inner CV | reverse",0.71,0.688,0.016,0.696,0.822,raw | reverse,0.047,0.012,0.077,10/10,better,2.81,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | centroid",0.653,0.634,0.017,0.67,0.782,raw | centroid,-0.018,-0.043,0.008,0/10,no evidence,-1.33,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | LR",0.577,0.581,0.026,0.631,0.778,raw | LR,0.017,-0.001,0.033,8/10,no evidence,1.95,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | reverse",0.656,0.639,0.015,0.662,0.801,raw | reverse,-0.002,-0.026,0.02,4/10,no evidence,-0.17,no evidence
+graph,"graph: STRING >= 0.4, lazy 1-hop smoothing (mix 0.5) | ensemble",0.647,0.634,0.017,0.701,0.808,raw | ensemble,0.008,-0.007,0.022,8/10,no evidence,1.03,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | centroid",0.628,0.609,0.015,0.628,0.779,raw | centroid,-0.043,-0.093,0.005,0/10,no evidence,-1.7,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | LR",0.575,0.581,0.026,0.628,0.769,raw | LR,0.017,-0.011,0.037,8/10,no evidence,1.36,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | reverse",0.627,0.637,0.021,0.656,0.78,raw | reverse,-0.004,-0.037,0.033,4/10,no evidence,-0.23,no evidence
+graph,"graph: STRING >= 0.4, random walk with restart 0.2 (long-range) | ensemble",0.647,0.627,0.016,0.687,0.799,raw | ensemble,0.001,-0.027,0.024,4/10,no evidence,0.07,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | centroid",0.628,0.598,0.017,0.613,0.771,raw | centroid,-0.053,-0.104,-0.003,0/10,worse,-2.06,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | LR",0.587,0.588,0.023,0.639,0.764,raw | LR,0.024,-0.007,0.052,8/10,no evidence,1.61,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | reverse",0.615,0.646,0.014,0.667,0.776,raw | reverse,0.004,-0.043,0.049,6/10,no evidence,0.17,no evidence
+graph,"graph: STRING >= 0.4, heat diffusion t=2 (long-range) | ensemble",0.637,0.632,0.023,0.701,0.795,raw | ensemble,0.006,-0.032,0.043,7/10,no evidence,0.31,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | centroid",0.647,0.672,0.017,0.704,0.826,raw | centroid,0.021,-0.004,0.042,8/10,no evidence,1.73,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | LR",0.561,0.574,0.022,0.635,0.783,raw | LR,0.011,-0.003,0.026,7/10,no evidence,1.42,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | reverse",0.626,0.642,0.013,0.658,0.802,raw | reverse,0.0,-0.017,0.016,5/10,no evidence,0.0,no evidence
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | ensemble",0.665,0.641,0.014,0.706,0.833,raw | ensemble,0.015,-0.004,0.032,7/10,no evidence,1.6,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | centroid",0.653,0.627,0.016,0.677,0.785,raw | centroid,-0.024,-0.05,0.001,0/10,no evidence,-1.74,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | LR",0.615,0.601,0.024,0.649,0.77,raw | LR,0.038,0.007,0.073,9/10,better,2.26,no evidence
+graph,"graph: STRING >= 0.4, multi-scale [X, ÂX, Â²X] | ensemble",0.64,0.636,0.015,0.689,0.808,raw | ensemble,0.009,-0.013,0.046,6/10,no evidence,0.63,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | centroid",0.66,0.637,0.014,0.678,0.783,raw | centroid,-0.015,-0.039,0.011,1/10,no evidence,-1.09,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | LR",0.591,0.588,0.015,0.625,0.779,raw | LR,0.025,0.006,0.041,9/10,better,2.83,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | reverse",0.647,0.632,0.016,0.659,0.807,raw | reverse,-0.009,-0.03,0.015,3/10,no evidence,-0.81,no evidence
+graph,"graph: STRING >= 0.7, lazy 1-hop smoothing (mix 0.5) | ensemble",0.65,0.637,0.014,0.694,0.807,raw | ensemble,0.011,-0.003,0.025,8/10,no evidence,1.59,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | centroid",0.65,0.625,0.02,0.65,0.767,raw | centroid,-0.026,-0.056,0.008,1/10,no evidence,-1.56,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | LR",0.59,0.598,0.021,0.641,0.772,raw | LR,0.034,0.009,0.058,10/10,better,2.72,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | reverse",0.637,0.63,0.012,0.656,0.795,raw | reverse,-0.012,-0.046,0.029,1/10,no evidence,-0.63,no evidence
+graph,"graph: STRING >= 0.7, random walk with restart 0.2 (long-range) | ensemble",0.658,0.641,0.017,0.683,0.794,raw | ensemble,0.014,-0.003,0.034,9/10,no evidence,1.51,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | centroid",0.657,0.649,0.02,0.69,0.8,raw | centroid,-0.003,-0.013,0.008,3/10,no evidence,-0.57,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | LR",0.524,0.544,0.022,0.61,0.775,raw | LR,-0.02,-0.048,0.001,1/10,no evidence,-1.62,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | reverse",0.592,0.601,0.015,0.636,0.784,raw | reverse,-0.041,-0.069,-0.017,0/10,worse,-3.07,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), lazy 1-hop smoothing (mix 0.5) | ensemble",0.656,0.63,0.013,0.679,0.816,raw | ensemble,0.003,-0.01,0.019,5/10,no evidence,0.4,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | centroid",0.641,0.619,0.02,0.648,0.775,raw | centroid,-0.033,-0.077,0.012,1/10,no evidence,-1.4,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | LR",0.508,0.523,0.025,0.559,0.733,raw | LR,-0.041,-0.086,-0.008,0/10,worse,-2.05,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | reverse",0.574,0.562,0.032,0.588,0.76,raw | reverse,-0.079,-0.141,-0.037,0/10,worse,-3.0,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), random walk with restart 0.2 (long-range) | ensemble",0.621,0.617,0.018,0.632,0.806,raw | ensemble,-0.009,-0.04,0.025,3/10,no evidence,-0.55,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | centroid",0.631,0.626,0.015,0.637,0.783,raw | centroid,-0.025,-0.08,0.026,0/10,no evidence,-0.9,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | LR",0.479,0.519,0.026,0.553,0.724,raw | LR,-0.045,-0.094,-0.012,0/10,worse,-2.12,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | reverse",0.55,0.548,0.028,0.574,0.76,raw | reverse,-0.094,-0.158,-0.047,0/10,worse,-3.25,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), heat diffusion t=2 (long-range) | ensemble",0.603,0.617,0.016,0.628,0.814,raw | ensemble,-0.01,-0.048,0.027,3/10,no evidence,-0.51,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | centroid",0.631,0.668,0.021,0.707,0.821,raw | centroid,0.016,-0.04,0.067,7/10,no evidence,0.56,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | LR",0.601,0.59,0.016,0.67,0.814,raw | LR,0.026,-0.015,0.083,8/10,no evidence,1.04,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | reverse",0.687,0.714,0.024,0.733,0.854,raw | reverse,0.073,0.032,0.118,10/10,better,3.25,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | ensemble",0.645,0.672,0.012,0.747,0.829,raw | ensemble,0.046,0.007,0.083,10/10,better,2.32,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | centroid",0.657,0.647,0.021,0.702,0.799,raw | centroid,-0.005,-0.015,0.006,2/10,no evidence,-0.92,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | LR",0.524,0.531,0.022,0.573,0.747,raw | LR,-0.032,-0.075,0.0,1/10,no evidence,-1.65,no evidence
+graph,"graph: co-expression kNN (k=10, r > 0), multi-scale [X, ÂX, Â²X] | ensemble",0.612,0.629,0.011,0.672,0.795,raw | ensemble,0.003,-0.014,0.022,6/10,no evidence,0.34,no evidence
+pairs,pairs: rank-normal scores per profile | centroid,0.628,0.616,0.009,0.675,0.8,raw | centroid,-0.036,-0.07,0.008,0/10,no evidence,-1.74,no evidence
+pairs,pairs: rank-normal scores per profile | LR,0.573,0.599,0.023,0.651,0.818,raw | LR,0.035,-0.01,0.1,10/10,no evidence,1.24,no evidence
+pairs,pairs: rank-normal scores per profile | reverse,0.67,0.694,0.02,0.693,0.861,raw | reverse,0.053,0.002,0.115,10/10,better,1.9,no evidence
+pairs,pairs: rank-normal scores per profile | ensemble,0.629,0.625,0.014,0.69,0.816,raw | ensemble,-0.001,-0.038,0.053,5/10,no evidence,-0.04,no evidence
+pairs,"pairs: top-50 signed genes per profile, rest zero | centroid",0.565,0.588,0.019,0.59,0.775,raw | centroid,-0.064,-0.124,0.006,0/10,no evidence,-1.93,no evidence
+pairs,"pairs: top-50 signed genes per profile, rest zero | LR",0.477,0.487,0.025,0.588,0.739,raw | LR,-0.077,-0.124,-0.022,0/10,worse,-3.03,no evidence
+pairs,"pairs: top-50 signed genes per profile, rest zero | ensemble",0.549,0.578,0.019,0.612,0.785,raw | ensemble,-0.048,-0.101,0.01,0/10,no evidence,-1.76,no evidence
+pairs,"pairs: top-100 signed genes per profile, rest zero | centroid",0.643,0.62,0.021,0.656,0.825,raw | centroid,-0.031,-0.073,0.004,1/10,no evidence,-1.53,no evidence
+pairs,"pairs: top-100 signed genes per profile, rest zero | LR",0.5,0.484,0.015,0.64,0.755,raw | LR,-0.08,-0.128,-0.031,0/10,worse,-3.14,no evidence
+pairs,"pairs: top-100 signed genes per profile, rest zero | ensemble",0.576,0.59,0.008,0.663,0.798,raw | ensemble,-0.036,-0.082,0.004,0/10,no evidence,-1.67,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | centroid",0.627,0.619,0.014,0.662,0.816,raw | centroid,-0.032,-0.073,0.001,0/10,no evidence,-1.65,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | LR",0.494,0.555,0.015,0.646,0.777,raw | LR,-0.008,-0.03,0.016,4/10,no evidence,-0.69,no evidence
+pairs,"pairs: top-200 signed genes per profile, rest zero | ensemble",0.57,0.595,0.008,0.668,0.805,raw | ensemble,-0.032,-0.063,-0.002,1/10,worse,-2.06,no evidence
+pairs,"pairs: signed-rank similarity, top-100 genes (ZhangScore-like) | centroid",0.64,0.612,0.013,0.664,0.793,raw | centroid,-0.04,-0.085,0.005,0/10,no evidence,-1.73,no evidence
+pairs,"pairs: KS connectivity, top-50 up / down genes (CMap 2006 style) | centroid",0.616,0.6,0.016,0.614,0.777,raw | centroid,-0.051,-0.098,-0.006,0/10,worse,-2.18,no evidence
+pairs,"pairs: top-scoring pairs, k=5 per class | LR",0.492,0.539,0.025,0.57,0.767,pairs ref: top-2-dose profile | LR,-0.081,-0.149,-0.011,0/10,worse,-2.28,no evidence
+pairs,"pairs: top-scoring pairs, k=5 per class | k-TSP vote",0.512,0.483,0.042,0.535,0.736,pairs ref: top-2-dose profile | LR,-0.136,-0.225,-0.062,0/10,worse,-3.27,no evidence
+pairs,"pairs: single genes, k=5 per class (same criterion) | LR",0.598,0.594,0.024,0.615,0.813,pairs ref: top-2-dose profile | LR,-0.026,-0.071,0.019,4/10,no evidence,-1.15,no evidence
+pairs,"pairs: top-scoring pairs, k=20 per class | LR",0.651,0.615,0.014,0.662,0.815,pairs ref: top-2-dose profile | LR,-0.004,-0.071,0.059,4/10,no evidence,-0.12,no evidence
+pairs,"pairs: top-scoring pairs, k=20 per class | k-TSP vote",0.607,0.537,0.023,0.599,0.793,pairs ref: top-2-dose profile | LR,-0.082,-0.164,-0.011,0/10,worse,-2.07,no evidence
+pairs,"pairs: single genes, k=20 per class (same criterion) | LR",0.63,0.626,0.02,0.671,0.832,pairs ref: top-2-dose profile | LR,0.007,-0.023,0.042,4/10,no evidence,0.41,no evidence
+pairs,"pairs: STRING >= 0.9 edges (1769), differences | LR",0.669,0.622,0.019,0.669,0.79,pairs ref: top-2-dose profile | LR,0.003,-0.034,0.036,7/10,no evidence,0.17,no evidence
+pairs,"pairs: same-pathway pairs (1769), differences | LR",0.652,0.643,0.03,0.697,0.849,pairs ref: top-2-dose profile | LR,0.024,-0.006,0.044,10/10,no evidence,1.92,no evidence
+pairs,"pairs: SVM, linear kernel | SVM",0.497,0.503,0.018,0.51,0.716,raw | LR,-0.061,-0.115,-0.015,0/10,worse,-2.37,no evidence
+pairs,"pairs: SVM, degree-2 polynomial kernel (pairwise interactions) | SVM",0.494,0.467,0.012,0.494,0.686,"pairs: SVM, linear kernel | SVM",-0.036,-0.086,-0.002,1/10,worse,-1.73,no evidence
+pairs,"pairs: SVM, RBF kernel (pairwise interactions) | SVM",0.323,0.335,0.015,0.495,0.675,"pairs: SVM, linear kernel | SVM",-0.168,-0.248,-0.08,0/10,worse,-3.9,worse
+hard,"hard: two-stage, a-priori hard set, soft | centroid",0.624,0.596,0.013,0.664,0.77,raw | centroid,-0.056,-0.095,-0.017,0/10,worse,-2.66,no evidence
+hard,"hard: two-stage, a-priori hard set + AKT, soft | centroid",0.575,0.569,0.011,0.654,0.783,raw | centroid,-0.082,-0.14,-0.028,0/10,worse,-2.79,no evidence
+hard,"hard: two-stage, hard set learned by inner CV, soft | centroid",0.524,0.519,0.027,0.634,0.756,raw | centroid,-0.133,-0.185,-0.067,0/10,worse,-4.25,worse
+hard,"hard: two-stage, a-priori hard set, hard routing | centroid",0.649,0.651,0.018,0.649,0.802,raw | centroid,-0.0,-0.007,0.007,6/10,no evidence,-0.0,no evidence
+hard,"hard: two-stage, a-priori hard set, soft | reverse",0.516,0.511,0.008,0.645,0.667,raw | reverse,-0.131,-0.171,-0.079,0/10,worse,-5.54,worse
+hard,"hard: two-stage, a-priori hard set + AKT, soft | reverse",0.476,0.431,0.022,0.626,0.628,raw | reverse,-0.21,-0.275,-0.136,0/10,worse,-5.92,worse
+hard,"hard: two-stage, hard set learned by inner CV, soft | reverse",0.471,0.421,0.048,0.575,0.657,raw | reverse,-0.221,-0.281,-0.159,0/10,worse,-7.12,worse
+hard,"hard: two-stage, a-priori hard set, hard routing | reverse",0.653,0.662,0.01,0.66,0.779,raw | reverse,0.02,-0.026,0.06,10/10,no evidence,0.93,no evidence
+hard,"hard: two-stage, stage 2 on all doses of the hard classes' pathway genes | reverse",0.516,0.525,0.02,0.648,0.697,raw | reverse,-0.117,-0.161,-0.064,0/10,worse,-4.57,worse
+hard,"hard: two-stage, stage 2 = LR on all doses | centroid + LR",0.616,0.61,0.015,0.685,0.81,raw | centroid,-0.042,-0.099,0.018,0/10,no evidence,-1.37,no evidence
+hard,"hard: biological hierarchy (group, then class) | centroid",0.64,0.668,0.028,0.71,0.831,raw | centroid,0.016,-0.024,0.05,7/10,no evidence,0.85,no evidence
+hard,"hard: biological hierarchy (group, then class) | reverse",0.462,0.506,0.016,0.604,0.579,raw | reverse,-0.136,-0.181,-0.08,0/10,worse,-5.3,worse
+hard,"hard: focal-style sample weights, gamma=1 | LR",0.551,0.547,0.031,0.626,0.778,raw | LR,-0.017,-0.032,-0.003,1/10,worse,-2.36,no evidence
+hard,"hard: focal-style sample weights, gamma=2 | LR",0.551,0.537,0.031,0.622,0.778,raw | LR,-0.026,-0.046,-0.01,1/10,worse,-2.81,no evidence
+hard,hard: hard classes up-weighted x3 | LR,0.562,0.564,0.032,0.627,0.785,raw | LR,0.001,-0.004,0.008,4/10,no evidence,0.33,no evidence
+hard,"hard: boosting-style re-weighting, 2 rounds | LR",0.551,0.544,0.033,0.624,0.778,raw | LR,-0.02,-0.035,-0.006,1/10,worse,-2.69,no evidence
+hard,hard: prior shift by activity (silent / active) | centroid,0.651,0.644,0.008,0.684,0.82,raw | centroid,-0.008,-0.059,0.038,4/10,no evidence,-0.31,no evidence
+hard,hard: prior shift by activity (silent / active) | reverse,0.629,0.608,0.02,0.633,0.77,raw | reverse,-0.033,-0.12,0.034,0/10,no evidence,-0.84,no evidence
+hard,"hard: expected-pathway specialists for hard classes, blend 0.5 | centroid",0.667,0.675,0.021,0.694,0.833,raw | centroid,0.023,-0.021,0.063,8/10,no evidence,1.04,no evidence
+unl,unl: global centring over all compounds | centroid,0.64,0.651,0.016,0.674,0.806,raw | centroid,-0.0,-0.038,0.042,4/10,no evidence,-0.0,no evidence
+unl,unl: global centring over all compounds | LR,0.562,0.564,0.027,0.626,0.784,raw | LR,0.0,0.0,0.001,1/10,no evidence,0.0,no evidence
+unl,unl: global centring over all compounds | reverse,0.64,0.642,0.01,0.662,0.8,raw | reverse,0.0,0.0,0.0,0/10,no evidence,0.0,no evidence
+unl,unl: global centring over all compounds | ensemble,0.647,0.642,0.011,0.704,0.815,raw | ensemble,0.016,-0.001,0.034,9/10,no evidence,1.72,no evidence
+unl,"unl: PCA on all compounds, 10 components | centroid",0.578,0.576,0.009,0.57,0.756,raw | centroid,-0.075,-0.137,-0.017,0/10,worse,-2.41,no evidence
+unl,"unl: PCA on all compounds, 10 components | LR",0.434,0.497,0.02,0.549,0.77,raw | LR,-0.067,-0.134,0.011,0/10,no evidence,-1.75,no evidence
+unl,"unl: PCA on all compounds, 10 components | ensemble",0.578,0.575,0.01,0.568,0.757,raw | ensemble,-0.051,-0.112,-0.002,0/10,worse,-1.78,no evidence
+unl,"unl: PCA on all compounds, 20 components | centroid",0.646,0.664,0.01,0.66,0.795,raw | centroid,0.013,-0.031,0.065,7/10,no evidence,0.53,no evidence
+unl,"unl: PCA on all compounds, 20 components | LR",0.639,0.637,0.026,0.66,0.806,raw | LR,0.074,0.022,0.133,10/10,better,2.6,no evidence
+unl,"unl: PCA on all compounds, 20 components | ensemble",0.642,0.664,0.011,0.659,0.799,raw | ensemble,0.037,-0.004,0.091,10/10,no evidence,1.53,no evidence
+unl,"unl: PCA on all compounds, 50 components | centroid",0.634,0.643,0.012,0.666,0.801,raw | centroid,-0.008,-0.051,0.033,3/10,no evidence,-0.38,no evidence
+unl,"unl: PCA on all compounds, 50 components | LR",0.593,0.598,0.019,0.625,0.776,raw | LR,0.035,-0.047,0.112,10/10,no evidence,0.85,no evidence
+unl,"unl: PCA on all compounds, 50 components | ensemble",0.64,0.645,0.011,0.672,0.824,raw | ensemble,0.018,-0.03,0.063,8/10,no evidence,0.76,no evidence
+unl,"unl: PCA on all compounds, 100 components | centroid",0.625,0.644,0.018,0.67,0.799,raw | centroid,-0.008,-0.045,0.03,4/10,no evidence,-0.42,no evidence
+unl,"unl: PCA on all compounds, 100 components | LR",0.559,0.571,0.027,0.607,0.737,raw | LR,0.007,-0.076,0.086,5/10,no evidence,0.17,no evidence
+unl,"unl: PCA on all compounds, 100 components | ensemble",0.643,0.649,0.023,0.675,0.815,raw | ensemble,0.023,-0.02,0.068,7/10,no evidence,1.06,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | centroid,0.638,0.652,0.016,0.692,0.833,raw | centroid,0.001,-0.029,0.026,4/10,no evidence,0.07,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | LR,0.562,0.564,0.027,0.628,0.784,raw | LR,0.0,-0.0,0.001,1/10,no evidence,0.0,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | reverse,0.64,0.642,0.01,0.662,0.8,raw | reverse,0.0,0.0,0.0,0/10,no evidence,0.0,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | ensemble,0.632,0.64,0.009,0.718,0.824,raw | ensemble,0.014,0.0,0.027,9/10,better,1.91,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | centroid,0.628,0.602,0.017,0.635,0.836,raw | centroid,-0.049,-0.111,0.013,0/10,no evidence,-1.48,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | LR,0.597,0.618,0.017,0.655,0.811,raw | LR,0.055,-0.007,0.125,10/10,no evidence,1.59,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | ensemble,0.631,0.62,0.015,0.654,0.826,raw | ensemble,-0.006,-0.068,0.052,3/10,no evidence,-0.2,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | centroid,0.58,0.583,0.013,0.614,0.813,raw | centroid,-0.068,-0.122,-0.011,0/10,worse,-2.26,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | LR,0.6,0.61,0.011,0.639,0.78,raw | LR,0.046,-0.01,0.113,10/10,no evidence,1.44,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | ensemble,0.58,0.589,0.016,0.615,0.814,raw | ensemble,-0.037,-0.091,0.019,0/10,no evidence,-1.29,no evidence
+unl,"unl: label spreading over train + test + active unlabelled, alpha=0.5 | spreading",0.587,0.586,0.012,0.602,0.789,raw | centroid,-0.065,-0.128,0.001,0/10,no evidence,-1.96,no evidence
+unl,"unl: label spreading over train + test + active unlabelled, alpha=0.9 | spreading",0.558,0.56,0.01,0.605,0.794,raw | centroid,-0.092,-0.165,-0.024,0/10,worse,-2.62,no evidence
+unl,"unl: self-training, centroids enlarged with confident unlabelled compounds | centroid",0.657,0.646,0.015,0.681,0.795,raw | centroid,-0.006,-0.018,0.008,4/10,no evidence,-0.86,no evidence
+unl,unl: tau-like percentile scores against the unlabelled compounds | centroid,0.461,0.525,0.02,0.545,0.767,raw | centroid,-0.126,-0.224,-0.04,0/10,worse,-2.63,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=0 (diagonal LDA) | NSC",0.63,0.608,0.015,0.644,0.771,raw | centroid,-0.044,-0.109,0.03,0/10,no evidence,-1.23,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=1 | NSC",0.591,0.583,0.011,0.635,0.782,raw | centroid,-0.069,-0.125,-0.001,0/10,worse,-2.18,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=2 | NSC",0.487,0.492,0.022,0.536,0.729,raw | centroid,-0.16,-0.23,-0.072,0/10,worse,-3.85,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=4 | NSC",0.297,0.267,0.022,0.322,0.556,raw | centroid,-0.385,-0.465,-0.276,0/10,worse,-8.21,worse
+zoo,"zoo: nearest shrunken centroids, delta by inner CV | NSC",0.608,0.587,0.021,0.631,0.783,raw | centroid,-0.064,-0.122,0.003,0/10,no evidence,-1.93,no evidence
+zoo,"zoo: LDA, Ledoit-Wolf shrinkage | LDA",0.604,0.598,0.017,0.615,0.772,zoo ref: top-2-dose profile | LR,-0.022,-0.052,0.009,2/10,no evidence,-1.41,no evidence
+zoo,zoo: linear SVM (C=0.01) | linear SVM,0.643,0.645,0.019,0.675,0.821,zoo ref: top-2-dose profile | LR,0.026,-0.027,0.093,9/10,no evidence,0.85,no evidence
+zoo,zoo: ridge classifier (alpha=100) | ridge classifier,0.623,0.658,0.012,0.692,0.83,zoo ref: top-2-dose profile | LR,0.039,0.004,0.089,10/10,better,1.82,no evidence
+zoo,zoo: Gaussian naive Bayes | Gaussian naive Bayes,0.233,0.227,0.015,0.217,0.48,zoo ref: top-2-dose profile | LR,-0.392,-0.458,-0.307,0/10,worse,-10.12,worse
+zoo,"zoo: extra trees (500 trees), seed 0 | trees",0.595,0.582,0.01,0.654,0.771,zoo ref: top-2-dose profile | LR,-0.037,-0.08,0.009,1/10,no evidence,-1.65,no evidence
+zoo,"zoo: extra trees (500 trees), seed 1 | trees",0.591,0.59,0.013,0.665,0.762,zoo ref: top-2-dose profile | LR,-0.03,-0.074,0.019,2/10,no evidence,-1.29,no evidence
+zoo,"zoo: extra trees (500 trees), seed 2 | trees",0.589,0.587,0.015,0.651,0.764,zoo ref: top-2-dose profile | LR,-0.032,-0.076,0.011,2/10,no evidence,-1.47,no evidence
+zoo,"zoo: random forest (500 trees), seed 0 | trees",0.629,0.625,0.015,0.66,0.798,zoo ref: top-2-dose profile | LR,0.006,-0.03,0.045,6/10,no evidence,0.32,no evidence
+zoo,"zoo: kNN, correlation, k=1 | kNN",0.667,0.629,0.016,0.627,0.732,raw | centroid,-0.023,-0.077,0.039,3/10,no evidence,-0.79,no evidence
+zoo,"zoo: kNN, correlation, k=3 | kNN",0.612,0.597,0.02,0.657,0.801,raw | centroid,-0.055,-0.123,0.02,0/10,no evidence,-1.52,no evidence
+zoo,"zoo: kNN, correlation, k=5 | kNN",0.608,0.595,0.032,0.69,0.807,raw | centroid,-0.057,-0.12,0.0,1/10,no evidence,-1.84,no evidence
+zoo,zoo: nearest training compound of each class (max r) | kNN,0.667,0.629,0.016,0.661,0.811,raw | centroid,-0.023,-0.077,0.039,3/10,no evidence,-0.79,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | centroid,0.621,0.623,0.021,0.66,0.784,raw | centroid,-0.029,-0.076,0.036,2/10,no evidence,-1.03,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | LR,0.623,0.605,0.018,0.649,0.831,raw | LR,0.042,0.011,0.074,10/10,better,2.56,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | reverse,0.669,0.692,0.022,0.689,0.832,raw | reverse,0.05,0.019,0.085,10/10,better,2.95,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | ensemble,0.625,0.637,0.018,0.691,0.805,raw | ensemble,0.011,-0.018,0.043,8/10,no evidence,0.7,no evidence
+zoo,zoo: raw + 50 PCA components of all compounds appended | LR,0.587,0.584,0.024,0.63,0.797,raw | LR,0.02,0.001,0.048,9/10,better,1.72,no evidence
+zoo,"zoo: centroid, median, pearson | centroid",0.652,0.652,0.019,0.698,0.808,raw | centroid,0.001,-0.017,0.019,5/10,no evidence,0.11,no evidence
+zoo,"zoo: centroid, mean, spearman | centroid",0.605,0.614,0.021,0.669,0.801,raw | centroid,-0.038,-0.075,-0.002,0/10,worse,-2.0,no evidence
+zoo,"zoo: centroid, mean, cosine | centroid",0.648,0.651,0.021,0.685,0.807,raw | centroid,-0.0,-0.002,0.0,0/10,no evidence,-0.0,no evidence
+zoo,"zoo: base three, geometric mean | ensemble",0.637,0.637,0.016,0.702,0.83,raw | ensemble,0.01,-0.012,0.045,7/10,no evidence,0.71,no evidence
+zoo,"zoo: base three, rank average | ensemble",0.612,0.634,0.021,0.647,0.832,raw | ensemble,0.008,-0.036,0.041,5/10,no evidence,0.41,no evidence
+zoo,"zoo: base three, majority vote | ensemble",0.625,0.623,0.021,0.688,0.83,raw | ensemble,-0.003,-0.036,0.015,4/10,no evidence,-0.23,no evidence
+zoo,"zoo: wider zoo (base three + NSC + LDA + kNN), mean | ensemble",0.625,0.626,0.026,0.716,0.811,raw | ensemble,-0.001,-0.058,0.055,4/10,no evidence,-0.04,no evidence
+zoo,zoo: nested CV picks one of 7 methods per training part | nested,0.638,0.616,0.033,0.66,0.795,raw | centroid,-0.035,-0.083,0.009,3/10,no evidence,-1.49,no evidence

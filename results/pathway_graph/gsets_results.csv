@@ -1,0 +1,24 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+gsets,gsets: 669 genes in any pathway | centroid,0.65,0.66,0.018,0.69,0.831,raw | centroid,0.009,-0.016,0.029,8/10,no evidence
+gsets,gsets: 669 genes in any pathway | reverse,0.642,0.665,0.02,0.677,0.809,raw | reverse,0.023,0.004,0.047,10/10,better
+gsets,gsets: 669 genes in any pathway | ensemble,0.647,0.659,0.014,0.716,0.848,raw | ensemble,0.033,0.002,0.064,10/10,better
+gsets,gsets: 309 genes in no pathway | centroid,0.618,0.605,0.018,0.64,0.779,raw | centroid,-0.046,-0.087,-0.005,0/10,worse
+gsets,gsets: 309 genes in no pathway | reverse,0.527,0.575,0.021,0.582,0.747,raw | reverse,-0.067,-0.104,-0.033,0/10,worse
+gsets,gsets: 309 genes in no pathway | ensemble,0.617,0.609,0.016,0.648,0.782,raw | ensemble,-0.018,-0.062,0.022,2/10,no evidence
+gsets,gsets: footprint scores (52 x 6) | centroid,0.57,0.555,0.022,0.578,0.722,raw | centroid,-0.097,-0.168,-0.029,0/10,worse
+gsets,gsets: footprint scores (52 x 6) | LR,0.626,0.633,0.022,0.641,0.78,raw | LR,0.069,0.016,0.118,10/10,better
+gsets,gsets: footprint scores (52 x 6) | reverse,0.696,0.672,0.011,0.673,0.808,raw | reverse,0.03,-0.022,0.081,9/10,no evidence
+gsets,gsets: footprint scores (52 x 6) | ensemble,0.655,0.665,0.024,0.677,0.818,raw | ensemble,0.039,-0.029,0.098,9/10,no evidence
+gsets,"gsets: raw + footprint scores, late fusion | centroid",0.643,0.589,0.013,0.625,0.769,raw | centroid,-0.062,-0.124,0.001,0/10,no evidence
+gsets,"gsets: raw + footprint scores, late fusion | LR",0.627,0.628,0.015,0.654,0.791,raw | LR,0.065,0.023,0.096,10/10,better
+gsets,"gsets: raw + footprint scores, late fusion | reverse",0.665,0.68,0.01,0.679,0.809,raw | reverse,0.039,-0.007,0.087,10/10,no evidence
+gsets,"gsets: raw + footprint scores, concatenated | LR",0.595,0.577,0.017,0.638,0.782,raw | LR,0.014,0.001,0.023,9/10,better
+gsets,gsets: footprint dose-slopes (52) | centroid,0.465,0.479,0.012,0.512,0.679,gsets: footprint scores (52 x 6) | centroid,-0.076,-0.154,0.005,0/10,no evidence
+gsets,gsets: footprint dose-slopes (52) | LR,0.491,0.471,0.013,0.476,0.645,gsets: footprint scores (52 x 6) | LR,-0.162,-0.25,-0.058,0/10,worse
+gsets,gsets: footprint dose-slopes (52) | ensemble,0.48,0.475,0.019,0.51,0.672,gsets: footprint scores (52 x 6) | ensemble,-0.19,-0.283,-0.089,0/10,worse
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | centroid",0.631,0.613,0.019,0.623,0.756,gsets: footprint scores (52 x 6) | centroid,0.058,0.0,0.124,10/10,better
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | LR",0.515,0.547,0.037,0.565,0.729,gsets: footprint scores (52 x 6) | LR,-0.085,-0.134,-0.035,0/10,worse
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | reverse",0.595,0.611,0.025,0.617,0.754,gsets: footprint scores (52 x 6) | reverse,-0.061,-0.116,-0.003,1/10,worse
+gsets,"gsets: 52 data-driven gene modules (unlabelled), x 6 | ensemble",0.615,0.649,0.023,0.662,0.774,gsets: footprint scores (52 x 6) | ensemble,-0.016,-0.072,0.051,3/10,no evidence
+gsets,"gsets: one reverse expert per pathway, mean | reverse",0.642,0.674,0.022,0.705,0.821,raw | reverse,0.033,-0.007,0.071,10/10,no evidence
+gsets,"gsets: one reverse expert per pathway, top-10 by inner CV | reverse",0.71,0.688,0.016,0.696,0.822,raw | reverse,0.047,0.012,0.077,10/10,better

@@ -1,0 +1,14 @@
+metric,value,note
+median |per-plate gene median| (all wells),0.0631,≈0 if z-scores are centred on this population
+median per-plate gene MAD (all wells),0.7632,≈1 if z-scores are scaled on this population
+median |per-plate gene median| (0.04 uM wells),0.1185,≈0 if z-scores are centred on this population
+median per-plate gene MAD (0.04 uM wells),0.6735,≈1 if z-scores are scaled on this population
+"median variance explained by plate, per gene (0.04 uM wells)",0.0478,plate labels shuffled: 0.0165
+plate control BRD-K60230970 (train): median variance explained by plate,0.3897,shuffled: 0.0778; 300 wells
+plate control BRD-K60230970: mean r same plate vs other plates,0.1007,"same 0.854, other 0.754"
+plate control BRD-K50691590 (unl): median variance explained by plate,0.372,shuffled: 0.0788; 299 wells
+plate control BRD-K50691590: mean r same plate vs other plates,0.0868,"same 0.875, other 0.788"
+"kNN plate purity, 0.04 uM signatures (k=5)",0.4238,shuffled: 0.0374; chance ≈ 1/25
+"kNN plate purity, top-dose compound profiles (k=5)",0.4551,shuffled: 0.0431
+median variance explained by well row (0.04 uM wells),0.017,shuffled: 0.0097
+median variance explained by well column (0.04 uM wells),0.0125,shuffled: 0.0058

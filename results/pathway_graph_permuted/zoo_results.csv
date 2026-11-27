@@ -1,0 +1,31 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+zoo,"zoo: nearest shrunken centroids, delta=0 (diagonal LDA) | NSC",0.062,0.039,0.021,0.053,0.186,raw | centroid,-0.016,-0.035,0.001,2/10,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=1 | NSC",0.041,0.036,0.008,0.048,0.209,raw | centroid,-0.019,-0.041,0.005,3/10,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=2 | NSC",0.026,0.039,0.013,0.067,0.223,raw | centroid,-0.016,-0.044,0.016,2/10,no evidence
+zoo,"zoo: nearest shrunken centroids, delta=4 | NSC",0.006,0.006,0.0,0.041,0.23,raw | centroid,-0.049,-0.076,-0.02,0/10,worse
+zoo,"zoo: nearest shrunken centroids, delta by inner CV | NSC",0.043,0.03,0.015,0.067,0.193,raw | centroid,-0.025,-0.051,-0.0,1/10,worse
+zoo,"zoo: LDA, Ledoit-Wolf shrinkage | LDA",0.063,0.055,0.013,0.068,0.277,zoo ref: top-2-dose profile | LR,-0.01,-0.024,0.006,2/10,no evidence
+zoo,zoo: linear SVM (C=0.01) | linear SVM,0.072,0.072,0.016,0.071,0.21,zoo ref: top-2-dose profile | LR,0.007,-0.024,0.04,6/10,no evidence
+zoo,zoo: ridge classifier (alpha=100) | ridge classifier,0.078,0.064,0.02,0.084,0.247,zoo ref: top-2-dose profile | LR,-0.002,-0.018,0.015,3/10,no evidence
+zoo,zoo: Gaussian naive Bayes | Gaussian naive Bayes,0.039,0.041,0.007,0.064,0.261,zoo ref: top-2-dose profile | LR,-0.024,-0.052,0.008,1/10,no evidence
+zoo,"zoo: extra trees (500 trees), seed 0 | trees",0.073,0.064,0.015,0.055,0.246,zoo ref: top-2-dose profile | LR,-0.001,-0.018,0.016,6/10,no evidence
+zoo,"zoo: extra trees (500 trees), seed 1 | trees",0.081,0.059,0.009,0.052,0.251,zoo ref: top-2-dose profile | LR,-0.007,-0.023,0.01,3/10,no evidence
+zoo,"zoo: extra trees (500 trees), seed 2 | trees",0.085,0.063,0.012,0.05,0.236,zoo ref: top-2-dose profile | LR,-0.002,-0.02,0.017,6/10,no evidence
+zoo,"zoo: random forest (500 trees), seed 0 | trees",0.055,0.062,0.018,0.066,0.208,zoo ref: top-2-dose profile | LR,-0.003,-0.02,0.015,4/10,no evidence
+zoo,"zoo: kNN, correlation, k=1 | kNN",0.059,0.063,0.009,0.078,0.206,raw | centroid,0.008,-0.02,0.038,6/10,no evidence
+zoo,"zoo: kNN, correlation, k=3 | kNN",0.077,0.071,0.009,0.059,0.191,raw | centroid,0.016,-0.013,0.047,8/10,no evidence
+zoo,"zoo: kNN, correlation, k=5 | kNN",0.085,0.077,0.012,0.059,0.205,raw | centroid,0.022,-0.005,0.05,9/10,no evidence
+zoo,zoo: nearest training compound of each class (max r) | kNN,0.059,0.063,0.009,0.054,0.208,raw | centroid,0.008,-0.02,0.038,6/10,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | centroid,0.091,0.071,0.015,0.069,0.257,raw | centroid,0.016,-0.011,0.045,9/10,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | LR,0.077,0.067,0.014,0.076,0.266,raw | LR,-0.002,-0.014,0.007,5/10,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | reverse,0.056,0.073,0.011,0.094,0.234,raw | reverse,0.011,-0.01,0.031,8/10,no evidence
+zoo,zoo: quantile-normal transform (fitted on all compounds) | ensemble,0.067,0.068,0.015,0.072,0.244,raw | ensemble,0.005,-0.014,0.022,5/10,no evidence
+zoo,zoo: raw + 50 PCA components of all compounds appended | LR,0.075,0.075,0.016,0.081,0.263,raw | LR,0.006,0.002,0.01,10/10,better
+zoo,"zoo: centroid, median, pearson | centroid",0.072,0.047,0.018,0.046,0.217,raw | centroid,-0.008,-0.028,0.013,4/10,no evidence
+zoo,"zoo: centroid, mean, spearman | centroid",0.088,0.064,0.018,0.06,0.244,raw | centroid,0.009,-0.008,0.027,8/10,no evidence
+zoo,"zoo: centroid, mean, cosine | centroid",0.089,0.055,0.018,0.055,0.238,raw | centroid,0.0,-0.001,0.001,3/10,no evidence
+zoo,"zoo: base three, geometric mean | ensemble",0.061,0.069,0.015,0.071,0.237,raw | ensemble,0.007,-0.002,0.016,8/10,no evidence
+zoo,"zoo: base three, rank average | ensemble",0.084,0.075,0.015,0.091,0.225,raw | ensemble,0.012,-0.006,0.032,10/10,no evidence
+zoo,"zoo: base three, majority vote | ensemble",0.06,0.057,0.018,0.058,0.216,raw | ensemble,-0.005,-0.015,0.004,3/10,no evidence
+zoo,"zoo: wider zoo (base three + NSC + LDA + kNN), mean | ensemble",0.058,0.05,0.015,0.059,0.208,raw | ensemble,-0.013,-0.032,0.008,1/10,no evidence
+zoo,zoo: nested CV picks one of 7 methods per training part | nested,0.054,0.054,0.021,0.068,0.218,raw | centroid,-0.001,-0.016,0.014,4/10,no evidence

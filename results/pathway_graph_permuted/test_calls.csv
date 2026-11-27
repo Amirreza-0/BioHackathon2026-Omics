@@ -1,0 +1,30 @@
+compound,call,call_with_coverage,top_prob,members_agreeing,n_DEG_top_doses,silent,cv_recall_of_called_class
+BRD-K12423485,EGFR inhibitor,mTOR inhibitor,0.125,1,37,True,0.12
+BRD-K66412701,RAF inhibitor,HSP inhibitor,0.116,2,42,True,0.12
+BRD-K70914287,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.137,1,48,True,0.0
+BRD-K49456274,RAF inhibitor,RAF inhibitor,0.113,1,49,True,0.12
+BRD-K23677682,RAF inhibitor,RAF inhibitor,0.189,2,50,True,0.12
+BRD-K64785675,AKT inhibitor,AKT inhibitor,0.121,2,53,True,0.0
+BRD-K78113049,RAF inhibitor,proteasome inhibitor,0.114,2,54,True,0.12
+BRD-K50168500,MEK inhibitor,JAK inhibitor,0.1,1,62,True,0.09
+BRD-K98493452,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.14,3,63,True,0.0
+BRD-K05804044,EGFR inhibitor,EGFR inhibitor,0.189,2,102,True,0.12
+BRD-K77987382,PLK inhibitor,PLK inhibitor,0.233,1,107,True,0.32
+BRD-K11153516,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.167,1,108,True,0.0
+BRD-K70401845,EGFR inhibitor,EGFR inhibitor,0.139,1,110,True,0.12
+BRD-K85606544,HDAC inhibitor,HDAC inhibitor,0.132,1,112,True,0.01
+BRD-K70511574,PLK inhibitor,PLK inhibitor,0.3,1,154,False,0.32
+BRD-A33280134,CDK inhibitor,CDK inhibitor,0.183,1,160,False,0.18
+BRD-K13154216,PARP inhibitor,PARP inhibitor,0.207,2,163,False,0.05
+BRD-K36280065,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.211,2,172,False,0.0
+BRD-K02389548,tubulin polymerization inhibitor,tubulin polymerization inhibitor,0.235,2,180,False,0.0
+BRD-K37687095,topoisomerase inhibitor,topoisomerase inhibitor,0.237,1,220,False,0.16
+BRD-K85751432,EGFR inhibitor,EGFR inhibitor,0.214,1,286,False,0.12
+BRD-A03506276,MEK inhibitor,MEK inhibitor,0.373,3,334,False,0.09
+BRD-K71281111,MEK inhibitor,MEK inhibitor,0.264,3,337,False,0.09
+BRD-K78659596,topoisomerase inhibitor,topoisomerase inhibitor,0.256,1,340,False,0.16
+BRD-A36331462,PI3K inhibitor,PI3K inhibitor,0.376,2,402,False,0.0
+BRD-K28822270,HDAC inhibitor,HDAC inhibitor,0.286,1,402,False,0.01
+BRD-K72414522,EGFR inhibitor,EGFR inhibitor,0.407,3,452,False,0.12
+BRD-K83837640,topoisomerase inhibitor,topoisomerase inhibitor,0.886,3,520,False,0.16
+BRD-K13390322,EGFR inhibitor,EGFR inhibitor,0.456,3,603,False,0.12

@@ -1,0 +1,21 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,diff_vs_centroid,lo_vs_centroid,hi_vs_centroid,seeds_better_vs_centroid
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | reverse",0.687,0.714,0.024,0.733,0.854,0.063,-0.025,0.154,10/10
+batch,"batch: whitening, shrunk full (spherize on 0.04 uM) | reverse",0.67,0.702,0.023,0.723,0.829,0.051,-0.029,0.14,10/10
+batch,batch: remove 5 PCs | reverse,0.715,0.698,0.008,0.696,0.818,0.046,-0.043,0.142,10/10
+pairs,pairs: rank-normal scores per profile | reverse,0.67,0.694,0.02,0.693,0.861,0.043,-0.039,0.118,10/10
+zoo,zoo: quantile-normal transform (fitted on all compounds) | reverse,0.669,0.692,0.022,0.689,0.832,0.04,-0.049,0.129,9/10
+batch,batch: remove 1 PC of 0.04 uM wells | reverse,0.667,0.688,0.014,0.719,0.84,0.037,-0.046,0.115,9/10
+gsets,"gsets: one reverse expert per pathway, top-10 by inner CV | reverse",0.71,0.688,0.016,0.696,0.822,0.037,-0.059,0.119,9/10
+batch,batch: remove 2 PCs | reverse,0.67,0.686,0.011,0.693,0.809,0.034,-0.057,0.124,10/10
+gsets,"gsets: raw + footprint scores, late fusion | reverse",0.665,0.68,0.01,0.679,0.809,0.029,-0.07,0.119,8/10
+dose,dose: potency-aligned tensor | reverse,0.68,0.677,0.023,0.66,0.847,0.025,-0.067,0.111,8/10
+hard,"hard: expected-pathway specialists for hard classes, blend 0.5 | centroid",0.667,0.675,0.021,0.694,0.833,0.023,-0.021,0.063,8/10
+gsets,"gsets: one reverse expert per pathway, mean | reverse",0.642,0.674,0.022,0.705,0.821,0.023,-0.069,0.105,7/10
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | ensemble",0.645,0.672,0.012,0.747,0.829,0.02,-0.039,0.076,8/10
+gsets,gsets: footprint scores (52 x 6) | reverse,0.696,0.672,0.011,0.673,0.808,0.02,-0.078,0.111,8/10
+graph,"graph: STRING >= 0.4, high-pass residual X - ÂX | centroid",0.647,0.672,0.017,0.704,0.826,0.021,-0.004,0.042,8/10
+batch,batch: remove 5 PCs | ensemble,0.648,0.671,0.013,0.72,0.821,0.02,-0.052,0.088,8/10
+graph,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | centroid",0.631,0.668,0.021,0.707,0.821,0.016,-0.04,0.067,7/10
+hard,"hard: biological hierarchy (group, then class) | centroid",0.64,0.668,0.028,0.71,0.831,0.016,-0.024,0.05,7/10
+gsets,gsets: footprint scores (52 x 6) | ensemble,0.655,0.665,0.024,0.677,0.818,0.013,-0.073,0.093,7/10
+gsets,gsets: 669 genes in any pathway | reverse,0.642,0.665,0.02,0.677,0.809,0.013,-0.074,0.094,7/10

@@ -1,0 +1,11 @@
+merge,n_classes,model,macro_f1,sd
+none (15 classes),15,raw | centroid,0.652,0.02
+none (15 classes),15,raw | ensemble,0.626,0.014
+RAF + MEK,14,raw | centroid,0.681,0.022
+RAF + MEK,14,raw | ensemble,0.65,0.016
+PI3K + AKT + mTOR,13,raw | centroid,0.659,0.02
+PI3K + AKT + mTOR,13,raw | ensemble,0.644,0.013
+whole MAPK axis (EGFR + RAF + MEK),13,raw | centroid,0.69,0.026
+whole MAPK axis (EGFR + RAF + MEK),13,raw | ensemble,0.659,0.018
+MAPK axis and PI3K axis,11,raw | centroid,0.706,0.026
+MAPK axis and PI3K axis,11,raw | ensemble,0.686,0.016

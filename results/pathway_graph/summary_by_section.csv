@@ -1,0 +1,9 @@
+section,comparisons,better,worse,better_familywise,worse_familywise,median_diff,largest_gain,its_diff,its_interval
+dose,51,1,6,0,2,-0.006,dose: activity-weighted mean | LR,0.074,"[+0.026, +0.135]"
+batch,40,8,7,0,4,0.008,batch: remove 5 PCs | LR,0.07,"[+0.017, +0.127]"
+gsets,23,7,7,0,0,0.009,gsets: footprint scores (52 x 6) | LR,0.069,"[+0.016, +0.118]"
+graph,46,5,6,0,0,-0.001,"graph: co-expression kNN (k=10, r > 0), high-pass residual X - ÂX | reverse",0.073,"[+0.032, +0.118]"
+pairs,26,1,10,0,1,-0.036,pairs: rank-normal scores per profile | reverse,0.053,"[+0.002, +0.115]"
+hard,19,0,11,0,6,-0.033,"hard: expected-pathway specialists for hard classes, blend 0.5 | centroid",0.023,"[-0.021, +0.063]"
+unl,30,2,5,0,0,0.0,"unl: PCA on all compounds, 20 components | LR",0.074,"[+0.022, +0.133]"
+zoo,30,4,5,0,2,-0.023,zoo: quantile-normal transform (fitted on all compounds) | reverse,0.05,"[+0.019, +0.085]"

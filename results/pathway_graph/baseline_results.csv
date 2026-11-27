@@ -1,0 +1,5 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3
+baseline,raw | centroid,0.648,0.652,0.02,0.683,0.806
+baseline,raw | LR,0.562,0.564,0.027,0.626,0.784
+baseline,raw | reverse,0.64,0.642,0.01,0.662,0.8
+baseline,raw | ensemble,0.631,0.626,0.014,0.7,0.824

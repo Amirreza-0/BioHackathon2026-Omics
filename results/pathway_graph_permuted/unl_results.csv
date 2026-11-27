@@ -1,0 +1,31 @@
+section,method,official,cv_mean,cv_sd,cv_cov,top3,vs,diff,lo,hi,seeds_better,verdict
+unl,unl: global centring over all compounds | centroid,0.08,0.063,0.012,0.056,0.216,raw | centroid,0.007,-0.003,0.018,7/10,no evidence
+unl,unl: global centring over all compounds | LR,0.071,0.069,0.014,0.086,0.26,raw | LR,-0.0,-0.0,0.0,0/10,no evidence
+unl,unl: global centring over all compounds | reverse,0.067,0.062,0.02,0.075,0.221,raw | reverse,0.0,0.0,0.0,0/10,no evidence
+unl,unl: global centring over all compounds | ensemble,0.07,0.064,0.019,0.064,0.225,raw | ensemble,0.001,-0.008,0.012,5/10,no evidence
+unl,"unl: PCA on all compounds, 10 components | centroid",0.105,0.074,0.013,0.086,0.244,raw | centroid,0.019,-0.008,0.043,10/10,no evidence
+unl,"unl: PCA on all compounds, 10 components | LR",0.066,0.051,0.014,0.063,0.187,raw | LR,-0.018,-0.049,0.019,0/10,no evidence
+unl,"unl: PCA on all compounds, 10 components | ensemble",0.107,0.072,0.011,0.086,0.226,raw | ensemble,0.009,-0.014,0.03,7/10,no evidence
+unl,"unl: PCA on all compounds, 20 components | centroid",0.089,0.057,0.01,0.064,0.211,raw | centroid,0.002,-0.019,0.025,4/10,no evidence
+unl,"unl: PCA on all compounds, 20 components | LR",0.042,0.058,0.019,0.076,0.21,raw | LR,-0.011,-0.036,0.023,4/10,no evidence
+unl,"unl: PCA on all compounds, 20 components | ensemble",0.079,0.058,0.014,0.064,0.22,raw | ensemble,-0.005,-0.028,0.015,3/10,no evidence
+unl,"unl: PCA on all compounds, 50 components | centroid",0.077,0.06,0.013,0.063,0.223,raw | centroid,0.005,-0.004,0.016,6/10,no evidence
+unl,"unl: PCA on all compounds, 50 components | LR",0.056,0.077,0.018,0.083,0.286,raw | LR,0.008,-0.026,0.045,7/10,no evidence
+unl,"unl: PCA on all compounds, 50 components | ensemble",0.08,0.069,0.019,0.072,0.256,raw | ensemble,0.006,-0.012,0.023,7/10,no evidence
+unl,"unl: PCA on all compounds, 100 components | centroid",0.087,0.062,0.01,0.057,0.214,raw | centroid,0.006,-0.003,0.017,7/10,no evidence
+unl,"unl: PCA on all compounds, 100 components | LR",0.043,0.038,0.014,0.049,0.207,raw | LR,-0.031,-0.055,0.004,1/10,no evidence
+unl,"unl: PCA on all compounds, 100 components | ensemble",0.085,0.065,0.019,0.062,0.228,raw | ensemble,0.003,-0.014,0.019,7/10,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | centroid,0.072,0.06,0.011,0.044,0.24,raw | centroid,0.005,-0.008,0.02,6/10,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | LR,0.071,0.069,0.014,0.086,0.261,raw | LR,-0.0,-0.0,0.0,0/10,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | reverse,0.067,0.062,0.02,0.076,0.221,raw | reverse,0.0,0.0,0.0,0/10,no evidence
+unl,unl: dose-consistency metric (a) per-gene weights | ensemble,0.065,0.059,0.022,0.06,0.243,raw | ensemble,-0.004,-0.017,0.008,4/10,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | centroid,0.072,0.057,0.023,0.063,0.244,raw | centroid,0.002,-0.013,0.017,6/10,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | LR,0.063,0.069,0.015,0.071,0.217,raw | LR,-0.0,-0.032,0.029,5/10,no evidence
+unl,unl: dose-consistency metric (b) within-compound whitening | ensemble,0.068,0.059,0.021,0.064,0.238,raw | ensemble,-0.003,-0.024,0.019,4/10,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | centroid,0.085,0.06,0.019,0.065,0.261,raw | centroid,0.005,-0.012,0.023,6/10,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | LR,0.072,0.071,0.012,0.075,0.209,raw | LR,0.002,-0.028,0.041,5/10,no evidence
+unl,unl: dose-consistency metric (c) compound-discriminant directions | ensemble,0.087,0.062,0.02,0.067,0.236,raw | ensemble,-0.001,-0.021,0.019,4/10,no evidence
+unl,"unl: label spreading over train + test + active unlabelled, alpha=0.5 | spreading",0.068,0.054,0.011,0.051,0.177,raw | centroid,-0.001,-0.03,0.032,6/10,no evidence
+unl,"unl: label spreading over train + test + active unlabelled, alpha=0.9 | spreading",0.064,0.054,0.005,0.058,0.202,raw | centroid,-0.001,-0.032,0.032,5/10,no evidence
+unl,"unl: self-training, centroids enlarged with confident unlabelled compounds | centroid",0.087,0.052,0.02,0.05,0.231,raw | centroid,-0.003,-0.017,0.008,4/10,no evidence
+unl,unl: tau-like percentile scores against the unlabelled compounds | centroid,0.053,0.042,0.013,0.05,0.225,raw | centroid,-0.013,-0.031,0.004,3/10,no evidence
