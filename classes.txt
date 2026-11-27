@@ -1,0 +1,15 @@
+AKT inhibitor
+CDK inhibitor
+EGFR inhibitor
+HDAC inhibitor
+HSP inhibitor
+JAK inhibitor
+MEK inhibitor
+PARP inhibitor
+PI3K inhibitor
+PLK inhibitor
+RAF inhibitor
+mTOR inhibitor
+proteasome inhibitor
+topoisomerase inhibitor
+tubulin polymerization inhibitor
