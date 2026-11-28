@@ -1,0 +1,16 @@
+,precision,recall,F1,n_compounds
+AKT inhibitor,0.8219,0.75,0.7843,4
+CDK inhibitor,0.7634,0.8333,0.7968,6
+EGFR inhibitor,0.9676,0.895,0.9299,10
+HDAC inhibitor,1.0,0.8889,0.9412,9
+HSP inhibitor,0.9756,1.0,0.9877,4
+JAK inhibitor,0.3396,0.225,0.2707,4
+MEK inhibitor,0.8805,1.0,0.9365,7
+PARP inhibitor,0.2532,0.25,0.2516,4
+PI3K inhibitor,0.4318,0.2375,0.3065,4
+PLK inhibitor,1.0,0.9125,0.9542,4
+RAF inhibitor,0.3671,0.725,0.4874,4
+mTOR inhibitor,0.5755,1.0,0.7306,4
+proteasome inhibitor,1.0,1.0,1.0,3
+topoisomerase inhibitor,0.8103,0.6409,0.7157,11
+tubulin polymerization inhibitor,0.9,0.8438,0.871,8

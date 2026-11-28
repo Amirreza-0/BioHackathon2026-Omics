@@ -1,0 +1,16 @@
+class,"attached (1 split, centroid)","ours (10 splits, blend)",our split-to-split sd,our min-max across splits,delta,within_our_split_range
+AKT,0.25,0.799,0.086,0.60-0.86,0.549,False
+CDK,0.73,0.843,0.052,0.77-0.91,0.113,False
+EGFR,0.84,0.805,0.034,0.75-0.86,-0.035,True
+HDAC,0.88,0.931,0.031,0.84-0.94,0.051,True
+HSP,1.0,0.989,0.035,0.89-1.00,-0.011,True
+JAK,0.0,0.258,0.139,0.00-0.33,0.258,True
+MEK,0.93,0.953,0.032,0.93-1.00,0.023,False
+PARP,0.4,0.194,0.173,0.00-0.40,-0.206,True
+PI3K,0.35,0.204,0.18,0.00-0.40,-0.146,True
+PLK,0.57,0.781,0.098,0.67-0.86,0.211,False
+RAF,0.0,0.465,0.112,0.22-0.60,0.465,False
+mTOR,0.8,0.727,0.0,0.73-0.73,-0.073,False
+proteasome,1.0,1.0,0.0,1.00-1.00,0.0,True
+topoisomerase,0.84,0.691,0.062,0.61-0.78,-0.149,False
+tubulin,0.71,0.84,0.034,0.78-0.88,0.13,False

@@ -1,0 +1,11 @@
+model,verdict,macroF1,sd_over_10_splits,paired_delta,note,boot_CI95
+"centroid, soft superclass labels + PARP term",reference,0.672,0.019,,prior final model,
+centroid + PARP + RAF paradox term,ADOPTED,0.689,0.013,+0.017 (8/10); +0.014 fresh (9/10),RAF recall 0.00 -> 0.51,"[0.599, 0.765]"
+"LightGBM, signature level",reference,0.688,0.035,,highest variance of the three,"[0.573, 0.772]"
+LightGBM + soft superclass labels eps=0.15,REJECT,0.671,0.015,-0.017 (2/10),closes a long-open item,
+LightGBM + soft superclass labels eps=0.30,REJECT,0.642,0.027,-0.046 (1/10),,
+LightGBM + dose-trajectory features,REJECT,0.6740414993074774,0.0323688731585314,-0.014 (3/10),GBM already sees doses as rows,
+"per-class ensemble weights, leave-one-seed-out",LEAKED,0.75,0.029,,same 86 compounds across seeds,
+"per-class ensemble weights, nested on compounds",REJECT,0.679,0.031,-0.020 vs flat blend,reverses once leakage removed,
+flat 50/50 blend  [SUBMITTED],ADOPTED,0.699,0.017,+0.009 vs centroid (5/10) = noise,"chosen for variance, not mean","[0.608, 0.782]"
+blend + prior-corrected decision rule (alpha=0.5)  [SUBMIT],ADOPTED,0.728,0.014,+0.029 nested (10/10); +0.031 fresh seeds (8/10),"argmax is accuracy-optimal, not macro-F1-optimal; alpha chosen inside folds (0.5 in 26/40)",
