@@ -1,0 +1,16 @@
+,AKT inhibitor,CDK inhibitor,EGFR inhibitor,HDAC inhibitor,HSP inhibitor,JAK inhibitor,MEK inhibitor,PARP inhibitor,PI3K inhibitor,PLK inhibitor,RAF inhibitor,mTOR inhibitor,proteasome inhibitor,topoisomerase inhibitor,tubulin polymerization inhibitor
+AKT inhibitor,78,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+CDK inhibitor,13,85,7,0,0,1,0,0,0,0,10,0,0,4,0
+EGFR inhibitor,2,0,196,0,0,0,0,0,0,0,2,0,0,0,0
+HDAC inhibitor,0,2,1,160,0,0,0,0,0,0,0,0,0,17,0
+HSP inhibitor,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0
+JAK inhibitor,0,0,3,0,0,16,0,14,5,0,6,0,0,35,1
+MEK inhibitor,0,0,7,0,0,0,133,0,0,0,0,0,0,0,0
+PARP inhibitor,0,0,5,0,0,7,0,2,4,0,13,0,0,49,0
+PI3K inhibitor,0,0,0,0,0,22,0,12,0,0,11,20,0,7,8
+PLK inhibitor,0,0,0,0,0,0,0,0,0,43,0,0,0,0,37
+RAF inhibitor,0,0,27,0,0,18,0,10,0,0,20,0,0,5,0
+mTOR inhibitor,2,0,0,0,0,0,0,0,0,0,0,78,0,0,0
+proteasome inhibitor,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0
+topoisomerase inhibitor,0,0,15,0,0,15,0,7,2,0,2,0,0,179,0
+tubulin polymerization inhibitor,0,0,8,0,0,0,0,0,0,0,22,0,0,9,121
