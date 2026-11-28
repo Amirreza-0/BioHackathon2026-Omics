@@ -1,0 +1,5 @@
+,ERK footprint (RAF),p53 footprint (PARP)
+response shape,non-monotonic (up then down),"monotonic, weak, late-onset"
+AUC on dose-averaged profile,0.485,0.710
+AUC on dose-resolved feature,0.826,0.427
+verdict,dose resolution WINS,dose averaging WINS

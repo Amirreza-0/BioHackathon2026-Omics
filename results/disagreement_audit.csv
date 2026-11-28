@@ -1,0 +1,10 @@
+compound,centroid,P_cent,gbm,P_gbm,blend,P_blend,max_genes_moved,paradox,nn1,nn2,nn3,verdict
+BRD-K05804044,MEK,0.48,EGFR,0.27,MEK,0.37,263,0.41,MEK 0.50,MEK 0.43,MEK 0.43,"KEEP MEK - all 3 nearest labelled neighbours are MEK (0.43-0.50), loud (263)"
+BRD-K12423485,CDK,0.18,topoisomerase,0.19,CDK,0.14,131,0.57,CDK 0.28,CDK 0.27,topoisomerase 0.18,"KEEP CDK - 2 nearest are CDK; amplitude 131 low for CDK (median 587), weak call either way"
+BRD-K23677682,JAK,0.26,topoisomerase,0.31,JAK,0.24,111,-0.14,JAK 0.21,EGFR 0.16,topoisomerase 0.15,KEEP JAK - sub-null (111 < 122); genuine no-phenotype compound
+BRD-K36280065,proteasome,0.16,tubulin polymerization,0.22,tubulin polymerization,0.19,542,0.58,tubulin polymerization 0.51,topoisomerase 0.33,proteasome 0.29,"KEEP tubulin - loudest disagreement (542), nearest neighbour tubulin 0.51; centroid proteasome call was weak (0.16)"
+BRD-K49456274,AKT,0.11,CDK,0.18,CDK,0.12,258,-0.56,tubulin polymerization 0.16,AKT 0.11,PLK 0.11,"AMBIGUOUS - all neighbours <=0.16, no arm above P=0.18; unresolvable"
+BRD-K66412701,RAF,0.17,PI3K,0.22,PI3K,0.15,120,0.79,JAK 0.16,EGFR 0.12,RAF 0.09,"KEEP PI3K/no-phenotype - RAF case does NOT hold: paradox 0.79 vs 1.98-3.03 for true RAF, and its ERK curve is flat/noisy, not rise-then-fall"
+BRD-K70401845,mTOR,0.2,EGFR,0.64,EGFR,0.39,260,-0.45,mTOR 0.43,CDK 0.42,PI3K 0.40,KEEP EGFR - GBM is confident (0.64) and has EGFR recall 0.97; neighbours favour mTOR but amplitude cannot separate the two
+BRD-K78113049,JAK,0.24,topoisomerase,0.21,JAK,0.15,133,-0.35,JAK 0.17,RAF 0.17,topoisomerase 0.15,"KEEP JAK - 133 moved, within JAK training range (median 163)"
+BRD-K98493452,JAK,0.17,PI3K,0.25,JAK,0.2,202,-0.02,tubulin polymerization 0.25,PI3K 0.15,topoisomerase 0.12,KEEP JAK - 202 moved is above JAK median 163 but not out of range; no better-supported alternative
